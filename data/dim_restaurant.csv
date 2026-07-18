@@ -1,0 +1,1501 @@
+restaurant_key,restaurant_id,restaurant_name,cuisine,city_key,price_tier,price_symbol,rating,num_ratings,commission_rate,avg_prep_time_mins,is_pure_veg
+1,RST-ae148793-627f-535f-b447-94fe7cdcccda,Gill North Junction,North Indian,33,Mid,₹₹,3.54,1,0.228,16,False
+2,RST-5189d862-3065-533d-bf83-3bd6cc49aadf,Bhattacharyya North Biryani House,North Indian,26,Premium,₹₹₹,4.69,2,0.246,27,False
+3,RST-2f3aa26d-f91b-59bf-bee2-1fdc01fc54cb,Dave Biryani Dhaba,Biryani,49,Budget,₹,3.77,1,0.238,11,False
+4,RST-f81cc82e-0359-5221-b124-b920e0c6e69a,Bhattacharyya Fast Corner,Fast Food,12,Premium,₹₹₹,4.65,12,0.201,10,False
+5,RST-82e57ded-5939-539b-a28b-2c899b3ec59a,Datta Healthy Cafe,Healthy,44,Premium,₹₹₹,3.39,1,0.177,19,False
+6,RST-4840e324-f0ed-51cf-8c12-f5bc06bf9c9e,Lad Rolls Cafe,Rolls,42,Budget,₹,4.81,2,0.194,23,False
+7,RST-6f3838ff-d051-56a1-ad4f-c1441069b670,Kari Beverages Dhaba,Beverages,5,Mid,₹₹,4.55,3,0.191,15,False
+8,RST-4a107c5b-3b20-5ec8-b0e5-4da0e1da418b,Virk Chinese Corner,Chinese,31,Mid,₹₹,4.5,103,0.235,11,True
+9,RST-aac5ce7d-575f-5578-b914-60c5c1302951,Mahal Biryani Dhaba,Biryani,24,Budget,₹,3.25,2,0.218,16,True
+10,RST-7eb28414-95ef-5057-b332-3779cd0b9594,Handa Street Kitchen,Street Food,22,Budget,₹,4.26,2,0.243,16,False
+11,RST-ba905f9c-d45d-533b-94aa-d144d84c0eb8,Bajaj Biryani Corner,Biryani,35,Budget,₹,4.16,1,0.211,15,False
+12,RST-68339a24-d036-5c36-af70-7ff08827f157,Walia Desserts Dhaba,Desserts,6,Premium,₹₹₹,5.0,4,0.205,14,False
+13,RST-f6cc11eb-d6b3-545f-91eb-65888da9f19a,Krishnan Fast Foods,Fast Food,6,Mid,₹₹,4.3,1,0.234,21,True
+14,RST-2552c1c3-0d27-561b-a279-b8c7c3f7562a,Setty South Point,South Indian,14,Mid,₹₹,4.87,63,0.234,21,False
+15,RST-906f91d1-ee9e-5dac-9303-328218cf5391,Agate Fast Kitchen,Fast Food,20,Mid,₹₹,4.64,1,0.192,9,True
+16,RST-a911b43a-3df4-53c2-b90e-d18368256453,Sane South House,South Indian,33,Mid,₹₹,4.14,6,0.225,6,False
+17,RST-3371cee7-2b27-5f1f-a5d9-20ac80633cd2,Ben North Restaurant,North Indian,32,Budget,₹,4.28,2,0.189,15,True
+18,RST-7b9f4de5-ce60-5c3f-94ff-9d37ca842098,Naidu South Express,South Indian,18,Mid,₹₹,3.63,1,0.235,17,True
+19,RST-c54e315a-d67a-58e1-89fc-6c7d1bcee78a,Sankaran South Biryani House,South Indian,44,Budget,₹,4.53,1,0.222,18,False
+20,RST-316253e5-c96b-5f09-b740-e1e3b0c056a3,Ray Chinese Corner,Chinese,3,Budget,₹,4.03,3,0.205,22,False
+21,RST-91974b48-5da4-54d6-8f89-c9faae439f24,Mahal Cafe Restaurant,Cafe,43,Budget,₹,3.49,1,0.221,20,True
+22,RST-4513ee16-ba65-582d-9385-265b02c847e5,Dara Chinese Point,Chinese,1,Budget,₹,4.8,1,0.15,27,True
+23,RST-5d132ebd-6575-57e6-8fe0-7f8ff90fac74,Vasa Beverages Corner,Beverages,10,Budget,₹,4.71,3,0.228,23,True
+24,RST-351cadde-4b1d-5c6a-a29e-cbec420daed0,Shukla Fast House,Fast Food,2,Mid,₹₹,5.0,81,0.179,13,True
+25,RST-8a7ac3db-f17d-52fb-9b43-0f3194d82d9f,Tandon North House,North Indian,11,Mid,₹₹,3.75,1,0.241,17,True
+26,RST-79cc7e7e-be48-5e7b-99ec-9ce4e344cd9c,Pathak South Junction,South Indian,6,Budget,₹,3.76,3,0.248,25,False
+27,RST-a9055e7b-b906-50db-a6f2-7620639156b4,Varughese Street Junction,Street Food,1,Premium,₹₹₹,4.63,4,0.161,9,False
+28,RST-cb904798-588a-5b86-bacd-79c1b3ad2f96,Bassi Fast Kitchen,Fast Food,14,Mid,₹₹,3.81,2,0.217,11,True
+29,RST-dcfa6060-124f-50ef-8776-8d1d7a53ffa2,Kapur Mughlai Biryani House,Mughlai,19,Premium,₹₹₹,4.15,2,0.22,16,True
+30,RST-4af39015-8c66-5c75-86b3-abf5bd108c20,Batta Chinese Biryani House,Chinese,3,Mid,₹₹,3.58,1,0.198,12,True
+31,RST-9a1d34d9-5c9d-5503-af8b-81eff289cc47,Mall Rolls Kitchen,Rolls,17,Budget,₹,3.8,1,0.208,14,False
+32,RST-d5f80ade-82cf-5d03-a17c-fdd59ad82786,Salvi Desserts Kitchen,Desserts,3,Premium,₹₹₹,3.72,0,0.16,21,False
+33,RST-49964058-b83f-5c2b-a6d1-b647bb28bed0,Walia Street Foods,Street Food,2,Premium,₹₹₹,2.94,0,0.206,21,False
+34,RST-812b4aec-eaa9-53eb-a345-879922eaeccf,Sen North Cafe,North Indian,2,Mid,₹₹,4.8,20,0.215,29,True
+35,RST-3b26551d-3df0-5880-886c-9f9ff24ac4b7,Mutti Street Point,Street Food,12,Mid,₹₹,4.25,1,0.19,17,False
+36,RST-7bff6aeb-35f9-5d30-8ab8-42e2fa8463eb,Ahluwalia Biryani Kitchen,Biryani,23,Mid,₹₹,4.88,12,0.185,26,False
+37,RST-afeb9368-b816-5757-91ed-d2679e334c2f,Ramanathan Beverages Corner,Beverages,12,Mid,₹₹,4.66,4,0.189,22,False
+38,RST-317f6b4a-3f4a-55da-8c4b-e11e5e69d18d,Hayer Fast Point,Fast Food,25,Mid,₹₹,4.03,2,0.22,10,True
+39,RST-fce885d7-dde5-5b6b-93c5-f17bd13afd52,Natt Fast Point,Fast Food,12,Mid,₹₹,4.29,5,0.236,19,False
+40,RST-1c2effc4-4124-50d0-92f6-8b9987cff4b0,Bumb Chinese Foods,Chinese,24,Budget,₹,4.46,1,0.182,19,False
+41,RST-ff7d933f-c5db-569e-a73c-c4b6543b7fef,Bakshi Beverages Junction,Beverages,46,Budget,₹,3.89,2,0.225,12,False
+42,RST-e9445bbb-e30e-59d5-a3b8-c6790989ff16,Kara South Kitchen,South Indian,6,Budget,₹,4.31,11,0.152,17,False
+43,RST-3d0fbdd0-2416-5a41-97d8-bb6932362d87,Sampath Biryani House,Biryani,2,Budget,₹,4.22,2,0.245,21,True
+44,RST-fba28e2c-566a-5472-8781-fe516ef3b7da,Borde Fast Foods,Fast Food,2,Mid,₹₹,4.6,6,0.166,21,True
+45,RST-5ef3c0b3-acaf-5446-bcdf-0787e931b1ea,Krish Rolls Corner,Rolls,12,Premium,₹₹₹,3.83,2,0.213,14,False
+46,RST-549b630e-b6de-5c47-a639-dd668552c206,Hegde Biryani Express,Biryani,10,Budget,₹,3.56,1,0.261,19,False
+47,RST-04bc3774-1b45-5f86-92de-0712dfa25b9e,Gala Pizza Corner,Pizza,3,Mid,₹₹,4.39,1,0.204,11,False
+48,RST-e50b80b7-9750-53c8-99da-efe2ac047b99,Narayan Biryani Kitchen,Biryani,33,Budget,₹,4.31,4,0.15,14,False
+49,RST-dd3a74bd-7fe4-5fab-877f-65c1127c60e6,Mukhopadhyay Pizza Foods,Pizza,44,Mid,₹₹,4.59,1,0.238,24,False
+50,RST-0a264c61-c4c0-50be-b47f-64ee4316e2f8,Bhatnagar Pizza Restaurant,Pizza,4,Mid,₹₹,4.65,12,0.164,17,False
+51,RST-94c55bc6-9631-5143-9846-7377252f5288,Chatterjee Rolls Dhaba,Rolls,3,Mid,₹₹,4.0,2,0.21,21,False
+52,RST-01cd3931-1de5-59ee-9af3-53df0a62b160,Bala Beverages Foods,Beverages,3,Premium,₹₹₹,3.34,1,0.259,23,True
+53,RST-f62d8b28-020d-54d3-a541-0c6723338c46,Srinivasan Fast Express,Fast Food,6,Premium,₹₹₹,4.16,1,0.221,9,True
+54,RST-72af4c51-a120-5c39-8d89-0e45a37a4a11,Sankaran South Cafe,South Indian,30,Mid,₹₹,3.79,1,0.189,14,False
+55,RST-c9ff627d-ea8b-5f99-8eb6-e307c1366c7d,Bajwa Pizza Cafe,Pizza,12,Mid,₹₹,3.67,1,0.239,20,True
+56,RST-54f4bef3-135a-59c4-b352-f36224fb6f2d,Natt North Kitchen,North Indian,1,Mid,₹₹,4.26,2,0.213,9,False
+57,RST-229b12cf-0b5c-5040-a522-0aced34d83e2,Krishna South Junction,South Indian,8,Mid,₹₹,4.44,3,0.171,30,False
+58,RST-2f1c1e0d-3ef5-589c-a6ac-fcba9ca0e3d7,Kota Desserts Foods,Desserts,2,Mid,₹₹,3.73,1,0.252,23,False
+59,RST-a3b71f36-082b-5987-a58e-4696e1ee8241,Chokshi Biryani Corner,Biryani,7,Premium,₹₹₹,4.63,137,0.246,18,False
+60,RST-fc219f68-9837-5d26-acc8-743a88c7ed5c,Solanki Biryani Point,Biryani,7,Budget,₹,3.95,1,0.196,11,True
+61,RST-0199c741-7eac-54d0-a1fb-9ff13bfe7420,Khare Healthy Kitchen,Healthy,14,Budget,₹,4.43,2,0.21,22,False
+62,RST-c515fb29-c5ce-590a-8f43-0f9a8e147aea,Oak South Dhaba,South Indian,10,Budget,₹,3.81,1,0.204,18,False
+63,RST-55d61e7f-124f-5345-97b2-1f12c441baa1,Bhagat North Corner,North Indian,32,Mid,₹₹,4.76,8,0.237,21,True
+64,RST-f071b6fb-053e-5154-a125-69ff87007d60,Nath North Express,North Indian,1,Mid,₹₹,4.45,1,0.15,23,True
+65,RST-3a716ff1-c694-5790-b4d7-662c86cd85bd,Venkatesh South Cafe,South Indian,22,Budget,₹,3.55,2,0.274,20,False
+66,RST-009c08f4-13b3-5df2-8ed1-d03edb78be38,Khalsa Rolls Corner,Rolls,1,Mid,₹₹,4.46,1,0.245,16,False
+67,RST-a22d01e3-ef1f-559b-8243-71996abdde8e,Bora Desserts Foods,Desserts,5,Mid,₹₹,4.42,1,0.207,21,False
+68,RST-0cc46a76-33da-51f3-9f02-95e2ae3800d7,Sarna Fast Kitchen,Fast Food,33,Mid,₹₹,4.37,2,0.157,8,False
+69,RST-0f8fbe5e-d44a-5ccb-98c7-68c9e9f1b50c,Chandran South Restaurant,South Indian,17,Budget,₹,4.59,3,0.204,12,False
+70,RST-9d86f7af-398b-5e8f-824a-be427471ca4b,Sekhon Fast Kitchen,Fast Food,3,Budget,₹,4.25,1,0.222,21,False
+71,RST-fa4034da-37e7-5ed8-8339-4a131ed62d4a,Dash North Cafe,North Indian,9,Mid,₹₹,4.52,2,0.154,26,True
+72,RST-97f237ab-b18f-514c-8c27-0123fa2db8e0,Chada Pizza Kitchen,Pizza,19,Mid,₹₹,4.16,22,0.219,21,False
+73,RST-cfb69067-ef4f-5d36-9742-e22e26c7362e,Bhat Fast Biryani House,Fast Food,41,Mid,₹₹,5.0,2,0.238,34,False
+74,RST-a42bc0d3-b2bf-5ab2-bab6-c33fd5b3f57c,Bandi North Restaurant,North Indian,14,Mid,₹₹,4.33,0,0.198,22,True
+75,RST-e9a41d5c-f18f-5e5c-b71c-8e33083c1c07,Purohit Beverages Point,Beverages,1,Premium,₹₹₹,4.19,1,0.233,23,False
+76,RST-206aa266-6e64-57a7-8df8-8999dd763954,Munshi Desserts Kitchen,Desserts,9,Budget,₹,3.39,1,0.225,23,True
+77,RST-3c90e283-9a0b-543e-8cf9-e2fdba79bbfd,Bhattacharyya Chinese House,Chinese,2,Mid,₹₹,4.77,85,0.193,20,True
+78,RST-9635daec-4682-58a7-a46f-e7c4ec581765,Datta Pizza Dhaba,Pizza,1,Premium,₹₹₹,3.52,0,0.222,24,False
+79,RST-139ed559-2bf7-582e-8cca-ca8dd804ef80,Bhatia Fast Biryani House,Fast Food,12,Budget,₹,4.12,4,0.205,17,False
+80,RST-0a035e8d-61b7-5128-9729-5aff3d612003,Sathe North Point,North Indian,22,Mid,₹₹,4.53,4,0.226,20,False
+81,RST-6cfc6c26-7f01-5ffd-a2b9-d9e55bf639ae,Bhakta South Cafe,South Indian,1,Budget,₹,4.89,3,0.181,17,False
+82,RST-48d17fc5-98a7-5999-a248-b27c3454f2ae,Mitra Pizza Junction,Pizza,23,Mid,₹₹,4.22,2,0.18,14,True
+83,RST-b0578ad9-e73d-5074-bcd4-7fb7540b8540,Sankaran Street Restaurant,Street Food,18,Budget,₹,3.81,2,0.195,10,False
+84,RST-35b472d7-4b99-5342-af40-44aee61ccf0a,Bhatti Fast Dhaba,Fast Food,21,Mid,₹₹,4.25,5,0.227,20,False
+85,RST-a4b84a6e-034f-549d-a47e-ca9c238a335e,Chaudry Fast Dhaba,Fast Food,4,Premium,₹₹₹,4.79,2,0.249,10,False
+86,RST-01dbc7aa-1d63-59d1-a138-bc852081e46a,Bhalla Pizza Biryani House,Pizza,6,Budget,₹,4.05,1,0.228,21,True
+87,RST-ad254ec7-3f37-5327-a258-1223eb3319ff,Ben Biryani Junction,Biryani,2,Budget,₹,4.99,31,0.209,18,True
+88,RST-49e58e5b-f8aa-52db-a45b-ac42c218e162,Menon North Restaurant,North Indian,4,Mid,₹₹,4.47,6,0.226,10,False
+89,RST-0d0a7004-e7c5-5f39-8c91-7077179e6c6a,Raj Biryani Cafe,Biryani,5,Budget,₹,4.71,4,0.28,14,True
+90,RST-03bea482-60ce-5f2e-8d6e-8bacfe20996b,Ratti Mughlai Express,Mughlai,5,Mid,₹₹,4.88,25,0.274,13,False
+91,RST-bc7979a5-906c-5aaa-912b-9fdaf3b3a246,Char Desserts Cafe,Desserts,3,Premium,₹₹₹,4.81,15,0.236,14,False
+92,RST-efe06949-99d0-55f8-9a96-7657c28ca6e7,Roy Mughlai Junction,Mughlai,3,Budget,₹,4.03,1,0.211,18,True
+93,RST-733a6e58-f45a-5375-89ef-5da9f7f1285a,Kaul North Junction,North Indian,36,Budget,₹,3.9,1,0.227,28,False
+94,RST-d916b223-fa3e-570e-8dc5-dfa05e166f29,Anne Biryani Corner,Biryani,23,Mid,₹₹,4.34,16,0.221,21,False
+95,RST-8ac086eb-4571-517e-8efb-38c5faf2fd55,Setty Fast Kitchen,Fast Food,5,Budget,₹,3.9,2,0.198,15,False
+96,RST-824cf8a1-c62c-5c9e-9b24-371a177012b8,Rajagopalan South Express,South Indian,42,Budget,₹,3.69,0,0.172,26,True
+97,RST-5b50d159-6ada-52df-b2f2-c04f62fc89c0,Shetty South House,South Indian,4,Mid,₹₹,4.08,1,0.162,18,False
+98,RST-49c5d6f0-37d5-591e-ae08-0fe2f5b1c417,Sangha Desserts Junction,Desserts,7,Mid,₹₹,3.97,1,0.217,12,True
+99,RST-5f8f4a87-bc17-5f0f-b338-ba006bd0413e,Chaudhuri Pizza Junction,Pizza,25,Mid,₹₹,4.38,1,0.189,11,True
+100,RST-a8e943e2-204f-5ded-9ef4-edf30f86f735,Nori Pizza Kitchen,Pizza,7,Mid,₹₹,3.75,1,0.257,11,False
+101,RST-7abc2e90-99b4-576e-9ca5-d9a82f713710,Bal South Dhaba,South Indian,3,Mid,₹₹,4.26,5,0.181,22,False
+102,RST-4d18babf-001a-54e4-9938-3e3ab859fbe3,Setty Biryani Express,Biryani,6,Premium,₹₹₹,4.99,41,0.208,15,True
+103,RST-26070cc4-86c8-5a10-98c6-80be0415c086,Varughese North Dhaba,North Indian,9,Premium,₹₹₹,3.91,2,0.15,17,False
+104,RST-2c748d4c-313a-5139-82ea-35c7a48ce8a1,Narasimhan North Express,North Indian,13,Premium,₹₹₹,5.0,9,0.206,15,False
+105,RST-c8cd405b-d7b0-5682-928d-85f8249338a8,Hans Biryani Biryani House,Biryani,7,Budget,₹,4.08,2,0.225,21,False
+106,RST-e5725f1d-fa03-54c1-a362-09287748e662,Chokshi Chinese Biryani House,Chinese,7,Premium,₹₹₹,4.38,5,0.221,19,False
+107,RST-b829bc51-8ed9-5393-8b81-d46b9e5204c6,Chauhan Street Dhaba,Street Food,4,Premium,₹₹₹,3.51,1,0.28,18,True
+108,RST-c4492921-4371-5f11-a4f3-981fd61f420e,Arora Biryani Junction,Biryani,10,Premium,₹₹₹,3.75,0,0.241,17,False
+109,RST-8a3d1818-eee2-5fc8-8043-e74101b657c2,Bir North Restaurant,North Indian,3,Mid,₹₹,4.43,8,0.247,31,True
+110,RST-a907c5c5-47d6-5572-b986-1e9a0aa9dc04,Hari North House,North Indian,31,Premium,₹₹₹,4.68,3,0.189,14,False
+111,RST-36c271d7-0009-5ce7-b441-cdca7e896364,Date Rolls Express,Rolls,20,Mid,₹₹,4.61,3,0.202,12,False
+112,RST-24cd25e7-44af-5c89-95cf-8fc4947dbea7,Upadhyay South Biryani House,South Indian,7,Mid,₹₹,3.64,1,0.241,10,True
+113,RST-88f4779f-d4fd-5597-92f6-0bfb874a4982,Kunda South Biryani House,South Indian,20,Mid,₹₹,3.8,1,0.214,22,False
+114,RST-a04585f2-1375-5118-93a2-932b17394f5e,Pant Biryani Dhaba,Biryani,1,Mid,₹₹,3.74,1,0.26,17,False
+115,RST-3f4fd2a0-6f60-560f-b2bd-51595358bc65,Sama South Restaurant,South Indian,5,Mid,₹₹,5.0,4,0.189,35,False
+116,RST-8cfee1b7-7d53-5ced-8e8b-591aaafa4cc2,Srivastava Fast Restaurant,Fast Food,7,Budget,₹,4.23,3,0.184,16,False
+117,RST-781c292f-e8f4-52bc-95c7-fd1d4d40ce73,Saxena Biryani House,Biryani,8,Mid,₹₹,4.37,3,0.226,9,False
+118,RST-3e276b91-ee40-5877-a59a-6e614bf510f5,Grewal North Corner,North Indian,20,Budget,₹,4.12,2,0.215,16,True
+119,RST-547e9365-e35c-5f0b-9c62-3990e4ba8ffe,Kibe Desserts Biryani House,Desserts,45,Mid,₹₹,3.87,1,0.201,24,True
+120,RST-6154096b-eae9-55d2-8eaf-78bd97ad4dbd,Devan Biryani Kitchen,Biryani,6,Mid,₹₹,4.38,2,0.244,27,False
+121,RST-2eb58bcc-42de-5054-add4-61221b4ff5a3,Basu Fast Point,Fast Food,5,Premium,₹₹₹,4.6,2,0.152,26,False
+122,RST-20131c81-9376-560b-b413-2e018177a730,Bhasin North Corner,North Indian,13,Mid,₹₹,4.17,2,0.253,9,False
+123,RST-b7c13642-2335-5e3e-8084-b4e150640e3f,Datta Pizza Kitchen,Pizza,4,Mid,₹₹,4.65,5,0.223,10,False
+124,RST-49dfb2c7-aa8d-5493-9a3e-d3a876e45a6c,Muni Chinese Corner,Chinese,2,Budget,₹,3.99,2,0.252,14,True
+125,RST-eae4ccd9-6bd4-516d-8616-b91eb5e246f7,Sarin Biryani Cafe,Biryani,44,Mid,₹₹,4.76,19,0.215,9,False
+126,RST-62105b0c-eccc-5f36-9643-1b13b14d432e,Varghese Chinese House,Chinese,25,Premium,₹₹₹,3.92,1,0.21,22,False
+127,RST-c3f99837-eafc-552d-bcf3-1cabc3b8aa09,Parmar Healthy Junction,Healthy,44,Mid,₹₹,3.44,3,0.274,16,True
+128,RST-1c68221e-8ad5-5361-94cc-700747c70742,Mukhopadhyay South Biryani House,South Indian,3,Premium,₹₹₹,4.29,9,0.224,12,False
+129,RST-e3d5815c-a0d4-5ce7-9134-4ebae564e3cf,Dhingra Mughlai Biryani House,Mughlai,1,Premium,₹₹₹,4.13,3,0.204,25,False
+130,RST-bf0f56c9-5721-58a1-865e-7b60f305158b,Din Mughlai Foods,Mughlai,7,Mid,₹₹,4.17,13,0.237,13,False
+131,RST-48bcf146-054a-545b-be3c-1c09638958dd,Singh Biryani Restaurant,Biryani,40,Mid,₹₹,3.86,3,0.197,10,False
+132,RST-737bc077-8fc5-5d04-b3fd-8f46f3bc95b0,More Chinese Kitchen,Chinese,2,Mid,₹₹,4.37,2,0.209,11,False
+133,RST-ab6d8bb0-e493-5585-90c5-d1f01711555b,Oza Chinese Biryani House,Chinese,2,Mid,₹₹,4.4,4,0.185,18,False
+134,RST-c3bf81cc-129b-5971-b9ab-bb9e9277c878,Manne Healthy House,Healthy,1,Budget,₹,4.28,1,0.246,15,False
+135,RST-06037459-1a41-57f6-b7cf-83cf5af352ec,Pillay Fast Junction,Fast Food,22,Budget,₹,3.93,5,0.225,15,True
+136,RST-1add09e5-f3d3-5c05-ab91-515e84635486,Anand Fast Express,Fast Food,23,Budget,₹,4.33,8,0.233,14,False
+137,RST-2b07fe89-6ee7-5b6f-a1c1-ddba831372b2,Vasa North Foods,North Indian,17,Mid,₹₹,3.84,1,0.218,18,True
+138,RST-0855dc53-ec66-527f-a8c6-ae6b55efbdad,Dhillon Beverages Junction,Beverages,1,Budget,₹,4.02,0,0.227,15,True
+139,RST-2a13fa9f-2b2d-5641-9489-3d33a4dc4ea0,Bhandari North Restaurant,North Indian,19,Mid,₹₹,4.62,2,0.185,24,False
+140,RST-18b9edd8-14fb-5636-b0f7-e7fdef5a0df0,Khanna North Restaurant,North Indian,8,Mid,₹₹,4.27,1,0.267,17,True
+141,RST-3b179f5b-d772-5c87-ae3b-980b94123c0c,Tripathi Chinese Dhaba,Chinese,2,Mid,₹₹,4.72,4,0.18,26,False
+142,RST-fd3478c6-6953-55c7-91f6-fa6de8d7fce6,Bhagat Biryani Dhaba,Biryani,4,Premium,₹₹₹,3.76,1,0.228,15,False
+143,RST-53e1aaa8-5baa-5d3a-85a7-e96dfc926076,Sami Cafe Junction,Cafe,9,Mid,₹₹,4.81,1,0.252,12,True
+144,RST-3acff32b-4d82-510c-b175-993bf0627db3,Padmanabhan Desserts Junction,Desserts,5,Budget,₹,3.86,2,0.238,24,False
+145,RST-83a3e292-200c-53f0-b9ec-12e7e3847e5f,Hayre South Cafe,South Indian,46,Premium,₹₹₹,4.8,7,0.198,16,False
+146,RST-bba22b01-87a1-57ba-9838-1f0a82b429cc,Iyer Chinese Foods,Chinese,8,Premium,₹₹₹,4.17,2,0.184,17,False
+147,RST-c9123f71-841b-5968-8610-d64c7bf871ca,Jaggi Desserts Junction,Desserts,6,Mid,₹₹,3.94,1,0.208,24,False
+148,RST-8605dce9-864c-5b4c-b3ca-e8a3b616ef80,Biswas Fast Biryani House,Fast Food,16,Mid,₹₹,4.62,8,0.205,12,False
+149,RST-82dd543a-27af-5ae6-84db-aa4c39bba281,Om South House,South Indian,14,Budget,₹,4.49,1,0.242,18,False
+150,RST-2f01185c-d310-53ab-8bd9-f23d8db72812,Gulati Biryani House,Biryani,1,Premium,₹₹₹,4.34,13,0.176,24,False
+151,RST-2d88533f-0ec0-5324-9aff-af0d6eb478e9,Soni Pizza Cafe,Pizza,13,Budget,₹,4.26,2,0.242,18,False
+152,RST-089c62cb-1132-59b3-887e-0d74d5d26ce1,Sibal Street Point,Street Food,4,Mid,₹₹,4.46,6,0.217,16,False
+153,RST-3d32a357-1581-5af1-8c0c-a311bdd9f15e,Narula Pizza Point,Pizza,6,Budget,₹,4.28,4,0.173,10,False
+154,RST-14c512f4-4c6d-5131-a1e8-3150dbc6fc48,Nayak North Corner,North Indian,18,Mid,₹₹,3.23,1,0.28,23,True
+155,RST-08414c07-08f4-5f6f-9f3b-e9f394171b1a,Mistry Rolls House,Rolls,10,Budget,₹,3.96,12,0.185,10,False
+156,RST-b076d267-22f2-51ea-a150-49378c33c710,Sahota South Cafe,South Indian,6,Budget,₹,4.74,2,0.157,23,False
+157,RST-2f637140-5561-5815-8a3f-ab8ed6a3e1c4,Narasimhan Cafe Cafe,Cafe,3,Budget,₹,4.26,2,0.206,15,False
+158,RST-4866829f-e088-55aa-bcf9-a65b5ea219e5,Gaba Chinese Junction,Chinese,9,Mid,₹₹,3.7,2,0.213,21,True
+159,RST-e0801b7b-dcae-5faa-8587-cc21d48ed593,Cheema South Cafe,South Indian,5,Budget,₹,3.57,1,0.224,16,False
+160,RST-e2352a15-3af7-5cff-829e-30d2a8fee337,Sha Biryani Cafe,Biryani,37,Mid,₹₹,4.11,2,0.231,27,False
+161,RST-7fbad617-1153-507c-a178-43b4369c2dbf,Basak South Biryani House,South Indian,10,Mid,₹₹,4.09,2,0.182,19,False
+162,RST-02eb2258-cb12-595e-abad-7846ea799312,Tandon South Foods,South Indian,31,Mid,₹₹,4.4,1,0.223,18,False
+163,RST-99f8c145-e514-57a3-ab51-4bc004e77bbc,Kanda Fast Restaurant,Fast Food,6,Budget,₹,4.51,1,0.2,19,True
+164,RST-641f6167-e512-5637-9042-5b1eee84b691,Aggarwal Desserts Foods,Desserts,27,Premium,₹₹₹,4.42,13,0.163,11,True
+165,RST-bd13c1ea-8110-5367-8e34-81485ba1a219,Kapoor Beverages Junction,Beverages,1,Mid,₹₹,4.48,37,0.262,8,True
+166,RST-ccc84591-422e-5a5e-bf17-0bbcb84d82e8,Karpe Biryani Kitchen,Biryani,4,Budget,₹,4.29,2,0.21,19,False
+167,RST-ab7f7ade-956a-578e-8990-5cfc80935b4d,Shukla North Corner,North Indian,1,Budget,₹,4.23,1,0.247,21,False
+168,RST-86fa20b0-2ec8-5a01-ba6a-36d67ea71ec7,Kala Biryani Dhaba,Biryani,1,Budget,₹,4.83,2,0.184,22,True
+169,RST-2261e440-2e9e-5412-8aed-f07ea7265e51,Khare Biryani Foods,Biryani,38,Budget,₹,3.95,1,0.191,28,False
+170,RST-912fc741-a837-5757-ad5d-d79beeb9f4ae,Srivastava South Kitchen,South Indian,18,Budget,₹,3.06,0,0.18,20,False
+171,RST-6d78d45e-7ace-5c9b-bf62-ba047ad831ea,Narula Cafe Cafe,Cafe,13,Premium,₹₹₹,4.79,1,0.256,18,False
+172,RST-84d9db3c-33d8-525d-aad9-80f0072117d8,Prashad Street Kitchen,Street Food,10,Mid,₹₹,4.78,9,0.209,8,False
+173,RST-0893f014-7f68-5c5e-a98c-722a2b0d5454,Jha North Cafe,North Indian,11,Budget,₹,3.89,1,0.238,25,True
+174,RST-56ad632f-fba9-56ad-8c0c-2107de6972bf,Ratta Desserts Cafe,Desserts,14,Mid,₹₹,4.69,1,0.192,8,False
+175,RST-2f8db367-ffb0-58e2-9f05-2c1e97fe31c8,Gour Pizza Junction,Pizza,27,Budget,₹,3.08,1,0.167,9,False
+176,RST-7a51a62b-ab7b-5f9d-b726-2543394f0356,Ahuja South Corner,South Indian,12,Budget,₹,4.36,1,0.21,21,False
+177,RST-3004f13e-e203-5f20-8a4c-75f24af26854,Patil Pizza Express,Pizza,20,Budget,₹,3.41,1,0.189,11,False
+178,RST-3872dde7-f6e3-50a9-8ef0-2e42c8f040d6,Anne North Point,North Indian,4,Budget,₹,4.82,5,0.15,13,False
+179,RST-a3019c7e-9f17-5e19-8b5f-4b1cba0088a4,Borah North House,North Indian,46,Budget,₹,5.0,23,0.197,30,True
+180,RST-33feef54-2522-5122-9b7d-57a8a4bef5b5,Parmar Healthy Kitchen,Healthy,1,Premium,₹₹₹,4.27,8,0.202,32,False
+181,RST-8afeceed-e0e3-5d7f-8c39-19e2d153ebd3,Balan Pizza Restaurant,Pizza,6,Mid,₹₹,4.12,2,0.238,6,False
+182,RST-8501facb-9ed0-58bd-b021-09794a86f38c,Contractor South Junction,South Indian,33,Mid,₹₹,4.02,1,0.225,27,False
+183,RST-9940ebf6-e988-5405-9e93-59a7b8dc1372,Dhar Biryani Junction,Biryani,3,Budget,₹,3.12,1,0.203,26,True
+184,RST-b0b1323d-491d-5ee1-9e95-27b7b29b6ded,Mannan Street Express,Street Food,2,Premium,₹₹₹,4.42,2,0.188,23,False
+185,RST-9f43f1f8-a28e-5bc8-96c5-c8cc7964559c,Sarraf Biryani House,Biryani,6,Mid,₹₹,4.59,19,0.205,21,False
+186,RST-9e67a625-f7b5-5c27-b600-efd67951f520,Hayer Mughlai House,Mughlai,7,Budget,₹,4.56,38,0.239,22,True
+187,RST-b0b45132-c3e5-5d84-8830-ecb977bd870e,Parsa Cafe Biryani House,Cafe,40,Mid,₹₹,4.05,1,0.175,12,False
+188,RST-5a4ded05-e618-5721-a998-0da54ec61407,Bassi Chinese Foods,Chinese,28,Budget,₹,4.8,34,0.198,22,True
+189,RST-584a066c-bf53-5e16-ad2b-261842d60d36,Balan Pizza Dhaba,Pizza,8,Mid,₹₹,4.42,2,0.19,11,False
+190,RST-dc0228ea-e2a0-5a10-bb1c-1c78b06c853a,Issac Pizza Biryani House,Pizza,46,Mid,₹₹,4.33,3,0.217,9,True
+191,RST-6b331e8f-92db-50bc-88b1-0bf65188b933,Hora Desserts Dhaba,Desserts,14,Mid,₹₹,4.18,2,0.246,19,False
+192,RST-da45b3e6-a9e3-509a-be1c-2de014398cfd,Mander Chinese Kitchen,Chinese,32,Mid,₹₹,4.33,2,0.237,22,False
+193,RST-0c44348c-d428-5606-9aaf-75e8377a8c30,Ghosh North Point,North Indian,4,Mid,₹₹,4.21,2,0.24,16,True
+194,RST-56d4dcd4-406b-53d6-9648-34fed3b761ea,Kanda South Point,South Indian,8,Budget,₹,4.24,2,0.238,12,True
+195,RST-44ad0a55-a6cf-53f3-b98c-35772372ec51,Lala Fast Cafe,Fast Food,1,Premium,₹₹₹,5.0,12,0.203,22,True
+196,RST-f679b445-b1e6-5aef-88dc-74f3c20c3d61,Ghosh Desserts Restaurant,Desserts,1,Budget,₹,3.65,1,0.173,27,True
+197,RST-691f11c5-7c44-5254-ae21-f36bee5f3858,Nori Desserts Corner,Desserts,18,Budget,₹,4.36,3,0.215,26,False
+198,RST-71b102f2-dda0-5b56-b413-2f1e9a30fbb0,Korpal Fast Foods,Fast Food,2,Budget,₹,3.94,6,0.235,16,False
+199,RST-b09d5cbe-9d38-5f3e-ae87-79637512daea,Gokhale North Kitchen,North Indian,10,Premium,₹₹₹,4.45,5,0.201,16,False
+200,RST-39b40a78-9cc2-5bee-ba89-9a95033957fd,Hayre North Express,North Indian,17,Mid,₹₹,4.39,1,0.174,16,True
+201,RST-fe7d909c-4559-5b83-929c-a5ec0d88d9b9,Bains Desserts Restaurant,Desserts,1,Mid,₹₹,3.45,0,0.226,11,True
+202,RST-1c549bdd-516f-5325-a883-1d79d9793d7a,Goda Fast Junction,Fast Food,8,Premium,₹₹₹,3.35,1,0.216,20,False
+203,RST-1fbb54cb-1132-589f-92e6-dff64a3bf8aa,Lala Desserts Express,Desserts,16,Budget,₹,4.44,2,0.202,14,True
+204,RST-914e2888-8463-5f8f-8ba7-6ec41bc7d77d,Chaudhuri South House,South Indian,34,Mid,₹₹,4.46,4,0.226,16,False
+205,RST-e2df645d-39cd-515f-bb1c-7c8cba9b4c49,Bail Biryani Junction,Biryani,5,Budget,₹,3.99,3,0.228,18,False
+206,RST-d2f54884-debc-5a80-873e-43b3b9005a80,Devan Mughlai Express,Mughlai,46,Budget,₹,3.83,1,0.21,19,False
+207,RST-41203841-9570-5ca8-9bca-7e55b7e82ba8,Raghavan South Express,South Indian,29,Budget,₹,4.27,8,0.245,16,False
+208,RST-70a46e0d-c9f1-5772-9484-6a12f5788b63,Choudhry North Point,North Indian,14,Premium,₹₹₹,4.11,0,0.28,19,False
+209,RST-e0e0e84f-fa52-55f3-814a-0df0fb712b57,Nigam Pizza House,Pizza,6,Premium,₹₹₹,4.32,1,0.224,21,False
+210,RST-6bd2a235-2c49-5f7b-8a24-05bb90c1d10d,Kade Fast Restaurant,Fast Food,18,Mid,₹₹,3.4,1,0.167,9,False
+211,RST-7b9c664c-ae47-5509-827f-0da8057c7ebb,Mody Street Biryani House,Street Food,26,Budget,₹,4.22,11,0.174,16,True
+212,RST-0d020345-a52e-5e39-9149-957c3b904089,Shan Mughlai Junction,Mughlai,5,Budget,₹,4.74,461,0.205,14,False
+213,RST-9da2f943-5832-557a-ad1a-abc1a698ad37,Khatri Rolls Corner,Rolls,49,Budget,₹,3.81,1,0.213,16,False
+214,RST-dfe66e0c-3c17-50be-8068-37aa18b0bbb3,Pingle North Corner,North Indian,37,Budget,₹,4.23,5,0.193,13,True
+215,RST-be3587c4-2b71-5237-bdf0-fddf7ff0ff3c,Pradhan Biryani Junction,Biryani,8,Budget,₹,3.86,2,0.196,26,False
+216,RST-b719079b-b90a-57dd-8307-a9cfb7ce79d0,Garg Cafe Corner,Cafe,19,Mid,₹₹,4.0,1,0.154,17,True
+217,RST-d63ed979-9c92-5762-b84d-5cfa9619ed5d,Vyas Biryani Cafe,Biryani,9,Mid,₹₹,4.58,2,0.209,21,False
+218,RST-c63f19e3-92d0-5be5-8784-8852e899e774,Saraf Street House,Street Food,21,Premium,₹₹₹,4.11,1,0.28,14,False
+219,RST-15dfad86-6785-573b-ac5f-bef0fbb01558,Bhattacharyya Pizza House,Pizza,27,Budget,₹,4.66,4,0.191,18,True
+220,RST-1d54fcb4-09b7-523f-8fa1-0e3f1270d6b2,Dani North Point,North Indian,1,Mid,₹₹,4.18,3,0.257,11,True
+221,RST-d45da801-5f91-5a69-95db-f912fd13e758,Dhawan Biryani Point,Biryani,1,Mid,₹₹,4.32,3,0.222,23,False
+222,RST-25a3f602-2aab-59d2-a757-a487734d414a,De Pizza Biryani House,Pizza,5,Budget,₹,4.84,5,0.234,30,False
+223,RST-b7013614-8028-525d-ab3b-527deb86db24,Gupta North Corner,North Indian,38,Mid,₹₹,3.95,1,0.212,19,False
+224,RST-7dcb55eb-2435-550a-a043-370157ea512b,Handa Chinese Junction,Chinese,6,Premium,₹₹₹,4.05,4,0.275,20,False
+225,RST-522492f0-4c6b-523c-b0ee-0fb5a6f0a5d5,Walia Rolls Express,Rolls,34,Budget,₹,3.45,3,0.236,13,False
+226,RST-376c47e7-c130-5287-9bc5-3f1e18e59de1,Radhakrishnan North Kitchen,North Indian,8,Mid,₹₹,4.38,2,0.186,20,False
+227,RST-765792c2-cf38-573a-8d66-0147cc41c7f3,Prasad Chinese Junction,Chinese,4,Premium,₹₹₹,4.21,4,0.187,24,False
+228,RST-1e858b7d-1c19-5a9e-8fb8-1e44702c3e08,Nadkarni Pizza Cafe,Pizza,36,Mid,₹₹,3.53,1,0.245,10,False
+229,RST-b5687a16-a1d4-54fd-bf3e-9fccc91213b3,Sanghvi Desserts Foods,Desserts,11,Mid,₹₹,4.76,2,0.197,17,False
+230,RST-c3d2720e-4551-5b3e-9cb4-d8b3cb3604d0,Konda Biryani Cafe,Biryani,6,Mid,₹₹,4.77,2,0.15,14,False
+231,RST-64fbb5bc-a299-52b8-9e34-f3a300f83b3e,Batra Street Dhaba,Street Food,1,Mid,₹₹,3.6,2,0.211,15,False
+232,RST-0df152e3-fd6b-5d75-98c0-4cb56bd525e6,Gulati Mughlai Junction,Mughlai,2,Budget,₹,3.7,1,0.213,13,False
+233,RST-7a225c0c-b45f-5717-9a7b-0c8dc0479d5f,Wason Biryani Kitchen,Biryani,2,Premium,₹₹₹,4.29,2,0.218,26,False
+234,RST-475dccbd-f264-5b54-9b09-8e4592a136fe,Menon South Point,South Indian,6,Premium,₹₹₹,4.49,1,0.184,22,True
+235,RST-466716ef-b8ff-5cc6-b251-18f48985f287,Dixit Desserts Corner,Desserts,12,Budget,₹,4.8,6,0.19,24,False
+236,RST-8ea66dd8-afb5-587d-b7fa-c491a90441a6,Narang South Dhaba,South Indian,5,Budget,₹,3.68,2,0.2,11,True
+237,RST-ac6e8a19-78d3-5495-a05f-277e882cae43,Kota Beverages Restaurant,Beverages,1,Mid,₹₹,3.97,2,0.197,19,True
+238,RST-14b04737-caa9-5131-908d-bb5ff4919a9a,Bera Fast House,Fast Food,4,Mid,₹₹,3.56,1,0.15,20,True
+239,RST-6d34a6d5-8792-5fbd-9b80-c08b47584653,Mammen Biryani Restaurant,Biryani,7,Mid,₹₹,3.83,1,0.239,18,True
+240,RST-ebddbc5b-68a5-50a5-9149-af565e22bb20,Date Fast Biryani House,Fast Food,49,Mid,₹₹,3.82,1,0.235,15,False
+241,RST-c3cfd28c-8d2b-5315-9c0d-b0a4b0e7be09,Trivedi Fast Restaurant,Fast Food,6,Mid,₹₹,4.23,2,0.177,24,False
+242,RST-c21d65f0-30da-5525-8ecb-f39c599386c4,Suresh Mughlai Dhaba,Mughlai,2,Mid,₹₹,3.89,1,0.211,19,True
+243,RST-9e0fefdd-d58a-5c24-b4a7-530b2ed1ed07,Kadakia South Kitchen,South Indian,11,Budget,₹,4.06,2,0.183,10,False
+244,RST-e397f641-26ab-52f3-ac1c-79da733c06e0,Bumb Mughlai Corner,Mughlai,38,Budget,₹,4.43,2,0.208,12,False
+245,RST-9982a971-e601-527b-8d0c-cf37056c4f89,Singhal North Foods,North Indian,23,Mid,₹₹,3.32,1,0.22,19,True
+246,RST-942a74c1-cc7e-5496-b0aa-37bd3c28d1b3,Bhattacharyya Desserts House,Desserts,28,Mid,₹₹,4.37,11,0.255,22,False
+247,RST-ced47574-2f40-56c9-b2a5-ab45a01c6ddb,Ganesh Mughlai House,Mughlai,39,Mid,₹₹,4.34,7,0.232,22,False
+248,RST-3bd38bae-9163-5da6-a77b-530a8cb0f8e7,Trivedi Biryani Restaurant,Biryani,14,Budget,₹,4.38,17,0.222,19,False
+249,RST-0c7f460f-a834-5d4a-b76b-763308253d94,Rama North Dhaba,North Indian,50,Mid,₹₹,4.65,3,0.238,18,False
+250,RST-e698e864-835d-5fe2-bf25-df3df87aa1a3,Upadhyay Desserts Dhaba,Desserts,1,Mid,₹₹,3.92,2,0.209,11,True
+251,RST-32c7c68d-fa4f-56d5-a433-a65f4c29ca56,Prasad Beverages Restaurant,Beverages,28,Mid,₹₹,3.84,1,0.206,15,True
+252,RST-f053c882-e43e-5ab2-8c8b-57500ed2c04e,Tara Chinese Dhaba,Chinese,30,Budget,₹,4.29,2,0.236,18,False
+253,RST-de9fdfe2-32ee-519a-a387-d2a7aa10d0c4,Venkataraman Biryani Foods,Biryani,38,Mid,₹₹,4.83,8,0.252,17,False
+254,RST-3720f706-5b71-5353-acd8-821a72433db9,Shetty Desserts Corner,Desserts,8,Mid,₹₹,4.43,1,0.242,19,False
+255,RST-2c316a6e-119a-5cfc-81d8-cb5d0f55027e,Gola South Restaurant,South Indian,23,Mid,₹₹,4.27,2,0.251,19,False
+256,RST-70fa3104-4969-5427-85a2-541d8484b3e9,Nagy Pizza Foods,Pizza,3,Mid,₹₹,3.91,1,0.245,12,False
+257,RST-cbbc099e-b764-514f-bb0f-59e66475d2ba,Prakash Biryani Biryani House,Biryani,12,Mid,₹₹,4.5,1,0.27,20,False
+258,RST-7bebabad-9215-5f25-9b9e-7bd7a6a8d9a2,Vora South Kitchen,South Indian,6,Budget,₹,4.33,4,0.176,18,True
+259,RST-06674a1f-c303-57e0-83d8-10cf77db885b,Subramanian Beverages Junction,Beverages,12,Premium,₹₹₹,3.5,1,0.168,23,False
+260,RST-ec687c2a-d7c0-5944-b75a-2f8fafb45e74,Talwar Chinese Point,Chinese,16,Budget,₹,4.46,4,0.21,17,False
+261,RST-a4e7de59-b031-505f-8444-8bc697bfcd9c,Som Street Point,Street Food,5,Mid,₹₹,4.63,8,0.208,22,False
+262,RST-a39b141f-ccd0-5035-a76a-bd991f280d9b,Loyal Fast Cafe,Fast Food,3,Mid,₹₹,4.46,2,0.222,22,True
+263,RST-c6fc4e00-3949-5353-bd96-cafa258f6497,Rattan Biryani Dhaba,Biryani,5,Budget,₹,4.15,1,0.186,6,False
+264,RST-8b9cb51a-29d0-57d8-b0da-ffd7435febb1,Bansal Biryani Point,Biryani,15,Budget,₹,4.64,7,0.226,12,True
+265,RST-b158799f-6029-5423-86a7-1e91529867e2,Johal Biryani Dhaba,Biryani,16,Budget,₹,4.15,6,0.179,10,False
+266,RST-618945e6-f32f-50b7-895b-cb5d91adfa46,Kanda Beverages Junction,Beverages,20,Mid,₹₹,4.7,4,0.17,27,False
+267,RST-3cead9ac-7c89-5c17-b61d-d2057d156c5c,Jain Pizza Biryani House,Pizza,2,Premium,₹₹₹,3.94,2,0.232,22,False
+268,RST-77ccf230-109c-5c5e-8302-1ac292c3e313,Seth Desserts Corner,Desserts,26,Budget,₹,4.58,16,0.261,16,False
+269,RST-aae0514c-5437-5d39-b162-4c6c28174584,Keer Biryani Dhaba,Biryani,16,Premium,₹₹₹,4.44,3,0.184,29,True
+270,RST-47530a03-a87a-5eea-b28a-78830080aaee,Randhawa South Express,South Indian,1,Budget,₹,2.73,1,0.205,22,False
+271,RST-9f410a2c-114c-5121-b8ca-49d8c5518c5f,Kamdar North Foods,North Indian,5,Mid,₹₹,4.46,3,0.217,19,False
+272,RST-13114104-fce1-551d-b34e-c0f9a7fd0fbc,Mohan Desserts Junction,Desserts,8,Premium,₹₹₹,4.16,1,0.257,22,False
+273,RST-c8594d65-8c04-5253-b9e6-bb5ea1b2ab92,Sandal Biryani Foods,Biryani,6,Premium,₹₹₹,4.74,2,0.226,21,False
+274,RST-957e7315-dd56-5dea-92c9-ea59528bdfd7,Purohit Biryani Biryani House,Biryani,2,Mid,₹₹,4.35,3,0.219,7,False
+275,RST-3cc3f4f4-4755-52fb-bbac-afdc8c9a25ed,Dugar Biryani Cafe,Biryani,3,Mid,₹₹,3.51,1,0.167,22,False
+276,RST-04055f0f-7469-5e2d-bb06-08ba90014ac0,Prasad Biryani House,Biryani,1,Premium,₹₹₹,3.57,1,0.178,15,False
+277,RST-12c83f8f-3105-585d-9a93-0c0ecf82c20d,Kumar Pizza Biryani House,Pizza,2,Premium,₹₹₹,3.23,1,0.2,13,False
+278,RST-bd8aebbd-3d7f-5012-864d-326cca3d3117,Chad Fast Point,Fast Food,4,Mid,₹₹,3.67,0,0.17,16,False
+279,RST-3d67c56e-97e8-5b8c-a0dd-027838db3e23,Desai Street Point,Street Food,26,Budget,₹,5.0,14,0.217,23,False
+280,RST-70bdaaff-0f23-5fca-ac8a-bf676c56b4cf,Chad North House,North Indian,10,Budget,₹,4.23,10,0.216,13,False
+281,RST-bd20335b-a0fd-5560-9bdb-02f36d10daa1,Merchant Fast Foods,Fast Food,7,Mid,₹₹,4.37,3,0.222,17,False
+282,RST-0626795d-3cbd-5577-b6fd-964e1c485b9f,Saxena North Foods,North Indian,15,Mid,₹₹,3.81,1,0.155,15,False
+283,RST-96692b04-94c8-5c08-ba95-333bd17a8581,Venkataraman Desserts Cafe,Desserts,10,Budget,₹,4.03,1,0.227,19,False
+284,RST-6eee7680-876d-5d83-bdb9-40cd9ad04f39,Pandey Fast Express,Fast Food,2,Budget,₹,4.47,4,0.189,14,True
+285,RST-5e005340-348a-5598-b287-525fcd6ccd1e,Karpe Biryani Foods,Biryani,3,Mid,₹₹,4.61,6,0.215,12,True
+286,RST-6fd01676-af94-59b6-a955-835da159838c,Barman Desserts House,Desserts,3,Mid,₹₹,3.57,1,0.257,16,False
+287,RST-c6783dcb-b37b-5741-ad3f-5058b66ab4e3,Shroff Biryani House,Biryani,12,Budget,₹,3.81,1,0.244,23,True
+288,RST-4e95892b-71f3-525e-baef-bc572636ddfd,Vala South Restaurant,South Indian,8,Mid,₹₹,3.68,2,0.238,16,False
+289,RST-2c510db8-d834-585c-ad8d-55011a04bb98,Nayar Biryani Junction,Biryani,6,Budget,₹,4.35,3,0.237,15,False
+290,RST-d3c19abd-3462-574d-98c4-b04643c23bc5,Sandhu North Biryani House,North Indian,10,Premium,₹₹₹,4.22,1,0.23,11,False
+291,RST-7c0b7525-b9dd-5c54-8e13-9a829263f667,Seshadri Cafe Cafe,Cafe,46,Mid,₹₹,3.13,1,0.182,13,True
+292,RST-7d8a64a1-5727-5805-b2b3-37978ac13c0c,Sibal Rolls Junction,Rolls,5,Budget,₹,4.7,3,0.235,21,False
+293,RST-9e95c75a-8017-54f1-87db-3bdab87e6d31,Sankaran Desserts Corner,Desserts,9,Mid,₹₹,3.81,4,0.174,15,False
+294,RST-02a27dd6-047c-548d-baae-4c43d5cd9cd6,Rege Cafe Dhaba,Cafe,8,Mid,₹₹,4.49,2,0.247,22,False
+295,RST-88cf8e5d-d176-590b-857b-8735fd284864,Pillai Desserts Foods,Desserts,18,Mid,₹₹,3.75,1,0.205,6,True
+296,RST-4d9b161f-3de8-5a66-b68b-ec86373581d1,Tank Biryani Dhaba,Biryani,19,Mid,₹₹,4.4,6,0.176,20,False
+297,RST-3d7ee5e8-82d5-5990-a380-00490d04b770,Nadig North Corner,North Indian,19,Mid,₹₹,4.31,1,0.222,17,False
+298,RST-58c9e2c9-4fb8-54eb-945c-b10fc78a1191,Mahajan Chinese Kitchen,Chinese,3,Mid,₹₹,3.99,1,0.224,10,True
+299,RST-0baec6dd-ce14-5bb7-8671-af7f60bcbabc,Raja Street Point,Street Food,8,Budget,₹,4.96,7,0.21,10,False
+300,RST-4c63ff84-18a8-5ded-b76f-02fdc4ab06de,Bakshi Street Kitchen,Street Food,25,Budget,₹,4.03,2,0.252,23,False
+301,RST-96ab06cb-7893-5df3-9609-beaeeb51fdda,Gola Desserts Dhaba,Desserts,6,Budget,₹,4.05,1,0.196,17,False
+302,RST-cd0a44f6-8821-5774-8e5d-b11377638e42,Sathe South Kitchen,South Indian,48,Budget,₹,4.3,1,0.173,13,True
+303,RST-ff077874-287e-5599-8bcb-99788cab25e4,Kaur South Cafe,South Indian,6,Mid,₹₹,4.1,1,0.244,22,False
+304,RST-e8ac7cc4-aa13-5125-b883-a5f0e1436004,Lanka Cafe Kitchen,Cafe,9,Mid,₹₹,5.0,13,0.238,22,False
+305,RST-0ea7266b-f8a7-5274-a870-621d1079ba08,Borra North Kitchen,North Indian,8,Budget,₹,4.47,1,0.211,11,False
+306,RST-f728e2b2-a6da-54d6-b019-20e37285f887,Parmer Fast Express,Fast Food,7,Mid,₹₹,4.28,1,0.228,16,False
+307,RST-9a2fb4ec-2f78-5b1e-b90e-606af53c8382,Butala Chinese Biryani House,Chinese,29,Budget,₹,4.31,2,0.168,21,False
+308,RST-75e65fc3-9954-519d-b1e5-5b6be2daff8f,Menon Chinese Junction,Chinese,2,Mid,₹₹,4.11,1,0.207,20,True
+309,RST-ac54d494-0099-5ca4-967f-1d00bec9269a,Thaker Pizza Junction,Pizza,11,Mid,₹₹,4.11,2,0.262,30,False
+310,RST-8caebf90-04d3-5f6a-81e0-bc4a28174f8b,Varghese Street House,Street Food,13,Budget,₹,4.04,2,0.228,17,False
+311,RST-4f7dc744-c066-5655-9e49-e90d578acda3,Brar Desserts House,Desserts,29,Budget,₹,4.58,2,0.199,12,True
+312,RST-cb4e35ca-2393-5d83-bdf5-24cb45ccf79a,Malhotra Biryani Express,Biryani,12,Budget,₹,3.69,1,0.204,10,False
+313,RST-d1ae0dbb-9888-5f98-ac28-c7500888964c,Kari Biryani Kitchen,Biryani,44,Mid,₹₹,4.05,1,0.218,15,False
+314,RST-ebf3a6d6-c08c-5b55-8cec-fb5337268cba,Chaudhari Mughlai Foods,Mughlai,32,Budget,₹,5.0,33,0.242,26,False
+315,RST-ea930f4c-52d5-5491-8c51-549cbbba0768,Dani Fast Restaurant,Fast Food,5,Premium,₹₹₹,4.79,3,0.268,13,False
+316,RST-b0a668f2-e0e0-53ad-a588-229e84a07b0e,Bora Biryani Cafe,Biryani,31,Premium,₹₹₹,3.78,1,0.259,10,True
+317,RST-1e6693a4-3362-5047-9b77-d1696b54966d,Parsa Pizza Biryani House,Pizza,44,Mid,₹₹,3.43,1,0.24,20,False
+318,RST-b115b285-c193-5cdc-b3aa-f18dcd8e60cc,Barad South Dhaba,South Indian,4,Budget,₹,4.21,3,0.186,21,False
+319,RST-ed76ffd7-31e6-5cb9-9a6b-b4146a731646,Iyer North Biryani House,North Indian,13,Mid,₹₹,3.66,1,0.2,15,False
+320,RST-542f4b3d-f744-579e-98cf-60ee1213ada7,Nath Cafe Kitchen,Cafe,4,Budget,₹,3.86,2,0.202,12,False
+321,RST-e256d220-db8e-53b1-bb65-17748aea3fb8,Hegde Fast Dhaba,Fast Food,14,Premium,₹₹₹,4.77,4,0.168,14,False
+322,RST-5396d22f-10b3-5575-a9fc-4f87771dc179,Narayan South Foods,South Indian,2,Mid,₹₹,4.67,35,0.252,15,False
+323,RST-9b95e061-32ec-52e7-bb33-a26a7c84e49c,Krishna Chinese House,Chinese,19,Budget,₹,4.24,2,0.181,15,True
+324,RST-4ba35218-0202-5dde-a87f-c294d4c2ca91,Mittal Healthy Biryani House,Healthy,7,Mid,₹₹,4.28,33,0.202,13,True
+325,RST-debd34ff-d816-57c8-81a3-92210b6bbd8b,Maharaj Pizza Restaurant,Pizza,12,Mid,₹₹,4.92,5,0.168,18,False
+326,RST-5b89e00f-b70a-5d2f-977b-c3f5317198b8,Halder Pizza Biryani House,Pizza,1,Premium,₹₹₹,3.77,0,0.188,15,False
+327,RST-98bc7305-9db4-525e-9471-acf9d91649f3,Devi North Biryani House,North Indian,17,Mid,₹₹,4.81,121,0.224,22,True
+328,RST-b728241c-f65f-57e0-9602-184d4edcc76e,Lal Street Foods,Street Food,9,Mid,₹₹,3.79,1,0.237,20,False
+329,RST-767fe118-f321-5fe4-a592-d11209ce8685,Anand Cafe Junction,Cafe,13,Mid,₹₹,4.34,3,0.222,22,False
+330,RST-32d93fa6-c8bd-57c1-8fe0-6bf9be9f799c,Mistry Fast Dhaba,Fast Food,5,Premium,₹₹₹,3.65,1,0.23,11,False
+331,RST-dfefd92e-0cab-51c3-9968-0c23a53edceb,Manda Chinese Corner,Chinese,2,Premium,₹₹₹,3.82,1,0.194,9,False
+332,RST-334be4f4-c5a7-5b1c-9f9f-6e01b118b6a5,Pal Pizza Foods,Pizza,7,Mid,₹₹,4.6,8,0.232,10,False
+333,RST-44503640-853a-5008-98fd-b92acdddc875,Raval Beverages House,Beverages,42,Mid,₹₹,5.0,2,0.187,11,False
+334,RST-12b64d83-4104-5c10-ab18-e75c00b789e9,Ravi Desserts Express,Desserts,3,Premium,₹₹₹,4.61,2,0.245,15,False
+335,RST-b525c0f2-2973-5094-b9c6-949df6e302de,Arora Street Express,Street Food,16,Budget,₹,4.81,1,0.205,12,False
+336,RST-bf70f3f6-5254-5dd7-a8b8-b72780105cb6,Sodhi Pizza Restaurant,Pizza,1,Mid,₹₹,4.2,1,0.22,20,False
+337,RST-9f53c0ee-5c1d-5e7b-bcb2-4f62d7bacb59,Vala Chinese Foods,Chinese,18,Budget,₹,4.55,2,0.206,10,False
+338,RST-00533ab9-7fa8-5277-ae3e-8aa9c81f452a,Dixit Biryani Express,Biryani,4,Mid,₹₹,3.77,1,0.207,16,False
+339,RST-10b24e2b-f576-5a17-bad9-2f64c942ba9a,Rao Beverages Biryani House,Beverages,8,Premium,₹₹₹,4.55,8,0.17,19,True
+340,RST-3590fbc6-d982-5d10-9641-2217511a22e0,Kari South Dhaba,South Indian,6,Budget,₹,4.09,3,0.181,19,False
+341,RST-81d6412d-b9d3-5008-aae6-5bba4b957cab,Karan South Express,South Indian,2,Mid,₹₹,4.31,1,0.195,14,False
+342,RST-bdc6141a-3ae0-5962-ba2f-3d64ba479669,Kadakia Rolls Corner,Rolls,5,Budget,₹,4.81,7,0.266,21,False
+343,RST-b51cee0d-41ad-51ce-9a68-138319827bd8,Som Biryani Express,Biryani,5,Premium,₹₹₹,4.85,2,0.257,18,True
+344,RST-6477f491-9467-577f-82fe-d40ae7693e8b,Kaur Beverages Foods,Beverages,9,Premium,₹₹₹,4.26,4,0.163,15,True
+345,RST-0a830bd6-054b-50c0-bfb4-63a8f2802568,Varty North Biryani House,North Indian,46,Mid,₹₹,4.7,7,0.15,6,False
+346,RST-e28d08e1-a252-5ea5-8841-68adc444e319,Sidhu Chinese Corner,Chinese,8,Mid,₹₹,4.7,210,0.236,13,False
+347,RST-f309a96b-87b0-59e4-ae64-42c48d2c14f8,Shenoy South Restaurant,South Indian,37,Budget,₹,3.91,1,0.205,20,False
+348,RST-5585ec71-dc3a-5315-99d9-6e97e5b07301,Oak Pizza Express,Pizza,8,Premium,₹₹₹,3.99,5,0.28,22,True
+349,RST-9ba64a4c-8dc7-56ec-939d-205d117c9c73,Chada Desserts Junction,Desserts,2,Mid,₹₹,4.33,1,0.221,18,False
+350,RST-8c8a201a-aa10-53d4-a94f-e7a62827c422,Munshi Biryani House,Biryani,3,Budget,₹,4.79,12,0.205,18,False
+351,RST-390e4dc2-3ef9-5dca-9dde-30f9cb984c7a,Guha Biryani Express,Biryani,7,Premium,₹₹₹,4.3,3,0.204,35,False
+352,RST-38b55cbe-946d-518d-95e5-43bf7aed6145,Sanghvi North Foods,North Indian,5,Budget,₹,4.29,1,0.207,10,False
+353,RST-9ee94bf8-38a1-5d18-b1d2-3231cc56ff1a,Sahni Rolls Restaurant,Rolls,31,Mid,₹₹,3.67,2,0.223,15,False
+354,RST-5c295160-311f-58a0-a96e-53178c9d7e1e,Kadakia Healthy Express,Healthy,16,Budget,₹,3.79,1,0.239,23,False
+355,RST-052f91ae-dc50-503f-aac0-132f61013310,Sarna Desserts Junction,Desserts,11,Mid,₹₹,3.86,2,0.257,23,False
+356,RST-27ffe361-92be-5f34-9306-14761422de85,Sengupta South Dhaba,South Indian,9,Budget,₹,4.23,2,0.191,21,True
+357,RST-7a6bed15-4716-55ad-af5a-c94ea571c872,Balan Pizza Dhaba,Pizza,6,Budget,₹,4.1,4,0.255,25,False
+358,RST-15bc558f-9e7e-50ea-bad0-7c84b5242c2a,Prasad Chinese Foods,Chinese,13,Mid,₹₹,4.43,1,0.236,14,False
+359,RST-2568ae11-75a1-51e5-ab8c-9ab8cd75a0de,Dewan North Foods,North Indian,2,Premium,₹₹₹,4.76,2,0.19,9,True
+360,RST-96beac7e-3434-5f9a-8792-8811b7f74767,Dave South House,South Indian,3,Budget,₹,4.48,1,0.19,28,False
+361,RST-51b011aa-55df-59ac-8a31-42706fb0485f,Mody North Cafe,North Indian,5,Mid,₹₹,4.28,22,0.212,15,True
+362,RST-08e506df-81bc-53d8-91b7-1968faa16c06,Andra South Cafe,South Indian,3,Mid,₹₹,4.08,2,0.229,11,True
+363,RST-b9bb3f0c-245a-5441-9b79-299a6be9f5cc,Tata Desserts Cafe,Desserts,16,Mid,₹₹,2.98,1,0.196,12,False
+364,RST-c159bbfe-8a56-509d-8513-a2a3ae869fc5,Pant Chinese Corner,Chinese,1,Budget,₹,4.17,4,0.214,13,False
+365,RST-4aea1b24-e937-59fe-91b0-1589df69fe72,Nori Desserts Restaurant,Desserts,2,Mid,₹₹,3.2,1,0.244,16,False
+366,RST-841afed4-0b42-5811-b9dc-e7f43ccaab52,Kar Street Kitchen,Street Food,36,Premium,₹₹₹,3.53,1,0.166,16,False
+367,RST-f164079e-18ca-50dc-8102-ba53ce93768c,Saini Fast Junction,Fast Food,50,Budget,₹,3.64,1,0.224,22,True
+368,RST-cdddbbc5-ddb2-5f09-a7ec-d395aaa3a249,Sandal Biryani Cafe,Biryani,8,Mid,₹₹,4.48,1,0.201,10,False
+369,RST-9de03e11-a212-529b-ae71-1a0ffc06fbf2,Raval Desserts House,Desserts,9,Premium,₹₹₹,4.07,2,0.184,11,False
+370,RST-1423ce9d-8fbd-5d49-ae77-8b08c8c7f5d4,Yogi North Junction,North Indian,22,Budget,₹,4.02,4,0.193,30,False
+371,RST-41cf3aac-45c6-5803-bf5d-30b70254f34e,Mistry Biryani Corner,Biryani,1,Mid,₹₹,4.06,1,0.224,29,True
+372,RST-ce5c8244-8026-5cae-85f1-0c35b3e5edb5,Nanda Biryani Junction,Biryani,7,Budget,₹,3.83,1,0.211,16,False
+373,RST-8f9dd665-a154-551a-be94-7c5f2dacabd0,Bajaj Beverages Cafe,Beverages,2,Premium,₹₹₹,3.83,2,0.177,21,False
+374,RST-768c37a8-15d0-52da-bc1c-b95c7c68462c,Balay Beverages Junction,Beverages,6,Premium,₹₹₹,4.44,1,0.223,15,True
+375,RST-35bf3b0e-1fd7-55cf-a0b9-351af5f40033,Dewan Beverages Kitchen,Beverages,48,Mid,₹₹,3.11,1,0.237,7,True
+376,RST-90fa087a-0798-5fa1-823a-ff917069d76b,Dube Pizza Biryani House,Pizza,21,Mid,₹₹,3.15,1,0.223,15,False
+377,RST-02975f28-1f56-54b1-958c-d4e3e33786a1,Narayanan Fast Junction,Fast Food,48,Budget,₹,4.65,12,0.211,13,True
+378,RST-76a8063f-9af4-5579-b5a1-399739b9d6a6,Raman Beverages Dhaba,Beverages,20,Budget,₹,4.34,16,0.16,19,False
+379,RST-09b59911-5d30-5814-bd5a-7ded16720dbd,Raj Cafe Kitchen,Cafe,12,Budget,₹,4.91,6,0.231,23,False
+380,RST-f5c7fe19-834f-51e0-9225-5c21949e89f8,Jayaraman Biryani Express,Biryani,21,Budget,₹,3.74,1,0.239,17,False
+381,RST-cdaa620c-6089-58ae-b347-9f5d02af7fea,Raman Healthy Cafe,Healthy,15,Budget,₹,3.99,1,0.195,21,True
+382,RST-28f4e77e-5ce2-5a43-8d02-8bf6ae2f808b,Bhatt Cafe House,Cafe,8,Mid,₹₹,3.93,2,0.239,19,False
+383,RST-bae8ccc6-261d-5363-9d28-1b79ad291d0f,Warrior Biryani Corner,Biryani,4,Budget,₹,3.79,1,0.202,17,True
+384,RST-4e22b940-bdcc-5f3d-b621-2f6ae6edca9e,Raju North Restaurant,North Indian,9,Budget,₹,3.76,2,0.186,13,False
+385,RST-077c0b9d-5564-5dbc-9dd1-0ca67ac08f33,Guha South Kitchen,South Indian,4,Mid,₹₹,4.67,94,0.194,20,False
+386,RST-a4a78f25-8211-5013-a61e-2200a438822c,Soman Desserts Restaurant,Desserts,8,Budget,₹,4.33,3,0.158,17,False
+387,RST-8389c6d5-dc4e-5c41-b28b-7b40e13ed98f,Chopra North Point,North Indian,2,Budget,₹,4.65,1,0.256,17,True
+388,RST-a6bd0fa2-7d8f-5c19-912c-859f57364c52,Narasimhan Biryani Kitchen,Biryani,11,Budget,₹,4.36,2,0.164,24,True
+389,RST-6afb3ac6-c770-537d-b37f-f6059e33744b,Seth Fast Junction,Fast Food,4,Budget,₹,4.56,4,0.205,18,False
+390,RST-722e80ae-41df-512a-b873-b7dc3fc51f51,Modi Cafe Restaurant,Cafe,4,Mid,₹₹,3.96,1,0.216,12,False
+391,RST-1d61d341-a865-5d84-bbb5-fb703897ecac,Chander Beverages House,Beverages,9,Mid,₹₹,3.94,3,0.255,27,True
+392,RST-526d7de2-e349-52c3-9f2a-ce2bd8cc46ce,Garg Desserts Restaurant,Desserts,3,Premium,₹₹₹,4.2,6,0.269,16,False
+393,RST-85e8dea3-2812-5f51-8064-d25195663610,Chawla Biryani Biryani House,Biryani,44,Mid,₹₹,3.45,2,0.161,18,False
+394,RST-3d5b4449-c462-5285-ae6c-d3f9c74ddc1f,Goel North Point,North Indian,7,Mid,₹₹,3.62,1,0.191,12,True
+395,RST-4a364757-8ff2-52e4-8dc6-545978a0bff7,Balay Pizza Biryani House,Pizza,5,Premium,₹₹₹,3.62,3,0.242,19,False
+396,RST-f02a41a2-de12-568b-9229-e98519994e00,Suresh South Corner,South Indian,1,Mid,₹₹,4.96,3,0.222,6,True
+397,RST-89b05cf0-a6a3-50e1-8d0c-df272fc4d19a,Bala Fast Cafe,Fast Food,28,Mid,₹₹,3.97,2,0.229,6,False
+398,RST-4226f58c-bee4-5341-8d0b-6c73f3ba2311,Grover Healthy Corner,Healthy,13,Mid,₹₹,4.55,2,0.237,18,False
+399,RST-af851ca9-3756-5d8f-b657-32debf458c0b,Issac Fast Point,Fast Food,7,Mid,₹₹,4.06,0,0.203,20,False
+400,RST-de2c53d5-2573-5a21-a89c-c72ad1625739,Boase Pizza House,Pizza,4,Mid,₹₹,3.7,5,0.189,17,True
+401,RST-5d5a1ee3-6f7b-5625-8c35-8760e3580d24,Raju Pizza Kitchen,Pizza,20,Budget,₹,4.46,18,0.226,24,True
+402,RST-229275f8-0809-55e6-8c73-811834e54fab,Mander Beverages Foods,Beverages,42,Mid,₹₹,3.71,2,0.207,22,True
+403,RST-f0dca0c3-3e1e-5678-a38e-dd07e770f3df,Jha Biryani Kitchen,Biryani,6,Budget,₹,4.22,6,0.189,23,False
+404,RST-06b90176-aab1-5447-940e-7f520d15dbb1,Kaul Biryani Dhaba,Biryani,2,Mid,₹₹,4.19,2,0.161,15,True
+405,RST-d074f070-f2d6-5c96-87af-63aec6a9d694,Manne South Cafe,South Indian,2,Premium,₹₹₹,3.53,2,0.221,18,False
+406,RST-52f6dba0-cf46-57b7-9347-777c0ba030bf,Viswanathan Fast Kitchen,Fast Food,1,Mid,₹₹,3.97,2,0.15,22,False
+407,RST-2c872bf0-5253-5de0-983e-cf0072177631,Boase Chinese Junction,Chinese,20,Budget,₹,4.28,4,0.209,15,False
+408,RST-0433ec49-f8c6-5730-906b-1c588967c3c8,Sha Biryani Biryani House,Biryani,47,Budget,₹,3.76,2,0.201,6,False
+409,RST-b1ff0c8b-c6d6-5563-9144-18d2077e9d96,Bhandari Desserts Point,Desserts,49,Budget,₹,5.0,70,0.21,22,False
+410,RST-050b8e84-ae2b-59a0-b8f6-ce5bac78910c,Pillay North Corner,North Indian,23,Premium,₹₹₹,4.18,3,0.216,8,True
+411,RST-ca246274-11fc-5e4b-9621-e305c6498fc8,Vasa Fast Cafe,Fast Food,3,Mid,₹₹,3.51,2,0.211,14,False
+412,RST-ee17d141-3ee6-5670-a57c-fe08c9eae4a5,Apte South Biryani House,South Indian,47,Mid,₹₹,4.95,2,0.217,19,False
+413,RST-f92a63cb-dd43-5471-8f9e-bd1381e1bb4b,Garg Chinese Express,Chinese,5,Mid,₹₹,3.17,1,0.272,16,False
+414,RST-12096b0d-5ae9-5b23-80a3-073e39aa1ede,Narain North Kitchen,North Indian,5,Mid,₹₹,4.7,1,0.165,7,False
+415,RST-52324e82-f91e-5ebe-a2b0-106094d1c983,Roy South House,South Indian,16,Mid,₹₹,4.39,9,0.19,14,False
+416,RST-934d4f52-0092-5955-a0bd-846424682c62,Raman Healthy Point,Healthy,1,Budget,₹,4.42,2,0.204,14,False
+417,RST-3e81aca6-caa2-5ad2-8f81-3534236d977b,Dugar Healthy Biryani House,Healthy,27,Budget,₹,3.67,1,0.206,13,True
+418,RST-037df3a3-9356-5d47-b3e4-5236fa63b2ab,Choudhry Rolls Cafe,Rolls,50,Budget,₹,4.25,2,0.26,18,False
+419,RST-28f0529e-bf6b-5ea9-ae8d-8c888ee421b4,Dayal Fast Express,Fast Food,22,Mid,₹₹,3.95,1,0.239,7,True
+420,RST-4acdfab7-3833-5519-b02c-bca75ca207a6,Yadav Desserts Biryani House,Desserts,23,Premium,₹₹₹,4.77,5,0.195,15,True
+421,RST-bcf31fba-5b2d-57b8-bbe4-77942c9ca1fc,Sahota Cafe Corner,Cafe,6,Mid,₹₹,4.61,119,0.196,19,False
+422,RST-79a12ffa-8d95-54ea-bf4a-3283b66c1935,Sridhar Biryani Junction,Biryani,1,Mid,₹₹,4.48,23,0.234,9,True
+423,RST-ccc552c1-a731-5eae-b97c-a30412c0b8b9,Biswas North Corner,North Indian,24,Premium,₹₹₹,4.35,5,0.204,19,False
+424,RST-21bef8cc-82e2-55d5-8eaf-d610c8608347,Ramachandran Rolls Biryani House,Rolls,12,Budget,₹,4.45,2,0.238,13,False
+425,RST-aba55792-c4bb-5f6b-beac-c17f38154da9,Jhaveri Healthy Kitchen,Healthy,37,Budget,₹,5.0,14,0.218,16,True
+426,RST-4ec0c600-6a35-5dbf-94ff-92e1871709d2,De South Biryani House,South Indian,2,Premium,₹₹₹,4.46,5,0.211,22,True
+427,RST-1d34e484-0f04-5e25-be99-d2a79d509ecb,Jha Biryani Express,Biryani,5,Premium,₹₹₹,4.26,3,0.227,18,False
+428,RST-9fb6bfc4-df88-59d0-9a50-974fe9b1d840,Mukherjee Chinese Dhaba,Chinese,6,Mid,₹₹,4.14,4,0.188,9,True
+429,RST-1219b0f6-a3a6-5c29-90dc-080448c4261c,Sankaran Biryani Foods,Biryani,16,Budget,₹,3.99,1,0.209,20,False
+430,RST-9cf6ebef-3f12-5088-a253-262d2db3a694,Soman Rolls Dhaba,Rolls,23,Premium,₹₹₹,3.98,4,0.266,13,False
+431,RST-f209547d-afc1-593a-a20f-dc29e45e85c9,Dutt Chinese Junction,Chinese,44,Mid,₹₹,4.56,69,0.204,10,False
+432,RST-80acc60f-11a9-52b4-a585-08d1614745ea,Mukherjee Street Express,Street Food,4,Mid,₹₹,4.43,7,0.235,22,False
+433,RST-e6c9a417-2024-5b4e-9117-59d7b7790b01,Jain Desserts Point,Desserts,9,Budget,₹,4.39,1,0.206,16,True
+434,RST-95433866-2313-5561-a7f5-05b1c30a02de,Thakkar North Kitchen,North Indian,1,Mid,₹₹,4.32,7,0.211,15,False
+435,RST-0f308d81-695b-5832-8331-a84ab3d2852a,Shanker Beverages Biryani House,Beverages,4,Premium,₹₹₹,4.03,2,0.23,9,False
+436,RST-287bd198-eb2d-5b0a-a98d-333edf271fe5,Majumdar Desserts Foods,Desserts,6,Premium,₹₹₹,4.12,1,0.182,19,True
+437,RST-1298e0e9-4eca-5224-a3f2-54269c129f58,Jaggi Biryani House,Biryani,12,Mid,₹₹,4.43,1,0.161,14,True
+438,RST-ab19a337-25b9-5399-8da2-660e36ef2ebf,Amble Biryani Biryani House,Biryani,8,Mid,₹₹,3.53,1,0.218,15,False
+439,RST-42943170-5517-5330-b626-dd67c9b4a709,Dhar Beverages House,Beverages,6,Mid,₹₹,3.64,1,0.251,16,False
+440,RST-1bfe8b98-f51c-5089-9dae-33f50d6d0ce5,Sehgal Biryani Biryani House,Biryani,13,Mid,₹₹,4.72,3,0.257,10,False
+441,RST-3d048ee7-ae03-5e7c-b307-92b3fe281c3a,Bhatt North Point,North Indian,27,Budget,₹,4.49,1,0.228,20,True
+442,RST-860cc22f-85c1-5646-a3cb-cc9e04edb3bf,Rastogi Chinese Restaurant,Chinese,4,Budget,₹,3.36,1,0.216,21,False
+443,RST-6646393a-267c-52c2-b173-38ea9ce914b3,Koshy South Corner,South Indian,5,Budget,₹,4.75,7,0.257,21,False
+444,RST-4a4018f3-d73d-5c19-a3fc-e81d1d485cc3,Vora Pizza Express,Pizza,18,Mid,₹₹,4.95,2,0.161,20,True
+445,RST-ef2545bc-d218-551c-8446-6a13bea24d6a,Narasimhan South Point,South Indian,23,Budget,₹,3.9,1,0.237,17,False
+446,RST-553a39cf-974e-5e34-bbb3-cef22aed6f6e,Swaminathan Pizza Point,Pizza,27,Budget,₹,4.49,6,0.247,18,True
+447,RST-294b58e4-0ea7-5792-978d-de370d0e7518,Sharma Biryani House,Biryani,3,Premium,₹₹₹,4.35,1,0.218,18,False
+448,RST-04024a55-72fd-5ca1-b645-0e1e1fa2b596,Shere Beverages House,Beverages,10,Mid,₹₹,3.95,3,0.193,24,False
+449,RST-c2b9cccc-bf51-500c-9db8-0e95b1672863,Baral Biryani Biryani House,Biryani,36,Budget,₹,4.97,2,0.24,9,True
+450,RST-e059679a-ace2-5d07-8e59-aac0c1b2f847,Chand Mughlai Dhaba,Mughlai,6,Budget,₹,4.16,12,0.211,16,True
+451,RST-8f3f2e45-0ace-5db7-880a-36087f12dcd0,Mani Mughlai Foods,Mughlai,7,Premium,₹₹₹,4.27,6,0.271,21,False
+452,RST-ebe0769f-c75e-531d-a539-2afc21ac530b,Shan South Biryani House,South Indian,48,Budget,₹,4.13,3,0.241,12,False
+453,RST-0e524490-dd5f-5c28-b5df-ff353a557323,Palan Pizza Foods,Pizza,2,Mid,₹₹,4.78,14,0.155,12,False
+454,RST-ff247560-63b2-5176-9f11-556a775b8401,Mishra South Corner,South Indian,18,Mid,₹₹,3.82,1,0.169,13,False
+455,RST-7da8068b-8850-58e4-929e-08668d743529,Raman Beverages Corner,Beverages,29,Budget,₹,4.34,1,0.243,25,False
+456,RST-4b8b9804-3aa8-5e41-b306-31685732ca33,Gill Pizza Point,Pizza,2,Mid,₹₹,4.49,5,0.226,6,False
+457,RST-df60fc44-2123-5153-83f3-8890119f0f0b,Sagar Chinese Junction,Chinese,18,Budget,₹,4.33,2,0.219,14,True
+458,RST-e4743923-e621-53e1-9720-a76d8b393c46,Krish South Dhaba,South Indian,8,Mid,₹₹,4.64,5,0.18,14,False
+459,RST-e25c0013-f346-5ea1-ad2b-c85217f0d707,Gola Biryani Dhaba,Biryani,30,Budget,₹,3.13,1,0.237,31,False
+460,RST-f92334a0-6868-50cd-aee7-91d870735bdd,Sankaran Desserts Biryani House,Desserts,37,Budget,₹,4.34,2,0.233,18,False
+461,RST-e05e4f52-8115-51a4-b96a-79d55c301b4c,Shankar Desserts House,Desserts,32,Budget,₹,3.51,2,0.239,14,False
+462,RST-326fdd4d-f9b5-5388-9e7a-d5566b2dd87f,Rajagopalan North Kitchen,North Indian,1,Premium,₹₹₹,3.74,0,0.19,22,False
+463,RST-32aa9f42-e439-5028-bb3d-889408a1ce36,Goswami Chinese Point,Chinese,21,Budget,₹,4.46,3,0.216,9,False
+464,RST-634e234f-473d-5787-850a-a219c4a215a0,Chandran Biryani Express,Biryani,38,Budget,₹,3.17,2,0.159,16,False
+465,RST-cd7dab2d-7839-5288-af5f-bf8f4c29e4d9,Ramaswamy Fast Corner,Fast Food,13,Budget,₹,4.19,4,0.197,24,False
+466,RST-b2d8c84a-b0d0-5a11-8491-07f573d9de94,Bassi North House,North Indian,12,Mid,₹₹,4.13,1,0.214,13,False
+467,RST-7db6250e-698b-52f1-b73e-b81ceb7fa1d6,Khatri Chinese Restaurant,Chinese,1,Mid,₹₹,4.13,6,0.24,26,False
+468,RST-eac720cf-f574-5e4a-8a9a-a45c1a77d85e,Dugar Cafe Restaurant,Cafe,30,Premium,₹₹₹,4.15,2,0.207,21,False
+469,RST-63ec2dab-bf31-5055-9ff4-332ed32cf463,Mahal Biryani Cafe,Biryani,1,Mid,₹₹,4.67,1,0.17,20,False
+470,RST-3e924420-d53b-5940-8f01-52b9e15a9db2,Yogi Rolls Junction,Rolls,5,Mid,₹₹,4.64,1,0.233,13,False
+471,RST-20a10e83-7bbc-5587-9e7c-79ca5629cd26,Manne Biryani Point,Biryani,39,Mid,₹₹,4.2,4,0.225,23,False
+472,RST-7809f84d-b28d-5315-a5e1-11db9f09d0c9,Bhavsar Biryani Foods,Biryani,43,Budget,₹,3.84,1,0.15,16,False
+473,RST-c622a9ce-031b-5998-92c6-13c4dc9349f8,Kalla Pizza Foods,Pizza,49,Premium,₹₹₹,3.95,1,0.176,8,True
+474,RST-00ae68e5-b550-5260-a3b1-1ea713237c12,Tak South House,South Indian,8,Premium,₹₹₹,4.7,2,0.235,21,False
+475,RST-ddec7497-40c9-5d10-af11-2124adc40330,Sabharwal South Foods,South Indian,3,Budget,₹,4.4,1,0.197,17,False
+476,RST-f8ea361e-5b7a-5dc9-817d-0258d8c67edb,Dara Healthy House,Healthy,8,Mid,₹₹,3.78,1,0.15,26,False
+477,RST-9732491e-da54-5817-8ab2-ea350b9822bb,Pillay Cafe Dhaba,Cafe,2,Budget,₹,4.16,2,0.179,11,False
+478,RST-9209c449-2b67-5c96-a639-6da5ae373cff,Bose Rolls Express,Rolls,32,Mid,₹₹,4.2,30,0.23,20,True
+479,RST-0ff531f9-7d11-57f4-940b-c4eae111c2e5,Cheema North Point,North Indian,11,Mid,₹₹,4.04,1,0.212,9,False
+480,RST-6b2d80aa-b14b-58dc-baea-c6d8962cd335,Thaman North Junction,North Indian,7,Premium,₹₹₹,4.56,4,0.248,6,True
+481,RST-c6b82a78-f9e8-55f4-84ee-7bcd14570eda,Nanda South Junction,South Indian,1,Mid,₹₹,3.92,2,0.179,18,True
+482,RST-c7f73d50-3073-5d63-a98c-e3213678e9d5,Rout Street Junction,Street Food,7,Mid,₹₹,4.67,3,0.229,17,True
+483,RST-c7ec5def-dd3e-5556-ba1c-697f02503a79,Seshadri Beverages Corner,Beverages,31,Mid,₹₹,3.76,1,0.208,11,False
+484,RST-76913ff9-456d-5eaf-8e76-50e86b6a5095,Gala Fast Foods,Fast Food,17,Budget,₹,3.79,1,0.208,10,False
+485,RST-7fc0c275-c11d-598a-b4c4-2e8179acdf09,Krishnan Street Foods,Street Food,1,Mid,₹₹,3.49,1,0.225,25,False
+486,RST-65e3b94f-ef97-53be-a4b0-24e29636675d,Johal North Biryani House,North Indian,2,Mid,₹₹,4.73,3,0.203,16,False
+487,RST-f41306ab-aefd-5583-9972-1ff1159b200f,Toor Fast Kitchen,Fast Food,6,Premium,₹₹₹,5.0,5,0.219,23,False
+488,RST-31dfef32-2b6b-5a26-b15e-310e5a2b6bff,Basu South Dhaba,South Indian,2,Premium,₹₹₹,4.26,2,0.191,13,False
+489,RST-2f385907-e76b-5631-b0ad-7ef3bd30b527,Shere Chinese Kitchen,Chinese,40,Budget,₹,4.78,65,0.15,29,False
+490,RST-f69a8ad5-6fc0-5a3c-b18a-279bea5a697a,Bala Street Foods,Street Food,15,Budget,₹,3.97,1,0.209,18,True
+491,RST-f81ea5c0-c681-5bfe-9cfd-4f76add9c72d,Bora Cafe Point,Cafe,2,Budget,₹,4.6,1,0.258,9,False
+492,RST-9bba4399-cdc1-5677-af77-babd6d22f3b3,Shenoy North Restaurant,North Indian,23,Budget,₹,4.2,2,0.233,23,False
+493,RST-7220073e-e24a-522a-bb63-4d2b45a287bf,Raj South Dhaba,South Indian,6,Mid,₹₹,3.92,1,0.199,31,False
+494,RST-de42a085-c4bd-5bd8-9848-7ee08747f020,Oza Fast Foods,Fast Food,4,Premium,₹₹₹,4.32,12,0.172,18,False
+495,RST-fc9e2741-b628-5e65-bce1-1eb5d6598c29,Rastogi North Biryani House,North Indian,11,Mid,₹₹,4.58,2,0.161,14,True
+496,RST-75e0709c-d99c-5eae-92d9-9c1e1312e182,Hayer Fast Dhaba,Fast Food,1,Mid,₹₹,3.77,1,0.224,18,True
+497,RST-64c009d9-8485-5af1-b135-0da2fea1db34,Ranganathan Fast Biryani House,Fast Food,8,Mid,₹₹,4.71,2,0.218,30,False
+498,RST-8c66b68d-9e79-5c0e-8711-2c36c0e07a74,Barad Chinese Biryani House,Chinese,29,Budget,₹,3.59,0,0.156,23,True
+499,RST-63540986-a880-59fe-9a02-acc86900b557,Anne Chinese Point,Chinese,39,Mid,₹₹,4.34,51,0.15,16,False
+500,RST-49cc896e-8cb1-5fbe-a07e-b71aa1a8cce6,Krishna South Junction,South Indian,5,Mid,₹₹,4.55,14,0.15,17,False
+501,RST-83e40b36-be4b-547e-842c-1e1c2409fe08,Contractor Street Restaurant,Street Food,14,Budget,₹,3.56,1,0.188,12,False
+502,RST-198508c8-56d3-5ec3-bec7-e73f7969d817,Deshpande Chinese Point,Chinese,3,Premium,₹₹₹,5.0,5,0.162,13,False
+503,RST-f1961e63-86d1-55ec-adad-ab39df48622a,Narain Fast Corner,Fast Food,11,Mid,₹₹,3.99,1,0.154,19,False
+504,RST-fd2c156f-5445-5ab8-9900-c67b5967f720,Shetty Chinese Corner,Chinese,4,Budget,₹,4.17,1,0.245,26,False
+505,RST-0ac8bebf-1b2c-5d70-8656-1c9ff39a3dc5,Sundaram Rolls Restaurant,Rolls,11,Mid,₹₹,3.8,1,0.234,14,True
+506,RST-fcc131d2-9a02-5f95-958a-cac18d762ad2,Shenoy North Kitchen,North Indian,3,Mid,₹₹,3.83,1,0.208,10,False
+507,RST-21eec5a7-a5aa-522c-a8ec-592ab4153844,Bir North Junction,North Indian,41,Budget,₹,3.48,0,0.202,19,False
+508,RST-7451466a-1d98-5508-b843-0abb786b2e9f,Butala Rolls Biryani House,Rolls,34,Mid,₹₹,4.63,4,0.211,23,False
+509,RST-fa2258de-1ea5-50dd-b5b3-a800f1846591,Kibe Rolls Cafe,Rolls,5,Mid,₹₹,4.37,5,0.181,19,False
+510,RST-83037a17-6cc0-5eb9-bef9-276c76ab1027,Sarma South Biryani House,South Indian,22,Mid,₹₹,3.99,8,0.26,26,False
+511,RST-8ca1d8ed-8a75-5b11-a480-16be14853e28,Dey Chinese Restaurant,Chinese,2,Premium,₹₹₹,4.25,3,0.242,14,False
+512,RST-72835623-ddfe-5021-8835-b45b7e8c01ec,Sinha Street House,Street Food,20,Mid,₹₹,4.45,17,0.225,16,True
+513,RST-b7acdb89-ec9a-5918-9971-0b289302a50b,Mallick North Express,North Indian,4,Mid,₹₹,4.95,14,0.207,25,False
+514,RST-b66567e6-3608-513f-acf6-35918b266c18,Edwin South Cafe,South Indian,2,Budget,₹,4.29,2,0.202,20,False
+515,RST-4b953a42-0c25-536a-bdca-f3b37b1b8b5f,Garde Biryani Foods,Biryani,16,Budget,₹,4.37,1,0.205,20,False
+516,RST-6920371e-a49d-5d26-bedb-85c608e2303a,Badami Chinese Foods,Chinese,8,Mid,₹₹,4.46,3,0.211,15,False
+517,RST-3414e3eb-fd96-5fbc-a9b4-06c7e564a7aa,Chaudhry Pizza Foods,Pizza,10,Budget,₹,4.04,1,0.229,25,False
+518,RST-9801f86f-6bde-5b47-b1da-9d7aa4fe4c1e,Goel Pizza Point,Pizza,9,Mid,₹₹,4.37,6,0.234,17,False
+519,RST-29846810-fd5f-5926-9182-69544a213d65,Menon Fast House,Fast Food,1,Budget,₹,3.92,1,0.218,15,False
+520,RST-84a33f0d-61d4-5ae3-8f96-45de60162a8a,Dash Fast Junction,Fast Food,1,Budget,₹,4.88,2,0.194,14,False
+521,RST-ca00932b-88ff-5aaf-b60c-e0321bcffcdb,Warrior Biryani Cafe,Biryani,12,Mid,₹₹,4.79,136,0.229,12,False
+522,RST-d8a046f4-9392-505d-abed-10ba470be3ce,Raman Desserts Restaurant,Desserts,13,Budget,₹,4.18,3,0.243,24,False
+523,RST-f01a13f2-d006-5f5b-a8c2-d695bcdcf420,Ganguly North Express,North Indian,1,Mid,₹₹,4.66,2,0.195,9,False
+524,RST-a8d028fa-1260-51c7-8bfc-3ba6b76bd6e2,Brahmbhatt Chinese Express,Chinese,6,Mid,₹₹,3.47,1,0.183,18,False
+525,RST-b2aa54fd-23e0-5885-bd38-7de074705619,Apte Pizza Foods,Pizza,13,Budget,₹,4.47,2,0.206,17,False
+526,RST-bc3832de-6562-508f-9686-3466f33994c3,Mahajan Chinese Kitchen,Chinese,15,Budget,₹,3.86,0,0.205,8,False
+527,RST-45fa8c3a-8b86-542d-ae0c-33bbe5dd2d4f,Dube North Junction,North Indian,27,Budget,₹,4.34,2,0.195,20,True
+528,RST-5ca4b22e-8c0a-5831-bd05-bf62ab80c0c4,Sastry Chinese Express,Chinese,7,Budget,₹,4.41,2,0.224,18,False
+529,RST-fb764cba-daac-511c-9f5f-fa5cc603264c,Parmar Rolls Biryani House,Rolls,10,Mid,₹₹,3.77,3,0.15,16,False
+530,RST-8071b897-5f69-5935-9368-691f5ec2a354,Gokhale North Junction,North Indian,11,Mid,₹₹,3.53,2,0.214,20,False
+531,RST-cf709a4f-4f17-51de-87af-3436d908fb0f,Kalita Rolls House,Rolls,5,Mid,₹₹,4.84,1006,0.188,10,False
+532,RST-faecaf4e-864b-5847-a651-481999d19061,Banerjee Desserts Cafe,Desserts,1,Mid,₹₹,4.18,1,0.224,28,True
+533,RST-f36117ce-2c56-5763-8704-5d2be790e1b5,Walia Pizza House,Pizza,1,Premium,₹₹₹,4.12,1,0.229,16,False
+534,RST-487f4826-b658-58db-9588-7050bc3f2b98,Kalita South Junction,South Indian,28,Budget,₹,4.26,1,0.217,18,False
+535,RST-f292dd82-9b8b-5263-b26d-30e0a4e0511a,Sathe Desserts Biryani House,Desserts,3,Premium,₹₹₹,4.2,4,0.24,13,False
+536,RST-10e3b3e2-10ce-5c15-9a1a-3f5cf8ddd14b,Batta South House,South Indian,13,Mid,₹₹,3.37,1,0.187,10,False
+537,RST-c1b4107d-414d-511c-8af8-b1f3d66ff1bb,Virk Mughlai Dhaba,Mughlai,11,Mid,₹₹,3.59,2,0.231,13,False
+538,RST-327d8afc-ae98-5ef4-991c-14bbb5f0d6a8,Chauhan Rolls Kitchen,Rolls,6,Budget,₹,4.54,3,0.181,16,False
+539,RST-14f9d9b7-e75f-553d-b663-eed2bdb85ab2,Ramakrishnan North Point,North Indian,27,Budget,₹,4.43,3,0.191,34,True
+540,RST-98e9a8f7-18a6-5b81-8b44-5fa55f53666d,Morar Desserts Foods,Desserts,17,Premium,₹₹₹,4.03,2,0.22,21,False
+541,RST-a153b695-0271-5bdd-ad56-66abe4fbd1f8,Sawhney Biryani Point,Biryani,1,Budget,₹,4.23,2,0.208,19,False
+542,RST-cc11afaf-45f5-537a-a2b5-3a14f36e36e7,Ben Biryani Cafe,Biryani,22,Premium,₹₹₹,3.47,1,0.208,12,False
+543,RST-1a34d77c-19bc-52a4-8ae1-8dc8c6c86f9a,Agrawal Biryani Kitchen,Biryani,9,Mid,₹₹,3.53,1,0.224,25,False
+544,RST-3d07ea4a-dfed-518e-8725-d77fd198d664,Bava Fast Foods,Fast Food,5,Mid,₹₹,4.48,4,0.212,14,False
+545,RST-bfc74f8f-22d9-53c5-accc-7b89a8f224d0,Purohit Rolls Biryani House,Rolls,19,Mid,₹₹,3.89,1,0.227,15,True
+546,RST-4e22789a-bb55-5e75-be6b-8572be2c3f11,Jaggi Cafe Foods,Cafe,16,Budget,₹,3.87,1,0.198,19,False
+547,RST-e43331fc-76fc-5bfb-b517-686bfda25777,Krish Chinese Express,Chinese,5,Mid,₹₹,4.3,8,0.241,23,False
+548,RST-c131b7de-e194-5c6d-b288-ed85a8a83f14,Prasad Pizza Express,Pizza,48,Premium,₹₹₹,3.05,1,0.213,7,False
+549,RST-ee9c9a27-609d-5069-b65f-998c56b11a9b,Khare Pizza Cafe,Pizza,14,Budget,₹,3.77,2,0.224,20,False
+550,RST-c9224657-e3e7-5538-9511-ea7d334a77df,Iyengar Pizza Restaurant,Pizza,12,Premium,₹₹₹,4.67,3,0.193,25,True
+551,RST-8511ca45-4e06-542e-aabd-5388782ef26d,Chand Biryani Restaurant,Biryani,1,Premium,₹₹₹,4.53,2,0.187,15,False
+552,RST-54f85478-71b0-53e3-995a-46d5391e99e1,Babu Biryani Biryani House,Biryani,4,Budget,₹,4.14,1,0.239,12,False
+553,RST-40b337fa-9342-5f28-8afa-f47b97aa6016,Sama Desserts Point,Desserts,7,Mid,₹₹,4.69,19,0.214,28,False
+554,RST-ea54d319-85ed-510c-a03a-4bbc1e324c14,Bala Chinese Biryani House,Chinese,13,Budget,₹,3.43,1,0.23,10,True
+555,RST-ba323a7d-8722-5289-9470-3f72204dcf1e,Atwal South Foods,South Indian,9,Mid,₹₹,3.57,1,0.195,21,False
+556,RST-8b282b30-0086-54eb-8a8d-226be5e4d919,Nazareth Fast Cafe,Fast Food,21,Premium,₹₹₹,4.62,3,0.15,20,False
+557,RST-1d66fcd3-6c9b-5ef2-91aa-9a8a2e15e3fb,Handa South Junction,South Indian,4,Premium,₹₹₹,4.92,3,0.224,18,False
+558,RST-366e4dd7-9222-5c12-a61c-228ea99ebce0,Bhatnagar North House,North Indian,17,Premium,₹₹₹,4.18,1,0.191,22,False
+559,RST-d4b39b1d-f09a-58a5-983e-8d14a3d6aede,Kannan North Point,North Indian,26,Budget,₹,4.51,4,0.237,25,False
+560,RST-92f305a3-b81d-5d84-9323-12352bc91756,Char Pizza Dhaba,Pizza,22,Mid,₹₹,4.44,262,0.226,24,False
+561,RST-2e226e31-a090-50d7-89a2-93a61ce1be16,Ganesh Street Junction,Street Food,22,Budget,₹,4.43,1,0.222,21,False
+562,RST-a6f2c26a-a77e-5f0d-92aa-e3812b172467,Ganesh Biryani Point,Biryani,34,Mid,₹₹,4.52,7,0.218,9,False
+563,RST-eec37d6d-74df-56d1-a09b-e9040465556c,Basu North Dhaba,North Indian,2,Budget,₹,4.52,5,0.24,27,False
+564,RST-fe12c4ed-8da2-51ad-b7ef-b0ae6be3134c,Sagar Beverages Restaurant,Beverages,17,Budget,₹,4.29,1,0.182,10,True
+565,RST-f5d6d40c-b1ab-5f11-8efb-cc1d2796adf7,Vala South Foods,South Indian,45,Budget,₹,4.79,13,0.214,14,False
+566,RST-fe4e7db1-6094-5894-88d1-4886ae189a61,Chokshi Healthy Dhaba,Healthy,11,Budget,₹,4.56,3,0.267,19,False
+567,RST-ccabd7a0-ca60-5adb-bd1e-4a858ce53da3,Narain Fast Cafe,Fast Food,3,Budget,₹,4.21,2,0.216,17,False
+568,RST-98e1e138-ba70-5aea-8940-4e4b54b2ca3a,Naidu South Point,South Indian,50,Budget,₹,4.0,1,0.209,10,False
+569,RST-c951b25f-0063-557c-98e1-2f827104dd95,Gupta Biryani Express,Biryani,3,Premium,₹₹₹,3.87,1,0.177,16,False
+570,RST-4a86848c-35ca-5302-a3ba-280a274787a6,Johal Chinese Cafe,Chinese,5,Premium,₹₹₹,4.0,1,0.249,23,False
+571,RST-abe62b82-7b92-5538-82b3-bc56f74c1888,Rana Desserts Cafe,Desserts,3,Budget,₹,4.07,1,0.181,21,False
+572,RST-2a9b7ae6-2103-5d6f-b028-aa7b0ce53a36,Sangha North Junction,North Indian,8,Premium,₹₹₹,5.0,43,0.194,30,False
+573,RST-8d6a40a3-418a-543b-8472-da669ba8bb00,Dara Cafe Corner,Cafe,7,Mid,₹₹,4.15,2,0.227,13,False
+574,RST-33b6888b-ffa9-57e5-9dbe-231eabd9cc3e,Kata Desserts Cafe,Desserts,9,Premium,₹₹₹,4.3,1,0.201,16,True
+575,RST-da899219-9660-5ea7-8149-b9ebfc142c1e,Kala Cafe Point,Cafe,39,Budget,₹,4.74,21,0.198,25,False
+576,RST-083d01ab-f8a5-59c0-a7cb-7f3fc8028b72,Cherian Cafe Point,Cafe,8,Mid,₹₹,4.45,1,0.17,21,False
+577,RST-765b7148-b39b-5025-bfc9-27dd856197cc,Parikh South Express,South Indian,9,Mid,₹₹,4.49,6,0.19,16,False
+578,RST-22479fe5-1e75-59d9-89cd-19b0f871f6a7,Naik Fast House,Fast Food,34,Budget,₹,3.26,1,0.248,21,False
+579,RST-b7b93288-0739-5dba-b1d9-f5e9c0f4bb61,Ghose Beverages Restaurant,Beverages,26,Mid,₹₹,4.17,8,0.172,13,False
+580,RST-6dab5d99-91f8-5bdf-bc13-295a95539f9e,Aurora Chinese Dhaba,Chinese,4,Mid,₹₹,4.47,2,0.207,20,False
+581,RST-81e42c3a-26da-5c20-af27-7381b68ddd30,Ratti North Restaurant,North Indian,1,Mid,₹₹,4.58,5,0.197,21,False
+582,RST-cf3fdfdf-cbc5-50d2-a7e8-87cbfcb1900f,Mutti Chinese Restaurant,Chinese,13,Budget,₹,4.59,1,0.229,21,False
+583,RST-7823a4d0-727f-5892-90dc-5459975f91fd,Arora South Restaurant,South Indian,29,Mid,₹₹,4.07,2,0.224,29,False
+584,RST-086077f5-b5c5-5d0b-8185-9d8a003b5cfa,Ramachandran Cafe Biryani House,Cafe,10,Premium,₹₹₹,4.43,1,0.191,20,False
+585,RST-ec25d6a6-1821-5010-897b-3c2eeac0ed59,Kala Biryani Dhaba,Biryani,3,Budget,₹,4.8,6,0.237,12,False
+586,RST-fdb96475-4676-553d-8e8c-4d0506660140,Shanker Pizza Kitchen,Pizza,20,Budget,₹,3.6,1,0.206,20,False
+587,RST-41b8f490-4152-54f8-a57a-262f8e948381,Kannan Street Kitchen,Street Food,15,Budget,₹,4.37,95,0.184,26,False
+588,RST-012e5205-c9e6-5690-8f0b-0056aac35cf2,Bhatti Chinese Junction,Chinese,11,Budget,₹,2.39,1,0.201,16,False
+589,RST-4fa885ff-254b-542f-af31-6be8edea08c6,Mallick Desserts Biryani House,Desserts,31,Budget,₹,4.11,1,0.19,19,True
+590,RST-82723f44-1ccd-5802-b34a-f9090e52b3a2,Pillay North Corner,North Indian,23,Budget,₹,3.52,1,0.265,16,False
+591,RST-6d791557-2c05-59aa-8b9e-a6695c938827,Bassi North Biryani House,North Indian,15,Mid,₹₹,4.33,4,0.272,14,False
+592,RST-239d1e28-680a-5ad5-8a42-bd6bd2af4407,Bhavsar South Foods,South Indian,15,Mid,₹₹,5.0,16,0.242,15,False
+593,RST-32ccc0c6-a99e-51b2-b4c2-3a4cf4c56313,Kamdar Chinese Corner,Chinese,15,Mid,₹₹,4.61,5,0.229,21,False
+594,RST-5da42260-e968-55b8-a684-7a3edd129a55,Roy Biryani Corner,Biryani,9,Mid,₹₹,4.4,2,0.216,11,False
+595,RST-076bbd80-019f-5a99-a504-2ed4010a6690,Mitra Biryani Point,Biryani,8,Mid,₹₹,4.32,4,0.201,23,False
+596,RST-51b89f15-4718-5829-92af-affdfe159978,Tata South Foods,South Indian,18,Premium,₹₹₹,4.18,4,0.156,10,False
+597,RST-8ea2badb-f993-50c4-8379-e8acf95ea2ad,Chaudry North Dhaba,North Indian,13,Mid,₹₹,4.26,3,0.182,6,True
+598,RST-ee8dc0ad-b73d-5fac-88b5-60420275ec19,Yadav Pizza Corner,Pizza,9,Mid,₹₹,4.25,1,0.186,20,False
+599,RST-82b49509-d8c4-50aa-bc2c-4d846bd52b40,Garg North Corner,North Indian,2,Budget,₹,3.34,2,0.213,11,False
+600,RST-c2eef51f-7830-5e46-be33-3f6a1de6d22d,Krishnamurthy Desserts Restaurant,Desserts,17,Mid,₹₹,4.54,1,0.197,20,False
+601,RST-0106e932-e51f-55bd-9c94-a0476a8748da,Chandran Mughlai Restaurant,Mughlai,14,Mid,₹₹,4.18,7,0.198,7,False
+602,RST-efe06fbf-13df-574c-92fa-5eac9ae25965,Nair Rolls Dhaba,Rolls,5,Mid,₹₹,3.89,1,0.203,14,False
+603,RST-a6edb01e-aef4-57b8-bc5e-b58be52a0a5b,Rama Fast Kitchen,Fast Food,6,Premium,₹₹₹,4.48,1,0.187,22,False
+604,RST-a0c6169a-2f1e-59d5-b531-2215fcdf306e,Deol Pizza Foods,Pizza,4,Premium,₹₹₹,4.32,2,0.25,20,False
+605,RST-8dbf8903-4177-5370-b3f1-dffea8cd3033,Natarajan Pizza Point,Pizza,44,Premium,₹₹₹,4.5,11,0.203,16,False
+606,RST-86ac5d86-7982-52ab-8036-6c931f2a67c2,Gill Street Biryani House,Street Food,31,Mid,₹₹,4.78,3,0.213,16,True
+607,RST-ecb44c4c-295c-5da5-acb3-38c91c01dcc1,Nadkarni Street Junction,Street Food,11,Premium,₹₹₹,4.55,2,0.28,24,False
+608,RST-74c89c65-6a81-545b-8e71-c50cdfc48bed,Subramaniam Biryani Cafe,Biryani,6,Premium,₹₹₹,4.31,18,0.167,27,False
+609,RST-6328d2f0-0d07-51ff-845c-ccd8452f9316,Bir Fast Express,Fast Food,20,Budget,₹,4.3,3,0.187,22,False
+610,RST-4537db16-8ebc-5b89-bcaf-b2ddc58f8cb3,Nayak Desserts Junction,Desserts,10,Mid,₹₹,4.32,3,0.159,13,False
+611,RST-fd842a48-3f93-5a96-a179-91b579a9465d,Badami North Restaurant,North Indian,46,Budget,₹,4.85,4,0.245,25,True
+612,RST-60f437ff-49d2-52fe-9c10-3c7dd3ca19fd,Sen Fast Cafe,Fast Food,1,Budget,₹,4.08,2,0.178,17,False
+613,RST-64d184f6-3a35-59f1-a05f-828203c34461,Raja Pizza Kitchen,Pizza,1,Budget,₹,4.44,37,0.182,10,False
+614,RST-3362c328-cd49-52cb-a50c-ce7996e5f597,Vaidya Rolls Cafe,Rolls,11,Mid,₹₹,4.72,1,0.212,21,True
+615,RST-f29feeba-05e9-5e9b-961b-826478596670,Kaul Chinese Kitchen,Chinese,3,Budget,₹,4.36,80,0.236,15,False
+616,RST-b8b5e187-f8e9-5794-ad51-7327ad382c13,Thakur Chinese Junction,Chinese,12,Budget,₹,4.81,29,0.189,9,False
+617,RST-10fd9c16-2614-5ae4-a9bd-f0bcf967bf77,Arya South House,South Indian,23,Budget,₹,4.93,9,0.213,21,False
+618,RST-ba8ba455-e4eb-59bf-bad4-910e14c24871,Kaul Fast Corner,Fast Food,2,Mid,₹₹,3.15,1,0.187,19,False
+619,RST-0fec22ba-5abb-5484-bf99-ae1298d73b7e,Bail Mughlai Biryani House,Mughlai,7,Premium,₹₹₹,4.19,28,0.233,22,False
+620,RST-2e36488b-96ab-56f9-ba29-380ea50466b6,Dash Cafe Corner,Cafe,17,Premium,₹₹₹,4.45,1,0.223,12,False
+621,RST-5b3afefd-7f30-5359-840c-8583c052568f,More Chinese Foods,Chinese,27,Budget,₹,4.49,2,0.241,16,False
+622,RST-f86b6ee4-3ed2-5929-a573-2b5a7939aac5,Khalsa South Corner,South Indian,9,Budget,₹,3.81,1,0.274,16,False
+623,RST-3311b681-557c-57cb-9f7d-3964aa0a7be7,Sangha Desserts Dhaba,Desserts,3,Premium,₹₹₹,3.43,1,0.177,22,True
+624,RST-72e96650-810f-5485-8074-6013ac34828e,Kohli Rolls Foods,Rolls,11,Budget,₹,4.02,1,0.203,6,False
+625,RST-8a9366da-d54d-5802-8ba7-50b1f63e070b,Buch Biryani Restaurant,Biryani,8,Premium,₹₹₹,3.83,1,0.208,19,False
+626,RST-9611f54b-fade-579c-80cc-c22ec2734996,Bhasin Chinese Biryani House,Chinese,22,Mid,₹₹,4.19,5,0.235,14,True
+627,RST-704d6f19-c19f-5170-8cc1-e53924cb0db0,Devan North Foods,North Indian,10,Mid,₹₹,4.42,1,0.217,16,True
+628,RST-1b9b3c5b-88e7-54c1-b029-c6219125174d,Prasad Desserts Express,Desserts,4,Budget,₹,4.4,0,0.188,14,True
+629,RST-62fd0055-ccb0-57ff-91e9-ec85dae3328b,Tara Fast Restaurant,Fast Food,21,Budget,₹,3.73,1,0.203,16,True
+630,RST-bc1b33c8-3182-5a96-8e96-a2f150fda19c,Minhas Chinese Corner,Chinese,9,Mid,₹₹,4.34,6,0.184,8,False
+631,RST-b01d128b-5392-5357-875c-c4a4cabaf5e0,Jaggi Mughlai Foods,Mughlai,3,Mid,₹₹,4.03,1,0.193,17,False
+632,RST-b7b4452c-a5ca-5e55-9dfa-4747c27bb38d,Doshi Pizza Point,Pizza,11,Mid,₹₹,4.58,1,0.158,18,False
+633,RST-20e7462f-b170-55c1-8b86-2271a4ad9a7a,Prashad Mughlai House,Mughlai,42,Mid,₹₹,3.92,1,0.235,6,False
+634,RST-f0c6c573-4369-5bdc-b0e7-c353a8d489fc,Jayaraman Biryani Point,Biryani,18,Mid,₹₹,4.35,2,0.195,17,False
+635,RST-eec4c09a-4959-5132-83eb-4abf0798499f,Barad Biryani Biryani House,Biryani,5,Budget,₹,4.36,1,0.199,16,False
+636,RST-41262301-3455-5cf1-aca6-301e427aa9ec,Khanna Street Biryani House,Street Food,18,Mid,₹₹,4.58,35,0.15,15,True
+637,RST-889d4697-4fbe-5616-bcbd-14246e3aa438,Sawhney Street Corner,Street Food,4,Budget,₹,5.0,3,0.205,16,False
+638,RST-56049582-09f8-5c5e-8bc2-9881bbb84937,Narasimhan Street Restaurant,Street Food,10,Mid,₹₹,5.0,4,0.22,7,False
+639,RST-feb229cc-33c2-5612-a8b1-b2ead197e496,Desai Beverages Kitchen,Beverages,10,Mid,₹₹,4.6,16,0.165,7,False
+640,RST-9e0d8bb2-08d1-57f0-bff5-50723972736f,Mall Biryani Dhaba,Biryani,4,Premium,₹₹₹,4.6,29,0.15,23,False
+641,RST-cf897ecf-f157-5ff8-bfe6-ee7f1b9cd302,Nadkarni South Express,South Indian,5,Mid,₹₹,3.82,1,0.194,17,False
+642,RST-af96a789-377a-503b-93ed-2dd49a85e3c1,Baral Chinese House,Chinese,41,Budget,₹,4.15,2,0.209,14,True
+643,RST-73fac57f-28f3-59ba-9ceb-84d01570668d,Verma Street Biryani House,Street Food,4,Premium,₹₹₹,4.61,13,0.199,17,False
+644,RST-8d5e79cf-514d-52c0-be9e-5794ad05fc73,Sachdeva Chinese House,Chinese,24,Mid,₹₹,4.55,2,0.15,6,True
+645,RST-f081164e-0448-5088-b58c-007e4254a492,Mani Desserts Point,Desserts,15,Mid,₹₹,4.7,10,0.167,15,False
+646,RST-4f509f4d-85e8-58b2-ad6b-823e214feb80,Bajwa Mughlai Point,Mughlai,10,Mid,₹₹,4.21,1,0.236,24,False
+647,RST-00712aff-ed5e-5b0e-a4ff-432c5ebe91a9,Karnik Street Restaurant,Street Food,2,Premium,₹₹₹,4.16,1,0.238,16,False
+648,RST-03591a50-a492-58b0-b68b-f494b06098f7,Narula Street Restaurant,Street Food,3,Budget,₹,4.53,1,0.211,18,False
+649,RST-e1fdef30-66c4-5af3-91de-25de45b95e10,Oommen Fast Corner,Fast Food,3,Mid,₹₹,4.22,2,0.155,19,False
+650,RST-b47d4b94-06b7-5fb9-96fc-144f9bb1a67c,Kibe Biryani Corner,Biryani,12,Mid,₹₹,4.68,7,0.176,25,True
+651,RST-8f850b5c-d5a4-5521-ac6f-107043f52d7e,Jha Healthy Biryani House,Healthy,46,Budget,₹,4.35,5,0.216,8,True
+652,RST-20deb8ef-2e21-508a-ba3b-74984b7ee5c3,Zacharia South Biryani House,South Indian,33,Mid,₹₹,4.13,1,0.185,13,False
+653,RST-6fd0ac3b-61f9-5b19-91db-82470959729b,Bhagat South Kitchen,South Indian,1,Mid,₹₹,4.26,2,0.174,19,False
+654,RST-4dfd6da9-b56c-52bf-96f6-60d549f960b2,Kothari Street Dhaba,Street Food,4,Budget,₹,4.41,3,0.209,21,False
+655,RST-b9af0e9b-f8dd-5cd9-903f-ab7814869863,Kapadia Pizza Point,Pizza,2,Budget,₹,3.81,1,0.267,22,False
+656,RST-3c7db6dd-d1e4-5f7a-81d2-5c2cf4997cf0,Raj Fast Kitchen,Fast Food,46,Mid,₹₹,4.58,5,0.223,16,False
+657,RST-48023da6-bfdf-5e5e-a3bb-e137c602c9c3,Verma North Restaurant,North Indian,3,Premium,₹₹₹,4.38,3,0.229,23,False
+658,RST-44ff38a8-cbb2-5603-8ce2-90767b2dcb5b,Nagy Biryani Corner,Biryani,3,Budget,₹,3.35,1,0.214,12,False
+659,RST-66b59d8d-5902-5bf9-a90e-38e677b5a11b,Goswami Street Cafe,Street Food,13,Budget,₹,4.41,2,0.251,15,False
+660,RST-4280e08a-8048-580a-928a-faa9e85d3834,Sathe Fast Kitchen,Fast Food,10,Budget,₹,3.94,4,0.223,30,False
+661,RST-2441ad3a-de73-5514-b6bd-ad06b6d01402,Ahuja Biryani Biryani House,Biryani,3,Budget,₹,4.85,8,0.187,12,True
+662,RST-7f3ce37c-b1f0-5da2-8529-f4b923d7483f,Bhattacharyya Fast Express,Fast Food,15,Mid,₹₹,4.39,52,0.249,16,False
+663,RST-3544bb00-bb9f-5237-8ede-0957950d9a9b,Swamy Cafe Cafe,Cafe,2,Budget,₹,4.2,4,0.174,8,False
+664,RST-3dcfaaab-8b98-585b-8fd8-01233447f2ef,Boase Mughlai Point,Mughlai,1,Budget,₹,3.82,2,0.232,23,False
+665,RST-4e57dd08-6756-502a-a191-16706829c6b8,Hans Biryani Kitchen,Biryani,1,Budget,₹,4.53,4,0.203,17,False
+666,RST-78f0cd7a-eb78-5362-b172-8a2c64c78697,Ben Fast House,Fast Food,6,Mid,₹₹,3.73,1,0.197,6,False
+667,RST-1301d35f-061b-5f97-9050-1951c2fd7e1f,Dhaliwal Chinese Foods,Chinese,46,Mid,₹₹,4.22,9,0.197,11,False
+668,RST-68d2da60-00e7-5bf8-864c-2a10415a8542,Jayaraman Biryani Express,Biryani,10,Mid,₹₹,3.62,1,0.196,19,False
+669,RST-3069bd56-c43d-528a-8a7f-9f7b1a1df9e8,Dass South Kitchen,South Indian,21,Mid,₹₹,4.47,5,0.204,22,True
+670,RST-868fb4e8-9729-5045-999e-8eceda2e871e,Chand Fast Kitchen,Fast Food,5,Premium,₹₹₹,4.5,2,0.216,19,False
+671,RST-7b38293e-a52c-56f9-a3a5-4df29e8b4013,Ghose Fast Foods,Fast Food,18,Mid,₹₹,4.94,5,0.189,12,False
+672,RST-1d760c57-d69f-586f-a681-d8dc6960991c,Jayaraman Chinese Junction,Chinese,45,Mid,₹₹,4.26,1,0.216,23,True
+673,RST-4fbdb99c-3381-520f-bca2-b33a96d00a58,Keer Chinese Foods,Chinese,6,Mid,₹₹,3.47,2,0.18,10,False
+674,RST-416eb7de-346d-5da5-9375-51e0466eefc5,Tripathi North House,North Indian,50,Budget,₹,3.93,1,0.231,14,True
+675,RST-a2d41c2b-9bb6-5f38-bd11-7cbb8e8083d5,Brar North Express,North Indian,14,Mid,₹₹,4.9,9,0.185,21,False
+676,RST-99a0ee21-d6ea-51c5-ae23-8db8044e3d45,Sandhu Rolls Foods,Rolls,20,Mid,₹₹,3.87,1,0.178,20,False
+677,RST-70abb4b7-4108-55f5-a57a-e6d1b9f98c1f,Sibal South Foods,South Indian,4,Mid,₹₹,3.87,3,0.226,26,False
+678,RST-9d65e0d8-25d6-5aea-9368-0d39eca86c38,Mukhopadhyay North House,North Indian,14,Budget,₹,3.78,1,0.2,18,False
+679,RST-0ae9868d-6b2d-5a9e-b66a-646d6e858246,Gala Healthy Biryani House,Healthy,9,Mid,₹₹,4.33,7,0.223,15,False
+680,RST-978d5333-79bb-500e-939e-639264a50988,Hora South Cafe,South Indian,44,Mid,₹₹,3.23,1,0.162,23,True
+681,RST-b84c9ca5-f97e-5c87-966d-95d589c8d00b,Konda Cafe Foods,Cafe,36,Budget,₹,4.08,1,0.209,17,True
+682,RST-049b0a66-2510-5890-9418-19e0c75975c6,Samra Fast Restaurant,Fast Food,6,Budget,₹,3.8,2,0.219,16,False
+683,RST-6f75a859-83f1-598c-a969-6e208a5bbe9d,Goda Rolls Point,Rolls,42,Budget,₹,3.94,2,0.208,23,False
+684,RST-0b0c78ae-95c1-55cb-a0a0-4f0c40e122e8,Kothari Fast Kitchen,Fast Food,34,Budget,₹,4.49,3,0.244,22,False
+685,RST-7f3492f5-a845-5db2-957e-f5022bd9918a,Mitter South Kitchen,South Indian,12,Mid,₹₹,3.69,1,0.194,14,False
+686,RST-c78cacd4-d857-5ea4-bff4-c130e59515e1,Mangal Beverages Foods,Beverages,1,Mid,₹₹,4.15,3,0.242,19,False
+687,RST-28e93ee2-57dc-5087-8a2c-1623fa8d3963,Sen Beverages Cafe,Beverages,2,Premium,₹₹₹,4.53,2,0.184,16,False
+688,RST-be16161a-dbd4-5250-8be9-8baa8358402b,Jaggi Chinese Express,Chinese,1,Mid,₹₹,4.22,1,0.261,20,False
+689,RST-c67f95d8-7c46-59ed-8764-4acf46e752ff,Magar Desserts Express,Desserts,2,Mid,₹₹,4.41,1,0.236,17,True
+690,RST-a5de0341-1965-5202-837c-5b4a93a92241,Srivastava Fast Express,Fast Food,47,Budget,₹,4.62,5,0.15,19,False
+691,RST-8b1ebefe-de1f-5908-850a-fedb5cd2656b,Buch Mughlai Express,Mughlai,3,Budget,₹,4.63,82,0.231,9,False
+692,RST-854799c2-62bc-5289-bfc2-78ebe6717ac6,Parsa Desserts Express,Desserts,17,Mid,₹₹,4.37,2,0.204,17,False
+693,RST-50ffbf3b-259c-5131-a030-89ffd816d13b,Rao North Junction,North Indian,14,Budget,₹,3.96,3,0.28,18,False
+694,RST-331f58b5-8605-53b4-b68c-41751afbaa39,Purohit Cafe House,Cafe,14,Budget,₹,4.72,8,0.226,20,True
+695,RST-f4ec8d22-3a7e-5b6d-b797-02da4beedc7e,Ganesh Street Restaurant,Street Food,3,Premium,₹₹₹,4.34,2,0.195,15,False
+696,RST-ab7be88f-f63b-550c-85f9-f1686186e04d,Sinha Rolls Express,Rolls,11,Mid,₹₹,3.79,0,0.25,24,False
+697,RST-7afe6776-aa16-51e1-8fbb-e93aed31825c,Sastry North Corner,North Indian,13,Budget,₹,4.69,4,0.241,13,True
+698,RST-5c282a6b-5d65-52d8-862e-3379977766c9,Sami Desserts Dhaba,Desserts,11,Mid,₹₹,4.24,1,0.188,19,False
+699,RST-c83fd428-8769-56ae-8c5f-2bf40a06f1a9,Tiwari Pizza Biryani House,Pizza,3,Mid,₹₹,4.86,6,0.267,16,False
+700,RST-9489b98d-1ffb-5b45-b5f0-5644e1c0c377,Sant Chinese Kitchen,Chinese,19,Premium,₹₹₹,4.89,1,0.206,6,False
+701,RST-09b15f3b-c920-51c6-9545-00d191b025af,Dugal Cafe Dhaba,Cafe,1,Mid,₹₹,3.75,2,0.156,21,True
+702,RST-556aea49-86f4-5d28-9a7c-bcf50c6f5e42,Subramaniam Fast Restaurant,Fast Food,12,Budget,₹,4.62,19,0.212,19,False
+703,RST-8d405a40-7758-5802-9b34-08f14e49cd94,Bahri Cafe Point,Cafe,7,Budget,₹,4.62,2,0.218,13,False
+704,RST-1dda223f-c8ea-5a27-aa00-a0ae327c7baa,Raj Pizza Foods,Pizza,4,Budget,₹,4.58,13,0.182,22,False
+705,RST-2410148c-6197-58ac-8ed2-0a85cd492697,Sane Chinese Corner,Chinese,25,Mid,₹₹,4.54,7,0.215,10,False
+706,RST-92421973-0ba4-5e6f-b147-1de28d86ad42,Chacko Street Junction,Street Food,3,Mid,₹₹,4.53,1,0.252,20,False
+707,RST-510f8c83-9764-50f6-bec2-be1ccb1cc82a,Mital Fast Cafe,Fast Food,40,Mid,₹₹,4.88,2,0.248,17,False
+708,RST-5d6b13ad-fdd7-516f-9fdd-407539c574e3,Yogi Biryani Dhaba,Biryani,33,Mid,₹₹,3.74,6,0.196,16,False
+709,RST-071637f3-b82b-5e2c-bd51-e09994143f0f,Dua Biryani Junction,Biryani,6,Mid,₹₹,4.07,1,0.269,16,False
+710,RST-854ee25f-bdd3-5812-b971-1ed37dd2cc28,Gill North Restaurant,North Indian,5,Budget,₹,3.59,1,0.203,16,True
+711,RST-c3a8e2fc-1dd1-5014-8200-127fc3cf2c62,Kurian Pizza House,Pizza,2,Budget,₹,4.64,17,0.185,25,False
+712,RST-57bc4014-d0dc-5cf5-95b6-c585c3610332,Rai Biryani Dhaba,Biryani,38,Budget,₹,3.91,6,0.222,9,False
+713,RST-bfcffb08-e62e-5613-a733-5161fb4074b7,Sheth Street Biryani House,Street Food,13,Mid,₹₹,4.66,13,0.205,14,False
+714,RST-827bd35d-1f86-5dce-96ad-8b91046e8aeb,Mohan Street Point,Street Food,1,Premium,₹₹₹,4.06,2,0.207,22,False
+715,RST-08c444bb-c6ab-5d07-b2bd-a19bdb526ff4,Setty Desserts Cafe,Desserts,9,Budget,₹,3.44,1,0.197,18,False
+716,RST-acef56b2-f8ff-5a00-a58e-965ce3cc72a8,Mander South Corner,South Indian,2,Mid,₹₹,4.12,4,0.203,16,False
+717,RST-1e82cf25-0f6d-51db-984d-e2100c496847,Prashad Rolls Cafe,Rolls,11,Budget,₹,4.05,1,0.217,20,True
+718,RST-d9820784-c4ed-5e55-9f8f-72546f566193,Srivastava North Biryani House,North Indian,9,Mid,₹₹,4.34,79,0.15,18,False
+719,RST-9f4277d6-8c41-58e5-8405-e4de8bccea71,Bora Beverages Foods,Beverages,1,Budget,₹,4.85,2,0.199,16,True
+720,RST-8b19c990-4259-5cb1-a0fc-8792c28d65d9,Nath Biryani Kitchen,Biryani,26,Mid,₹₹,3.66,0,0.218,24,True
+721,RST-8fe2a3a1-10ab-5b3f-9bf1-89994bb3ee0d,Deshpande Street House,Street Food,4,Budget,₹,4.6,3,0.239,6,False
+722,RST-4b756b4e-c899-57c8-abbc-50c3a85ab37c,Singh Chinese Kitchen,Chinese,10,Budget,₹,4.56,5,0.208,20,True
+723,RST-e3d9f19d-1649-5aac-904c-e3ba4e85d00d,Hayre South Dhaba,South Indian,14,Mid,₹₹,3.85,1,0.202,23,True
+724,RST-b4773eae-475d-5e9e-9110-14cd979a0acc,Dubey Healthy Kitchen,Healthy,44,Budget,₹,3.79,5,0.203,13,False
+725,RST-4ebf8c90-db6b-5f97-a100-066a4b9c70c6,Gupta Fast Kitchen,Fast Food,9,Mid,₹₹,3.73,1,0.216,16,False
+726,RST-e94c962f-b574-558f-843a-f99c2aceb8ae,Agrawal Cafe Foods,Cafe,38,Budget,₹,4.03,3,0.207,20,False
+727,RST-4bcdf170-b49c-5a14-a357-80d5e33768a8,Arya Mughlai Junction,Mughlai,6,Premium,₹₹₹,4.04,1,0.192,10,False
+728,RST-c732060d-5390-5300-a096-550be538da28,Tella Biryani Cafe,Biryani,30,Budget,₹,3.95,1,0.219,20,True
+729,RST-078008a9-c583-5fde-80e3-055a6658df91,Prasad Biryani Express,Biryani,3,Mid,₹₹,4.12,1,0.215,12,False
+730,RST-bc53ba72-9801-5422-a99a-af213324ae20,Swamy Fast Junction,Fast Food,18,Premium,₹₹₹,4.85,3,0.266,14,False
+731,RST-d51bad42-41bd-52be-abe1-af90bac65937,Ravel Beverages Cafe,Beverages,2,Mid,₹₹,4.59,4,0.16,19,True
+732,RST-6156093a-0c6c-5777-b704-33775bf59e1b,Sagar Street Point,Street Food,48,Budget,₹,4.26,2,0.197,25,True
+733,RST-86951921-15c6-5305-a33e-08bd198dd667,Rana Chinese Express,Chinese,43,Mid,₹₹,4.61,7,0.194,13,True
+734,RST-a90e136c-1cc1-5ef5-9301-9467c75e463e,Prakash Rolls Express,Rolls,7,Budget,₹,3.1,1,0.165,21,True
+735,RST-5c1238f1-7837-55a0-91e2-bee8ea4626c6,Rajagopalan Chinese Express,Chinese,9,Mid,₹₹,4.55,2,0.187,26,False
+736,RST-22a40094-b211-5d12-86ea-242b76c55487,Suri Fast Dhaba,Fast Food,12,Mid,₹₹,4.84,71,0.214,15,True
+737,RST-d1de0e5a-65d5-5016-9c53-b5895779e021,Morar Desserts Biryani House,Desserts,4,Mid,₹₹,4.06,0,0.173,15,False
+738,RST-92bdf9f4-bacb-50eb-b9e2-3475edcb5fb0,Bobal Cafe Foods,Cafe,16,Mid,₹₹,4.45,8,0.174,20,False
+739,RST-9f03cd60-cb82-58da-b9ee-a40ff6562e86,Rege Biryani Junction,Biryani,17,Budget,₹,3.93,2,0.177,14,False
+740,RST-1f7934f2-1172-5867-8823-dbd58124aa26,Barad Chinese Corner,Chinese,9,Budget,₹,3.6,1,0.265,14,False
+741,RST-9f20bf85-c404-5c5a-9365-20469f9b3b95,Dash South House,South Indian,2,Mid,₹₹,4.74,6,0.208,14,False
+742,RST-5c6f0b38-ebec-5094-886a-f9152e8d441c,Rajan North Express,North Indian,38,Mid,₹₹,3.83,1,0.158,17,False
+743,RST-46edef4e-c817-5962-9b6c-de3268807834,Gaba Chinese Cafe,Chinese,2,Mid,₹₹,4.36,1,0.277,16,False
+744,RST-6e730547-4fb3-53bb-8ad4-5b75c57a9bb4,Hari Cafe Express,Cafe,13,Mid,₹₹,4.14,20,0.21,20,True
+745,RST-58d2b76d-4520-5133-a112-0b420c0bfb75,Sarin Biryani Restaurant,Biryani,2,Mid,₹₹,4.95,1,0.167,33,False
+746,RST-53ad24b6-f21c-5a48-bcfa-bd85c67930bc,Kumer Chinese House,Chinese,2,Premium,₹₹₹,3.62,1,0.238,20,False
+747,RST-1d9f2ab2-0fd4-527b-bb2c-fed3ec1545de,Pall Rolls Point,Rolls,1,Mid,₹₹,4.12,4,0.225,18,True
+748,RST-64a0e040-79f8-59f6-9012-55c39b10614b,Upadhyay South Dhaba,South Indian,6,Budget,₹,3.6,1,0.204,28,False
+749,RST-f8f1a626-d024-5e07-a482-5445e46dca8c,Suresh South House,South Indian,14,Budget,₹,4.3,2,0.15,31,False
+750,RST-528b4726-3c7e-51ab-8e89-2b602198697a,Pillay Street House,Street Food,9,Mid,₹₹,4.1,11,0.203,9,True
+751,RST-a110543b-ded3-59b9-86ff-f934724dfb69,Bhardwaj North House,North Indian,16,Budget,₹,4.93,16,0.228,24,False
+752,RST-cc1b7ab8-d4fe-5056-8972-c8f32a49679f,Rajan Biryani Cafe,Biryani,16,Budget,₹,4.62,6,0.254,6,False
+753,RST-ebd305ec-0cdf-5934-b01e-eb43305bfe57,Samra Fast Foods,Fast Food,2,Mid,₹₹,3.82,1,0.21,19,False
+754,RST-bc684f40-497f-5ce8-9c82-31dbd8cdc8a6,Koshy South Point,South Indian,1,Mid,₹₹,3.88,3,0.156,10,False
+755,RST-486b6ab7-94a8-5c91-bf59-5baf4571a1b4,Kibe Chinese Dhaba,Chinese,13,Premium,₹₹₹,3.84,1,0.182,22,True
+756,RST-b9c4611a-8d72-5bec-b902-539a04d82bf0,Sridhar South House,South Indian,15,Budget,₹,3.71,1,0.199,13,True
+757,RST-4a5c21aa-34da-5305-b091-46b33814f0b3,Banerjee Chinese Junction,Chinese,10,Budget,₹,4.55,4,0.28,7,False
+758,RST-f5494842-dd1f-57b3-9787-8defcdf130a6,Pathak Cafe Express,Cafe,4,Mid,₹₹,4.11,13,0.213,21,False
+759,RST-f11836ba-470e-5a2b-ae16-ba442bf58c68,Bala Biryani House,Biryani,25,Budget,₹,4.36,3,0.226,23,False
+760,RST-88330314-03ad-5e01-a71e-edb7a69a924c,Divan Biryani Point,Biryani,1,Premium,₹₹₹,4.28,2,0.223,20,False
+761,RST-8a92731f-0eed-5c47-9b38-e56945bd60c7,Lal Chinese Restaurant,Chinese,14,Mid,₹₹,4.07,1,0.217,13,False
+762,RST-5aa7138c-2ced-5d84-b1c6-d6b2a2293b85,Shah Street Express,Street Food,2,Mid,₹₹,4.37,2,0.19,17,False
+763,RST-c4504c6b-4f4b-50a8-97b7-15e1a6701734,Din North Point,North Indian,15,Premium,₹₹₹,4.06,2,0.237,25,False
+764,RST-88ee702a-e39b-5a4a-92d0-cd947dfd297f,Kumar Cafe House,Cafe,7,Mid,₹₹,4.21,11,0.222,17,False
+765,RST-bbc7af11-c71e-559a-acb7-1098781a438a,Kota Chinese Dhaba,Chinese,18,Budget,₹,4.54,10,0.198,9,False
+766,RST-550c39e0-857e-5c33-bab2-def174ea9808,Edwin Street Point,Street Food,1,Mid,₹₹,4.11,3,0.23,11,False
+767,RST-3800bb29-ccde-5856-8f81-ae48f1e382bc,Arora Chinese Kitchen,Chinese,10,Mid,₹₹,4.36,4,0.201,19,True
+768,RST-49c54b75-552b-5cbe-bc1f-824173ef62c0,Dada North Junction,North Indian,2,Mid,₹₹,4.16,1,0.169,14,False
+769,RST-9054e406-8723-57ab-a206-d0d03af3ae83,Chanda Fast Corner,Fast Food,16,Premium,₹₹₹,4.19,3,0.236,10,False
+770,RST-55f9548b-f678-5380-8ed2-edc074be9aa7,Rajagopalan South Express,South Indian,2,Budget,₹,4.95,6,0.182,23,False
+771,RST-2d443814-0570-57cf-9982-c79a252f9ec6,Rao Desserts Cafe,Desserts,1,Mid,₹₹,3.83,1,0.202,17,False
+772,RST-30411e78-30f0-5cc9-804d-c8d8440daa4d,Buch Pizza Point,Pizza,18,Budget,₹,4.81,93,0.227,18,False
+773,RST-710675e3-6f0a-5f1e-8bd5-fd32141ef1a4,Vasa Pizza House,Pizza,1,Budget,₹,3.69,1,0.164,18,False
+774,RST-65c77818-7e66-5fe4-acad-92f6a0737762,Gulati South Foods,South Indian,3,Mid,₹₹,4.3,2,0.207,7,False
+775,RST-8e3fe63b-8d00-5510-80db-075432bd5e43,Sampath Rolls House,Rolls,26,Mid,₹₹,4.37,20,0.217,10,False
+776,RST-4acfdcf5-3df8-5dbe-be93-8001d16937e5,Gandhi Chinese Biryani House,Chinese,25,Mid,₹₹,4.56,55,0.237,15,False
+777,RST-4f96066b-90af-5b4e-8d9a-df6e0abcb1a9,Sane Healthy Cafe,Healthy,30,Budget,₹,4.42,4,0.208,32,True
+778,RST-b38678cc-4337-580a-aa32-f787836a960e,Krishnan Rolls Kitchen,Rolls,5,Budget,₹,4.97,62,0.216,19,True
+779,RST-69e24a73-a7c6-5cc2-869a-a15bab8ae034,Mittal Fast Biryani House,Fast Food,10,Mid,₹₹,4.3,2,0.186,30,False
+780,RST-e74f1266-12b8-5425-95e2-717de032218f,Tella Cafe Express,Cafe,22,Mid,₹₹,4.34,4,0.23,25,True
+781,RST-5c5a13a8-2965-59ab-9459-f9d013c3ea9e,Walia Fast Restaurant,Fast Food,2,Premium,₹₹₹,4.48,2,0.15,17,False
+782,RST-2416396e-d1de-57fb-b484-b275038efe59,Raja Fast Express,Fast Food,19,Mid,₹₹,4.86,18,0.21,7,False
+783,RST-6596e2bd-cbdf-5b22-b299-5b3a49accf30,Morar South Restaurant,South Indian,2,Premium,₹₹₹,5.0,699,0.273,17,True
+784,RST-50591769-9fee-5fee-a710-09cff9e60e10,Sabharwal Pizza Restaurant,Pizza,37,Mid,₹₹,4.35,3,0.218,16,False
+785,RST-482efbdd-f826-5dd6-84fa-3d99e4ad931f,Chakraborty Chinese Dhaba,Chinese,14,Budget,₹,3.78,2,0.187,9,True
+786,RST-13a8349c-d461-5fe4-9897-99a030b08304,Chopra North Biryani House,North Indian,9,Mid,₹₹,4.2,3,0.15,13,True
+787,RST-22f934f2-2883-589f-9d00-c0e6f20b9db1,Padmanabhan Beverages Biryani House,Beverages,8,Mid,₹₹,4.85,1,0.253,13,False
+788,RST-dead7f1c-af5d-5e3c-9436-681f3ebb5461,Dhar North Junction,North Indian,3,Premium,₹₹₹,4.23,3,0.206,20,False
+789,RST-3ce8c47b-3df5-5c4a-84e1-10ef8c1e872f,Luthra Pizza Corner,Pizza,5,Mid,₹₹,3.51,1,0.188,28,False
+790,RST-130c8f5c-3b13-526d-8bd5-c2a05fee8fa8,Kadakia North Kitchen,North Indian,19,Mid,₹₹,4.26,14,0.201,23,False
+791,RST-36cb4687-887b-5f72-a963-70985730c34f,Rao Biryani House,Biryani,10,Mid,₹₹,4.11,1,0.15,22,True
+792,RST-107e1f28-9d55-5c68-ad63-3963235f1ca3,Morar Cafe Dhaba,Cafe,10,Mid,₹₹,4.98,15,0.182,20,True
+793,RST-e1df8fc1-7600-57bd-9332-72c4ac3558fd,Ahuja North Kitchen,North Indian,3,Premium,₹₹₹,4.21,3,0.172,28,False
+794,RST-4aabecaa-a4aa-58bc-a333-66df23a4d21d,Ganguly Pizza House,Pizza,17,Premium,₹₹₹,4.21,1,0.219,18,False
+795,RST-80e01aa9-a462-55fa-8f73-2e6b7a467cf8,Swamy Fast Biryani House,Fast Food,6,Budget,₹,3.82,1,0.224,18,False
+796,RST-ef3f90bd-3919-58cd-be24-c8bfc10eb8e2,Agarwal Cafe Foods,Cafe,3,Budget,₹,4.38,2,0.224,17,True
+797,RST-2755afb2-a302-5b85-bc06-3552ba5430ea,Chatterjee South Junction,South Indian,42,Mid,₹₹,4.17,3,0.247,17,False
+798,RST-3c50c195-7eac-5c18-a46a-4782c9d98087,Boase Desserts Restaurant,Desserts,9,Mid,₹₹,4.45,9,0.169,12,False
+799,RST-a882af71-7d9a-5b0a-8da0-c21838cdbae8,Sahni Biryani Biryani House,Biryani,10,Premium,₹₹₹,4.79,2,0.211,17,True
+800,RST-a0cd434a-0fc2-5805-8740-0a90a80743a7,Vohra Biryani Biryani House,Biryani,47,Budget,₹,4.18,1,0.191,20,False
+801,RST-de8128b5-039d-5678-978d-4a184be87bf3,Saha Chinese Point,Chinese,6,Premium,₹₹₹,4.97,2,0.268,23,False
+802,RST-3ae0abd8-75a5-5d04-b3ed-70c2a1ba94f4,Mani Chinese Foods,Chinese,42,Mid,₹₹,3.89,5,0.246,12,False
+803,RST-bdf2fbe2-88b2-5e26-8b11-c33904faaec8,Sankar Biryani Foods,Biryani,17,Budget,₹,4.74,15,0.19,23,False
+804,RST-32806193-7192-5720-8a26-fb7d79cd5c92,Garde North Restaurant,North Indian,14,Budget,₹,4.36,1,0.201,7,True
+805,RST-9ffe37f0-b0ae-5677-acc6-88fd4cb3cbf3,Goda Biryani Express,Biryani,3,Mid,₹₹,4.34,2,0.205,12,True
+806,RST-10651dc0-15ef-596c-a5bd-21e8018dbb32,Prasad Pizza Foods,Pizza,1,Budget,₹,4.04,2,0.189,24,False
+807,RST-4e54566d-ce32-5ea4-a238-1c00387635cc,Grewal Biryani Foods,Biryani,7,Premium,₹₹₹,3.74,1,0.194,22,False
+808,RST-9f2af0ed-09b2-5f05-825e-73d27424c019,Desai South Kitchen,South Indian,1,Mid,₹₹,3.6,1,0.172,27,False
+809,RST-a600dd9f-21ae-5734-ae62-3c0b513d71cf,Hora Chinese Point,Chinese,1,Mid,₹₹,4.22,2,0.2,14,True
+810,RST-999017a2-86fd-5cd2-90ec-ad68be22adc0,Sur Biryani Dhaba,Biryani,12,Budget,₹,3.17,1,0.164,14,False
+811,RST-21cf0e81-6405-58f3-956d-f46521076656,Gopal Pizza Biryani House,Pizza,19,Premium,₹₹₹,4.06,2,0.184,12,False
+812,RST-f2d5634b-bcb6-59ca-87d6-b05266e1a9eb,Thakkar Mughlai Foods,Mughlai,3,Mid,₹₹,4.2,1,0.222,21,True
+813,RST-caea672a-679e-5382-94d7-eaa5c0c3a6bc,Choudhary Fast Biryani House,Fast Food,19,Mid,₹₹,3.97,1,0.172,21,False
+814,RST-0c4ea982-fe7b-5295-8ce4-ec684a675706,Seshadri Pizza House,Pizza,43,Mid,₹₹,4.46,4,0.207,14,False
+815,RST-e5b36f6f-b9cc-5443-948a-763ce59eaedf,Kala North Corner,North Indian,20,Mid,₹₹,4.39,1,0.196,23,False
+816,RST-0ec7eb69-bfe5-56a4-b1e5-65103dfdde90,Grewal Street Junction,Street Food,23,Premium,₹₹₹,3.63,1,0.241,24,True
+817,RST-60d7e9f0-18ce-5d25-a0f1-03d09d7a0f84,Iyer Chinese Kitchen,Chinese,17,Mid,₹₹,3.77,2,0.164,20,True
+818,RST-e278edb7-8e32-5ced-8be4-3595f2191aad,Bhargava Chinese Foods,Chinese,3,Mid,₹₹,2.88,1,0.28,16,False
+819,RST-55528833-780d-508a-981c-1b98d4ada575,Goswami South House,South Indian,6,Budget,₹,5.0,43,0.185,16,False
+820,RST-4238f057-29af-54d2-8c31-f15e4ea2c26d,Handa North Express,North Indian,42,Budget,₹,4.98,4,0.218,20,False
+821,RST-66f6d185-8aba-5fe3-bb4e-1737fd48d877,Lad Desserts Corner,Desserts,15,Mid,₹₹,3.52,1,0.235,15,True
+822,RST-00f4a58d-79e4-52a6-beee-8638317c6573,Rege South Restaurant,South Indian,23,Budget,₹,4.31,2,0.248,24,False
+823,RST-0141cdec-533a-5b8e-8a33-baa728f20301,Sastry Chinese Biryani House,Chinese,45,Mid,₹₹,4.7,14,0.212,20,True
+824,RST-394ea30e-b3b4-5996-8a61-c04a6d83eba0,Chopra South Biryani House,South Indian,3,Premium,₹₹₹,4.35,4,0.242,29,False
+825,RST-139ebac6-0fac-5d2b-af95-3fad65e1c462,Ganesan Street Restaurant,Street Food,5,Mid,₹₹,4.16,2,0.173,21,False
+826,RST-aa60acf9-ffc7-5ec8-98c9-6807c16e40ce,Buch Desserts Dhaba,Desserts,14,Budget,₹,4.86,184,0.184,12,False
+827,RST-afd43d9f-205f-5f7e-9605-885a69356206,Memon Mughlai Restaurant,Mughlai,1,Mid,₹₹,4.49,1,0.272,17,False
+828,RST-2b52420a-1553-5e63-8daf-cce19e4ef632,Chada Cafe Biryani House,Cafe,11,Budget,₹,4.44,6,0.206,22,False
+829,RST-738b123a-b679-58eb-8540-ad30e6b6ca25,Purohit Mughlai Kitchen,Mughlai,25,Mid,₹₹,3.94,2,0.245,28,False
+830,RST-c78d38d3-7555-5e12-924c-8eb89fdd8eee,Dash Biryani Corner,Biryani,13,Mid,₹₹,4.63,5,0.187,13,False
+831,RST-c34db3fc-27e8-5ae5-a4fd-d073814e3655,Malhotra South Biryani House,South Indian,4,Mid,₹₹,3.28,0,0.186,20,True
+832,RST-4b310ee2-b7bd-561c-a36f-8668ab409aba,Bhatt Chinese Biryani House,Chinese,19,Mid,₹₹,3.89,2,0.201,16,True
+833,RST-59d45f4f-6194-5fc2-9846-1604f8d553fa,Oommen Chinese Dhaba,Chinese,2,Mid,₹₹,4.36,8,0.192,7,False
+834,RST-373e8236-5ceb-581a-a287-78f37e1778e0,Balan Rolls Restaurant,Rolls,35,Budget,₹,4.45,3,0.252,21,True
+835,RST-f07af409-0191-532e-8f8a-018129de1303,Keer North Kitchen,North Indian,2,Budget,₹,2.96,1,0.243,11,False
+836,RST-7c9b6094-bdc3-5b6b-97bb-8aee1b27ac37,Sridhar North Foods,North Indian,31,Budget,₹,3.85,2,0.232,15,False
+837,RST-2f613ed1-3b26-5b3e-bd2f-9d6d8b61e8c4,Sundaram Pizza Kitchen,Pizza,9,Premium,₹₹₹,4.46,2,0.217,19,False
+838,RST-9e3fca33-a2a0-5a20-9ec7-85f965e2e794,Chaudhuri North Restaurant,North Indian,7,Budget,₹,4.62,13,0.15,15,False
+839,RST-020eb781-a7f0-51ab-96ed-0cf131f53df0,Andra North House,North Indian,9,Mid,₹₹,4.63,2,0.239,14,False
+840,RST-7b8dccf5-8246-56cf-af3c-f32697b9a6ca,Bhat North Point,North Indian,3,Budget,₹,4.64,10,0.28,14,False
+841,RST-9903d135-e0cc-5bd5-9efc-9f00ad0e9f0e,Lata Pizza Kitchen,Pizza,8,Mid,₹₹,4.32,11,0.216,14,True
+842,RST-c9c149f1-f26a-5203-903e-46892bdecd55,Amble North Point,North Indian,29,Budget,₹,4.18,1,0.194,13,True
+843,RST-cd772fcb-f2f3-5321-875e-8edc4dcd0bd2,Barman North Point,North Indian,24,Mid,₹₹,4.28,2,0.242,20,False
+844,RST-6bdee807-ba93-516d-99d0-52c69718f7a0,Chatterjee South Biryani House,South Indian,3,Budget,₹,4.45,1,0.2,24,False
+845,RST-36f5cae0-d169-5ce4-805d-2a4827108e10,Kakar Desserts Biryani House,Desserts,16,Mid,₹₹,3.88,2,0.207,20,False
+846,RST-39aa0e05-ef49-5e2e-881e-f5906c1e26ca,Vig South Restaurant,South Indian,30,Budget,₹,4.4,2,0.198,21,False
+847,RST-0269987b-55a2-5684-b5b9-cf5319d68837,Amble North Foods,North Indian,26,Budget,₹,3.68,2,0.209,25,False
+848,RST-2a0caf86-403d-5f61-b70c-a30f0ea6bbf2,Prashad Mughlai Kitchen,Mughlai,7,Budget,₹,4.78,3,0.207,20,True
+849,RST-af57bbb4-6a6a-5843-bebb-809cca45c1ca,Venkatesh Cafe Cafe,Cafe,1,Mid,₹₹,4.08,34,0.244,15,False
+850,RST-2db0d6cb-a445-5c34-b11e-df00e37792d5,Lata South Foods,South Indian,40,Premium,₹₹₹,4.59,4,0.181,15,False
+851,RST-8ae7a477-360f-5078-8218-c7b911a06d7e,Sunder South Foods,South Indian,6,Budget,₹,4.13,2,0.225,9,False
+852,RST-3b3f356b-6b0e-5f57-90ad-bcc52ea31249,Solanki South House,South Indian,6,Premium,₹₹₹,3.28,1,0.177,17,False
+853,RST-5258d69c-de14-5b0f-94bc-36566dd8b70b,Nazareth Rolls Restaurant,Rolls,21,Budget,₹,4.45,1,0.245,11,False
+854,RST-24c5aac4-5bde-5b5b-9e62-7f57fdbb7a1d,Sanghvi South Kitchen,South Indian,4,Mid,₹₹,4.19,1,0.236,15,False
+855,RST-b55e2db7-8c37-5289-8c1a-c5dc7b41e794,Nayar Street Biryani House,Street Food,28,Mid,₹₹,4.12,1,0.257,20,False
+856,RST-f9d07268-60fa-52f0-9f15-0e54da5b7615,Prabhakar Beverages Express,Beverages,1,Budget,₹,4.7,15,0.226,20,False
+857,RST-28d92b7c-188e-5b5c-8d79-bd9bb00e5694,Oza Fast Cafe,Fast Food,20,Mid,₹₹,3.74,18,0.22,19,False
+858,RST-2eaac9c8-5512-5950-888c-eda149d5374e,Murty North Corner,North Indian,45,Budget,₹,4.84,2,0.239,14,False
+859,RST-bfae9c69-c845-5f61-a9bc-cac0a926e415,Khatri Cafe Restaurant,Cafe,50,Mid,₹₹,4.41,23,0.201,17,False
+860,RST-28ced8e3-8044-5e39-b666-c33ff85396a3,Patel Rolls Junction,Rolls,39,Budget,₹,4.01,1,0.212,21,False
+861,RST-23eb06c1-472c-5a94-95fd-36d3c75b4a15,Rastogi Desserts Foods,Desserts,32,Mid,₹₹,4.73,3,0.277,10,False
+862,RST-e08ad069-d61f-5ecc-9808-63f16afff10e,Radhakrishnan North Cafe,North Indian,4,Budget,₹,4.44,19,0.236,12,False
+863,RST-6eea5fdc-d560-5156-989f-22df521d2eba,Bhandari Rolls Express,Rolls,45,Premium,₹₹₹,4.07,1,0.206,18,False
+864,RST-2d73083c-3ac5-5142-9d33-1f8466044289,Parekh Desserts Express,Desserts,39,Budget,₹,3.65,3,0.276,15,False
+865,RST-a8884ed5-e9fd-50fb-96f2-f1ae74bafc2b,Narayanan Street Biryani House,Street Food,10,Mid,₹₹,4.12,2,0.179,10,True
+866,RST-f1fd9fc2-7a6c-5d60-a28f-4b1fb004608b,Chaudhry Fast Junction,Fast Food,6,Budget,₹,4.21,1,0.21,15,False
+867,RST-6e43f02a-8e59-5c30-99c8-005f8a677f08,Aggarwal Biryani Restaurant,Biryani,2,Budget,₹,4.34,2,0.208,18,False
+868,RST-5766f237-83a3-5c4d-aa49-3238ed6a596f,Shan Biryani Biryani House,Biryani,12,Budget,₹,4.52,4,0.245,18,False
+869,RST-89e17bb8-7619-58db-b4bb-d4ef4a264492,Ratti Rolls Biryani House,Rolls,17,Mid,₹₹,4.28,1,0.202,28,False
+870,RST-fcece309-094b-52d4-92d2-75e172a61944,Dewan Mughlai Junction,Mughlai,7,Budget,₹,4.58,1,0.219,18,False
+871,RST-512f6a77-7981-5299-8e90-ecb4b0bebd83,Bal Fast Biryani House,Fast Food,7,Mid,₹₹,4.02,1,0.257,20,False
+872,RST-989be8b3-30c0-58b9-b3e1-4b145074c960,Das South Express,South Indian,11,Premium,₹₹₹,4.46,2,0.189,20,True
+873,RST-67b01128-88ff-5884-9f73-9c6ff1b34f22,Wali North Point,North Indian,1,Budget,₹,3.76,4,0.223,29,True
+874,RST-a83f4203-4d51-5748-aed8-2aa4304049a1,Mammen Fast Cafe,Fast Food,44,Budget,₹,4.38,4,0.188,35,True
+875,RST-f6875f03-a734-538b-91f5-0d124cc84337,Kothari Cafe Kitchen,Cafe,4,Budget,₹,4.87,45,0.163,17,False
+876,RST-010c130e-ff3d-5d47-85a0-9fe567b09c96,Pillay North House,North Indian,2,Budget,₹,4.83,17,0.15,32,False
+877,RST-ec292785-0b0f-59d0-bc3d-8cfe7e3b9514,Seth Biryani Junction,Biryani,1,Mid,₹₹,4.48,2,0.201,18,False
+878,RST-cf10eeb4-e315-5c27-8580-4c350d849806,Soman Street Foods,Street Food,30,Mid,₹₹,3.34,1,0.263,23,False
+879,RST-97e3eecd-7600-555b-b7bc-aaab62fd441e,Varma Biryani Biryani House,Biryani,31,Budget,₹,4.93,4,0.211,18,True
+880,RST-7896da6e-777d-58bc-b31e-999137219ec4,Sachdev South Biryani House,South Indian,2,Budget,₹,5.0,25,0.218,21,False
+881,RST-8908bb1e-d7cd-56f3-94a2-9473e1aead4b,Guha Chinese Express,Chinese,2,Mid,₹₹,3.66,1,0.274,18,False
+882,RST-153a0314-d771-5a6c-a464-f46c45087738,Aggarwal Biryani Cafe,Biryani,8,Budget,₹,4.17,2,0.176,25,False
+883,RST-e77d661a-61e2-56e1-bb8a-5719516dda2f,Nagy North Dhaba,North Indian,3,Mid,₹₹,3.71,3,0.217,18,False
+884,RST-b1a436b2-d3d4-57ca-a5e0-30c09ede04c5,Badal Pizza Biryani House,Pizza,19,Premium,₹₹₹,4.2,2,0.226,20,False
+885,RST-a5846db9-701f-5ee9-b658-4a3e68eadb87,Parsa Fast Junction,Fast Food,1,Budget,₹,4.24,3,0.263,18,False
+886,RST-fdc3438b-94ce-566e-8497-32e2106c6f91,Bath Pizza Restaurant,Pizza,10,Mid,₹₹,3.74,1,0.207,9,True
+887,RST-01da4455-5eb2-5d5b-a9d8-6ca87c5c5c28,Nanda Fast Junction,Fast Food,6,Premium,₹₹₹,3.64,4,0.21,24,False
+888,RST-a35426fa-8259-5ba4-9da3-db43ce39db3f,Sawhney North Junction,North Indian,8,Mid,₹₹,3.82,1,0.15,11,True
+889,RST-b196e755-16b5-5fc9-bae0-1d02e2b14dc2,Kaur South Foods,South Indian,7,Mid,₹₹,3.89,1,0.224,7,False
+890,RST-1f707daa-afdf-566a-9f67-14f6afeccb4a,Sundaram South Restaurant,South Indian,2,Premium,₹₹₹,4.11,1,0.212,19,True
+891,RST-1be562d4-c806-5c46-b3ca-969bd19f257b,Ratta North Express,North Indian,3,Mid,₹₹,3.82,1,0.209,11,False
+892,RST-33111805-5ba0-579b-8baa-3a24dbb4cc63,Bumb Rolls House,Rolls,1,Mid,₹₹,4.01,1,0.169,16,False
+893,RST-ad7210f5-ba0c-5c9d-b5c1-7192aff0fa4d,Pall North Dhaba,North Indian,2,Mid,₹₹,4.79,9,0.219,13,False
+894,RST-783ccaa8-8356-5264-a408-46927b8eeac2,Sangha Pizza Express,Pizza,47,Mid,₹₹,4.1,4,0.275,18,False
+895,RST-989bc7cc-cfa1-55e9-809a-66897d053724,Soni South House,South Indian,4,Mid,₹₹,4.51,3,0.202,18,False
+896,RST-b255673d-069f-53fd-94b8-d65ae97a6475,Chaudhry North Restaurant,North Indian,5,Mid,₹₹,4.37,1,0.188,14,False
+897,RST-eb4dc0e0-68c4-5931-9329-09583f78ea19,Rajan South Dhaba,South Indian,2,Premium,₹₹₹,4.82,13,0.236,14,False
+898,RST-af88e742-07d5-5ba8-b07d-8b754f45529b,Memon Biryani Restaurant,Biryani,21,Budget,₹,4.48,1,0.204,19,False
+899,RST-28d80107-3f66-5914-8bc5-26b1743f9457,Hayer Pizza Foods,Pizza,39,Budget,₹,4.42,8,0.213,25,False
+900,RST-f5829e3b-aaf3-5ad6-a696-4fd6ff62aa2f,Dhar Beverages Express,Beverages,23,Budget,₹,4.41,2,0.162,12,False
+901,RST-ca277a5a-5851-52b3-8877-a9c65e0a6b50,Venkatesh North Kitchen,North Indian,13,Budget,₹,3.71,3,0.266,18,True
+902,RST-8812c0b5-b6d9-5857-85c3-a0fa2893c79f,Thaman Fast Corner,Fast Food,25,Mid,₹₹,4.0,1,0.202,23,True
+903,RST-55450687-76ec-5616-aaa1-5ce6826c8d6e,Balay Desserts Biryani House,Desserts,7,Budget,₹,3.47,5,0.228,18,True
+904,RST-59111d8c-de9f-5c2f-8802-e5ca29dbd967,Datta Chinese Junction,Chinese,30,Mid,₹₹,4.37,3,0.187,23,False
+905,RST-772031af-32cc-543e-925f-00460d7e9adc,Tank North House,North Indian,24,Mid,₹₹,4.82,4,0.206,20,True
+906,RST-34513fbe-074e-5c95-bd1a-311fe16da08c,Chahal North Junction,North Indian,1,Budget,₹,4.59,17,0.216,16,False
+907,RST-43428c41-914e-5561-adc6-78217d015996,Mitra North Dhaba,North Indian,8,Budget,₹,4.46,1,0.239,21,False
+908,RST-97241093-8ca2-52a2-9450-203ee0fc2970,Sibal Cafe Biryani House,Cafe,4,Mid,₹₹,4.22,1,0.202,11,True
+909,RST-deeacbc8-7a5f-5396-8aaa-6d96751348f8,Ganguly Chinese Biryani House,Chinese,2,Mid,₹₹,4.29,4,0.219,17,False
+910,RST-5ceec739-f372-5654-be87-e9938c388d76,Sehgal Fast Cafe,Fast Food,29,Budget,₹,3.85,2,0.237,14,False
+911,RST-5a70d0a2-af9c-5f2e-a3ce-758fadeb7d10,D’Alia Desserts Foods,Desserts,1,Budget,₹,4.7,7,0.194,25,False
+912,RST-ac181b19-afd3-5b57-9a26-aa37ebb90959,Subramaniam Chinese Express,Chinese,19,Budget,₹,4.35,1,0.247,26,False
+913,RST-41aca385-257d-5ee8-b660-8cdbf9df640c,Zachariah Pizza Cafe,Pizza,48,Budget,₹,4.31,1,0.206,10,False
+914,RST-54f0a927-74c4-5355-b5ec-f0eac968727d,Khosla North Kitchen,North Indian,8,Budget,₹,4.79,1,0.248,15,False
+915,RST-5531ed83-dc2c-58fa-9440-fa08af2d4965,Kohli Biryani House,Biryani,6,Premium,₹₹₹,3.85,0,0.258,16,False
+916,RST-fd5b3e3f-d70d-5d0d-99b5-597ed17b044c,Kakar North House,North Indian,12,Budget,₹,3.59,1,0.28,22,False
+917,RST-4d169e25-4609-5f72-b362-784cf2ded681,Garde South Foods,South Indian,25,Budget,₹,4.36,5,0.2,17,False
+918,RST-13b4090f-aa33-5551-b8e0-14de805cc531,Chakraborty Chinese Foods,Chinese,4,Premium,₹₹₹,3.12,1,0.237,13,False
+919,RST-cecbbed9-6b37-5f35-bb1f-a8ff757e0570,Cherian Rolls Dhaba,Rolls,4,Mid,₹₹,3.21,1,0.204,24,False
+920,RST-9488aa6b-4658-5e3e-882e-2720a99897e9,Saran Pizza Junction,Pizza,12,Mid,₹₹,4.22,1,0.224,13,True
+921,RST-32276fdc-be2c-58dc-8e8f-ad1fa6f1d2d5,Balakrishnan Rolls Express,Rolls,41,Mid,₹₹,4.42,9,0.204,8,False
+922,RST-923ce734-16bb-5173-8a80-1867aed4eda0,Dyal North Dhaba,North Indian,4,Premium,₹₹₹,4.04,1,0.174,20,True
+923,RST-e1938d08-7a14-5a08-8f30-d84f8edf6fab,Narain Healthy Dhaba,Healthy,6,Budget,₹,3.57,2,0.215,11,False
+924,RST-4669b617-a1e7-5aff-a8eb-c3b6a9510181,Rajagopal North Junction,North Indian,49,Budget,₹,4.2,3,0.199,6,True
+925,RST-70d29576-2ee8-5404-a04d-f70e6128d487,Mand Beverages Restaurant,Beverages,3,Premium,₹₹₹,3.42,1,0.242,12,True
+926,RST-3258d188-fb08-5bd1-a57c-7dc90f77b15a,Kannan Rolls Kitchen,Rolls,1,Premium,₹₹₹,4.58,1,0.216,12,False
+927,RST-87cfe5c9-0de7-558c-b40b-0fe3e3e67bc8,Kurian Fast Restaurant,Fast Food,12,Premium,₹₹₹,3.77,1,0.207,10,False
+928,RST-14488d59-ee93-538a-83c5-379ba8a6ebea,Soni Biryani Kitchen,Biryani,1,Budget,₹,4.37,1,0.196,7,True
+929,RST-66dcc623-2a77-5345-816f-1fac6ef6b4d2,Dasgupta Desserts Express,Desserts,3,Premium,₹₹₹,4.23,3,0.167,23,False
+930,RST-842d4c87-4e96-537c-8e9c-6882b515dee5,Deshpande Rolls Foods,Rolls,13,Budget,₹,3.8,1,0.169,14,False
+931,RST-b6955e19-872a-592d-b846-b613feab4239,Warrior North Corner,North Indian,15,Mid,₹₹,4.45,2,0.221,6,True
+932,RST-116f4c36-45ae-5f6b-8751-4e96af620f92,Swamy Desserts Restaurant,Desserts,9,Premium,₹₹₹,5.0,11,0.226,14,False
+933,RST-0f843638-c4f8-52b1-9256-34f2a7ca4174,Chana North Cafe,North Indian,6,Budget,₹,4.24,3,0.177,16,False
+934,RST-46ed872e-8853-52f2-8f8d-6724af0c4b29,Natarajan Biryani House,Biryani,11,Budget,₹,4.36,3,0.176,17,False
+935,RST-fc65727c-175d-5234-bb8e-f7be9ca35a1b,Kapur Pizza Kitchen,Pizza,14,Mid,₹₹,4.67,69,0.226,28,False
+936,RST-5291578e-2a0d-5790-9629-6930c889fcf7,Bhattacharyya Beverages Kitchen,Beverages,25,Mid,₹₹,4.56,20,0.245,17,False
+937,RST-46c7af8c-a1f8-56f6-8519-199f72046343,Oza Biryani Dhaba,Biryani,24,Budget,₹,4.69,11,0.249,20,False
+938,RST-93c461e9-2aa0-54e6-bae7-77212bb16145,Purohit South Junction,South Indian,15,Premium,₹₹₹,4.19,1,0.247,7,False
+939,RST-86d0066b-fe8a-5006-8c35-77b6abb976c8,Raj Biryani House,Biryani,35,Budget,₹,4.43,2,0.195,9,True
+940,RST-89a6283f-7635-5fbc-a0dd-6331ae6cbf89,Sarkar South Express,South Indian,28,Budget,₹,4.07,4,0.259,32,False
+941,RST-dafe3d4a-6e5c-53c7-9630-46c7d0001f0d,Kaul Fast Junction,Fast Food,2,Mid,₹₹,3.33,1,0.239,19,False
+942,RST-de4af091-36b5-59ba-9b7c-389ef1582123,Kapoor Biryani Dhaba,Biryani,44,Mid,₹₹,4.78,4,0.203,21,True
+943,RST-dc4b69bd-2f57-5c0e-b310-dd76bdbfc19a,Lad Desserts Foods,Desserts,34,Budget,₹,4.91,11,0.234,16,False
+944,RST-7ffc4bfa-c7b6-5a8a-bc41-39a433b2d650,D’Alia South Express,South Indian,5,Mid,₹₹,4.67,17,0.194,13,False
+945,RST-a78bf694-e5e3-50cc-989f-6d9cdbc3cbba,Mannan South Junction,South Indian,1,Budget,₹,4.17,2,0.209,20,False
+946,RST-08214835-c247-5de5-a94b-f7b1430cafc7,Chahal Biryani Cafe,Biryani,12,Premium,₹₹₹,4.44,1,0.189,6,False
+947,RST-7329222b-d5c0-5dcd-9d77-b63f244c5ff5,Choudhury North Junction,North Indian,7,Premium,₹₹₹,3.7,1,0.215,21,True
+948,RST-df498c43-de8d-5763-bee4-929ae08b21b2,Chakraborty South Foods,South Indian,20,Budget,₹,4.53,3,0.157,22,False
+949,RST-bc583277-4950-5733-9bca-d6bc10ecabe2,Oak Chinese Cafe,Chinese,9,Budget,₹,4.03,3,0.22,21,False
+950,RST-7e0a4a1f-c156-56c7-bf42-04bf53e13939,Guha Biryani Express,Biryani,1,Mid,₹₹,3.14,1,0.164,15,False
+951,RST-a777e20b-850b-550a-b195-b27d976907c7,D’Alia South House,South Indian,4,Mid,₹₹,3.72,0,0.192,10,False
+952,RST-49f1c070-2b5d-5d9e-bf05-d3b5408cce31,Pillai Fast Express,Fast Food,33,Mid,₹₹,3.62,1,0.2,21,False
+953,RST-f3d06e65-88dc-51c6-bceb-46495f3d70f4,Datta Cafe Express,Cafe,1,Mid,₹₹,4.01,4,0.215,24,True
+954,RST-96a3ee7a-6a11-5216-98a2-8b28f33c707d,Munshi Fast Corner,Fast Food,20,Mid,₹₹,4.21,12,0.207,23,False
+955,RST-0722e68e-a1dc-5581-a870-3e14fd56431d,Rai Chinese Kitchen,Chinese,4,Mid,₹₹,3.85,1,0.167,17,False
+956,RST-fa9fb4d7-4b54-5bec-ac4f-1149ed37d553,Agarwal North Cafe,North Indian,8,Mid,₹₹,4.0,6,0.221,18,False
+957,RST-67183407-825e-5d13-8b9f-6d500c9e4c47,Mukhopadhyay North Restaurant,North Indian,10,Budget,₹,4.43,1,0.194,30,True
+958,RST-3e13d3ab-5e60-593a-bac2-f9aa78f16aa0,Bhatia Fast Junction,Fast Food,4,Budget,₹,4.23,1,0.269,35,False
+959,RST-f209a16e-f91a-54cc-8f35-5927189a2a74,Wason Pizza Dhaba,Pizza,15,Budget,₹,4.76,2,0.253,12,False
+960,RST-5505b664-5b35-5f57-984a-42dcd027523a,Gupta North House,North Indian,17,Mid,₹₹,4.43,1,0.199,21,False
+961,RST-801620c3-fc89-57e2-a48c-0f3ed130abd5,Rama South House,South Indian,2,Budget,₹,3.24,1,0.209,12,False
+962,RST-fe3b5ba1-fe11-556c-9904-f5d37e8ea1c1,Sampath Chinese Biryani House,Chinese,6,Mid,₹₹,5.0,3,0.235,13,True
+963,RST-fc72bc03-a9ad-5ec3-ab8e-bbfe13491acc,Nagarajan Chinese Restaurant,Chinese,20,Budget,₹,4.86,12,0.226,21,False
+964,RST-dfce1aad-589f-5652-866c-03a6d2148321,Patla Street Cafe,Street Food,19,Mid,₹₹,3.73,1,0.236,12,False
+965,RST-ade2727e-2e2e-50c6-b096-3499ddb1abb3,Date South Junction,South Indian,10,Budget,₹,5.0,19,0.163,7,True
+966,RST-752373bd-795c-552f-8bfa-62c2aeda2202,Venkatesh North Foods,North Indian,22,Mid,₹₹,3.43,1,0.168,11,False
+967,RST-2aabb1c3-14fc-5ea1-bbbf-33b07daeef76,Kapadia Chinese Junction,Chinese,2,Budget,₹,4.33,4,0.227,19,False
+968,RST-7b58b816-7123-543c-be4b-98e410325da3,Chhabra North Dhaba,North Indian,2,Mid,₹₹,4.99,6,0.17,31,False
+969,RST-b44898f5-7372-516e-880e-84a592a205ee,Rana North Corner,North Indian,15,Budget,₹,3.86,0,0.19,6,True
+970,RST-77722810-9cfb-5dfc-89bf-330f8b456c6f,Andra Biryani Point,Biryani,17,Mid,₹₹,4.3,2,0.216,10,False
+971,RST-dd09792b-9054-5502-bd66-3babf25cb775,Yohannan Chinese Point,Chinese,25,Mid,₹₹,5.0,6,0.202,20,True
+972,RST-7ae3bd9d-0396-5150-9e29-edb72c1441d3,Sharma North Cafe,North Indian,3,Budget,₹,4.06,3,0.225,20,False
+973,RST-feddddf8-4e33-558c-95b4-0843c955e6c5,Mutti Fast Express,Fast Food,9,Mid,₹₹,4.31,2,0.214,13,False
+974,RST-cdbc286a-9cec-5019-9006-6fab589cf19d,Dhillon Biryani Restaurant,Biryani,15,Mid,₹₹,4.25,2,0.24,17,False
+975,RST-893ecf8e-e8ee-55ea-b9f9-0a9a1605ab1d,Minhas North Restaurant,North Indian,3,Mid,₹₹,4.54,6,0.15,18,False
+976,RST-b459d797-8a36-5002-8467-e0027138cf87,Kanda Cafe Corner,Cafe,9,Mid,₹₹,5.0,37,0.249,12,True
+977,RST-3f3aa10d-8ff1-5cd3-bb9f-93cac84bcc28,Tata Chinese House,Chinese,14,Budget,₹,4.1,2,0.229,17,False
+978,RST-ed0704d0-830a-5ef3-ad24-42124a7ea6b9,Shah Street Kitchen,Street Food,3,Mid,₹₹,3.91,1,0.235,22,False
+979,RST-3dc8a9f4-3715-5d19-8f63-95ae65ed792d,Din Street Cafe,Street Food,6,Premium,₹₹₹,5.0,26,0.224,6,True
+980,RST-62b30ed4-0fcd-5b25-ad14-cc58fa6a0db8,Mander Biryani Biryani House,Biryani,3,Premium,₹₹₹,3.82,1,0.192,24,True
+981,RST-fd9ecbcb-372a-5018-9f5e-38d53778374a,Dhingra South House,South Indian,36,Budget,₹,4.48,2,0.181,22,True
+982,RST-cf0a74a7-2bef-5e6f-bee3-c48d7d2299e3,Banerjee Beverages House,Beverages,4,Mid,₹₹,4.61,3,0.218,19,False
+983,RST-5522f4b5-a81c-5ff2-ab75-08ad3c601e58,Nagarajan Chinese Corner,Chinese,2,Budget,₹,4.48,2,0.248,17,False
+984,RST-202cce1f-1c61-5d86-a637-29d6bed2ea4e,More South Kitchen,South Indian,1,Mid,₹₹,4.1,2,0.194,12,False
+985,RST-bdf9b21b-491d-5872-953e-23297f9a037d,Thakkar Fast Cafe,Fast Food,1,Budget,₹,4.62,5,0.224,18,False
+986,RST-b7d9ecc1-81c5-581c-9a0f-30ba65387142,Dasgupta Biryani Kitchen,Biryani,3,Budget,₹,4.17,3,0.184,12,False
+987,RST-2e6fa97c-d2e4-570a-ac02-c83f30f4db6a,Mahal Cafe Junction,Cafe,12,Mid,₹₹,4.39,2,0.195,21,True
+988,RST-bb1e513d-1849-5fbd-b813-e7e9ba21a547,Sridhar Rolls Dhaba,Rolls,1,Premium,₹₹₹,4.85,1,0.242,22,False
+989,RST-c006f605-1168-59c4-86e0-80842cdf947e,Kale Cafe Biryani House,Cafe,4,Budget,₹,4.16,2,0.196,21,False
+990,RST-f97974d2-3a1a-52ea-ae06-93ae6cda5372,Talwar Rolls Restaurant,Rolls,1,Mid,₹₹,4.44,3,0.237,21,False
+991,RST-4888a24f-25a1-56bf-b8eb-d4ed0fd6182b,Manne Pizza Corner,Pizza,7,Mid,₹₹,3.73,3,0.21,22,True
+992,RST-7f3be6e6-d169-5d84-89d5-00a04331bcfd,Puri Biryani Foods,Biryani,1,Premium,₹₹₹,4.12,2,0.223,17,False
+993,RST-8695758e-84db-565f-b513-ede7563f46f4,Bhargava Healthy Kitchen,Healthy,12,Mid,₹₹,3.83,2,0.21,11,False
+994,RST-05bddef1-7e07-5c6e-a9c3-d660a4e31210,Nath Street Junction,Street Food,17,Budget,₹,3.8,1,0.2,7,False
+995,RST-c535ad90-54f1-57e7-9cc0-c2ffc5687398,Dua Beverages Point,Beverages,19,Budget,₹,4.13,1,0.213,16,False
+996,RST-9165e434-0232-5579-8955-0d8f755b64ce,Kade Desserts Corner,Desserts,3,Mid,₹₹,3.78,2,0.218,22,False
+997,RST-a5847792-36b6-54e3-b80a-0da456a9cc03,Kar Fast Biryani House,Fast Food,32,Budget,₹,4.94,6,0.208,9,True
+998,RST-dee67834-42fb-590a-a22d-6b545a1e8804,Ben South Point,South Indian,17,Premium,₹₹₹,3.59,1,0.231,17,True
+999,RST-2ee7c5f4-ae57-5f5e-96f6-e3728120a165,Gola Cafe Junction,Cafe,1,Premium,₹₹₹,4.6,36,0.177,12,False
+1000,RST-47697ed0-88f3-5c58-ad12-e5bcf0aca247,Sura North Point,North Indian,7,Premium,₹₹₹,4.82,7,0.15,14,False
+1001,RST-49924189-0c6a-5333-af25-4bc99bc85c6d,Ramanathan South House,South Indian,22,Budget,₹,3.77,1,0.175,16,False
+1002,RST-d7dbe1a5-09ae-5d95-adba-345749a0146f,Mistry Biryani Express,Biryani,5,Mid,₹₹,4.23,2,0.225,10,False
+1003,RST-447e8a1b-0a48-522e-b827-30aa80fd55d4,Dutta Fast Point,Fast Food,6,Mid,₹₹,4.15,2,0.192,11,False
+1004,RST-c1a0cefe-065b-58bf-9c99-ab6f579ddda9,Bains Fast Restaurant,Fast Food,13,Budget,₹,3.84,2,0.224,24,False
+1005,RST-33f9070d-c294-506e-bb68-52c1b904f4fa,Ramanathan South House,South Indian,1,Budget,₹,4.22,1,0.228,15,True
+1006,RST-e2c2776c-64c9-5ed0-96ee-b9ce31af72fd,Nazareth North Junction,North Indian,45,Budget,₹,4.63,1,0.251,26,False
+1007,RST-929b3ab8-477a-5e56-800f-9e6ca3ab73cd,Sami South Biryani House,South Indian,3,Mid,₹₹,4.19,4,0.17,18,True
+1008,RST-d60389b4-9b80-575e-9a46-e69956e5d9e7,Solanki Chinese Foods,Chinese,1,Premium,₹₹₹,3.73,0,0.216,15,False
+1009,RST-d7e95695-4b68-552c-be86-b1b6de992780,Pall North Express,North Indian,1,Premium,₹₹₹,3.65,1,0.237,23,False
+1010,RST-13d696a1-0806-5984-b8b2-9d08f83cb9a6,Raman Pizza Dhaba,Pizza,6,Budget,₹,4.73,9,0.207,14,True
+1011,RST-de8686a0-74dc-58e9-8fd5-c1aebc35bbda,Raman South Foods,South Indian,33,Mid,₹₹,3.66,1,0.23,20,True
+1012,RST-2d006834-b1dd-5acd-bf3e-8709220d9c51,Bora Chinese Biryani House,Chinese,26,Budget,₹,5.0,3,0.237,14,False
+1013,RST-d81cfcb2-e620-50eb-ba0c-713b1cc28f41,Wable Chinese Express,Chinese,37,Budget,₹,4.41,2,0.218,13,False
+1014,RST-7e9afb6b-e4b3-5d40-9b92-c69ba5860540,Mandal Biryani Cafe,Biryani,10,Budget,₹,3.82,0,0.23,28,True
+1015,RST-a5839758-3486-52b5-9b05-1d57b020a820,Mandal Cafe Cafe,Cafe,8,Mid,₹₹,4.65,3,0.15,10,False
+1016,RST-8ac68305-7363-5a66-ae10-6f101bae25c1,Hayer North Cafe,North Indian,6,Mid,₹₹,4.05,10,0.208,22,False
+1017,RST-7fa34629-39bb-5494-9bb6-a5d4d0e05374,Ramesh Chinese House,Chinese,1,Premium,₹₹₹,3.28,1,0.205,13,True
+1018,RST-e11cf5f9-8c89-5069-8b57-52df55cf1c57,Chatterjee Pizza Dhaba,Pizza,37,Mid,₹₹,4.77,347,0.238,18,False
+1019,RST-f9b0bcaf-6e0a-5532-a37c-67fec668f434,Deep North Kitchen,North Indian,9,Budget,₹,4.6,4,0.233,15,False
+1020,RST-a3df0d18-c957-54e6-8f28-3605ab35b29d,Naik Beverages Restaurant,Beverages,8,Mid,₹₹,4.88,3,0.192,24,False
+1021,RST-f2c62d4c-3e28-55bf-bfe0-d97d8ea18854,Bhagat Street Junction,Street Food,9,Budget,₹,4.3,5,0.169,19,False
+1022,RST-3612830d-9f66-513a-9d15-05c793b7c79f,Modi Fast Cafe,Fast Food,24,Budget,₹,4.09,3,0.232,16,False
+1023,RST-6abf421e-ca90-52f3-a17d-59f5c7de4c4f,Shankar Street Point,Street Food,3,Mid,₹₹,4.35,4,0.183,27,False
+1024,RST-d9966c5c-7c51-5563-8535-e85f30268d9d,Gade Biryani House,Biryani,18,Budget,₹,4.65,5,0.197,28,False
+1025,RST-8b0c9c42-0bb0-5079-b2c8-d8491ad11b75,Devan Biryani Kitchen,Biryani,18,Budget,₹,3.37,1,0.203,18,True
+1026,RST-2c9f4bb4-9bb3-5a92-899f-d194c0f501ac,Sathe North Junction,North Indian,29,Budget,₹,4.27,1,0.214,18,False
+1027,RST-8cc4782b-9385-5b8a-a5bc-3dd02b6d51eb,Subramanian North Cafe,North Indian,1,Budget,₹,4.03,4,0.243,20,False
+1028,RST-751392fa-b42e-5999-8273-f2dabef25474,Manne South Dhaba,South Indian,3,Premium,₹₹₹,3.85,1,0.206,25,True
+1029,RST-f204d24f-5f65-5b35-bf3c-d093ef927f77,Dhillon Biryani Kitchen,Biryani,8,Budget,₹,4.26,14,0.213,26,False
+1030,RST-6b16d233-e763-52ae-a8fd-99fe6cb9873d,Kadakia Biryani Corner,Biryani,29,Budget,₹,3.91,2,0.239,6,False
+1031,RST-919c80bb-4d23-578a-ba36-68bbb45f3494,Kamdar South Restaurant,South Indian,45,Premium,₹₹₹,4.0,1,0.207,19,False
+1032,RST-d8e282a0-1aeb-58fc-bf81-53c14a773795,Hayre Fast Restaurant,Fast Food,12,Mid,₹₹,4.99,21,0.196,11,False
+1033,RST-7ffce46d-e493-5346-a424-a88df3358bd6,Andra South Express,South Indian,3,Mid,₹₹,4.84,2,0.244,18,False
+1034,RST-64274322-4e09-56c4-9fcc-2b492334aef9,Pathak Chinese Dhaba,Chinese,3,Premium,₹₹₹,4.39,4,0.228,16,True
+1035,RST-78b82a8a-fd71-5e49-ac76-065bc6da0a01,Chaudry South Point,South Indian,14,Budget,₹,3.85,1,0.18,28,True
+1036,RST-7743fba2-86df-52b9-94d1-37cca52b314e,Divan Pizza Biryani House,Pizza,3,Budget,₹,4.48,3,0.21,16,False
+1037,RST-389b32a2-ebe0-579e-b1e3-c931f50c06ee,Puri Biryani Point,Biryani,10,Mid,₹₹,4.2,3,0.199,13,False
+1038,RST-7a4eeff0-c0c2-5dff-a88b-99a3a6da6d19,Sane Rolls Point,Rolls,28,Budget,₹,3.57,1,0.209,15,False
+1039,RST-a07f2544-7984-5333-a3ca-4a7fe6d45e7b,Ganguly North Biryani House,North Indian,6,Premium,₹₹₹,3.66,1,0.182,12,False
+1040,RST-472b73c0-98b6-5d4e-9bbf-b0e75e521132,Bhalla Biryani Point,Biryani,6,Budget,₹,3.44,1,0.24,13,True
+1041,RST-855bbe2a-c107-5a52-a110-ad99f358f3b0,Char Street Junction,Street Food,1,Mid,₹₹,3.88,1,0.221,17,False
+1042,RST-dd56d204-ec21-575c-be68-5653a69c86e7,Parekh North Cafe,North Indian,4,Mid,₹₹,4.67,2,0.213,27,False
+1043,RST-d75b1f29-967f-5737-a3f7-f7c87411e4b8,Som Biryani Dhaba,Biryani,17,Premium,₹₹₹,3.26,1,0.203,20,True
+1044,RST-4418917b-03e5-5ee0-8b0e-c2e37b0075fe,Gola North Foods,North Indian,6,Budget,₹,3.92,2,0.237,22,False
+1045,RST-45ef86aa-15de-5eae-9b9b-c90dd554e1bb,Ben North Point,North Indian,2,Budget,₹,3.72,1,0.21,10,False
+1046,RST-3f0d66bf-76b3-5479-85f2-7849d209ca5d,Dalal Biryani Express,Biryani,2,Premium,₹₹₹,4.92,2,0.204,14,False
+1047,RST-576fc579-8837-5b47-8e87-565c393be9ce,Varma North Express,North Indian,2,Mid,₹₹,3.91,2,0.183,14,False
+1048,RST-205a4b3a-7fb4-5473-b0f5-a3fc6ce66650,Nigam Biryani Dhaba,Biryani,15,Budget,₹,3.97,1,0.232,14,False
+1049,RST-9d65291c-6728-518b-a86d-681e965ae9d5,Saraf Mughlai Junction,Mughlai,13,Budget,₹,4.41,1,0.187,14,False
+1050,RST-3b39784a-f891-5b35-983d-ea250efcdbf2,Dixit South Point,South Indian,9,Premium,₹₹₹,4.34,1,0.205,19,False
+1051,RST-5d1c5b18-04e5-5826-846c-c65657c606d3,Raval North Dhaba,North Indian,9,Mid,₹₹,3.68,1,0.219,22,False
+1052,RST-42617f11-a1e5-5db6-a0a8-6ba9ef5760a5,Konda Beverages Biryani House,Beverages,2,Mid,₹₹,3.34,1,0.181,29,False
+1053,RST-8da2bd9c-62cb-58e3-a5c2-9d32ba7ba949,Bandi Biryani Point,Biryani,9,Premium,₹₹₹,4.48,2,0.19,24,False
+1054,RST-a575a765-72a7-5591-bcb5-1eb7e2056f41,Dani Cafe House,Cafe,1,Budget,₹,4.45,2,0.182,16,False
+1055,RST-4b51d3f8-10cc-55c4-809f-c9b80a79edc6,Khosla Chinese Kitchen,Chinese,39,Budget,₹,3.02,1,0.161,21,True
+1056,RST-03953697-dd92-564d-add7-4d3f4cc8d2c7,Ranganathan Pizza Restaurant,Pizza,1,Mid,₹₹,4.03,2,0.265,21,False
+1057,RST-8e5a0604-ee7d-525b-b36a-27410cf5fd00,Suresh Mughlai Express,Mughlai,7,Premium,₹₹₹,3.29,1,0.205,15,True
+1058,RST-7954174b-870b-53b3-b386-d7be6f06b1da,Mittal South Biryani House,South Indian,1,Budget,₹,4.05,1,0.214,19,True
+1059,RST-cb22cbc4-dc04-5519-a878-6acc8a50bca1,Gera Desserts Foods,Desserts,23,Mid,₹₹,3.87,1,0.231,18,False
+1060,RST-7e07f7a0-14bd-5af5-af2e-799b44e031dd,Prashad Pizza Biryani House,Pizza,3,Budget,₹,4.14,1,0.198,30,False
+1061,RST-5a400d13-6243-598d-82f1-4b0d055c3665,Chakraborty Beverages Express,Beverages,39,Budget,₹,4.47,1,0.185,23,False
+1062,RST-00b5c22b-5e1b-5ca2-be65-5d28a4f4044f,Sheth South Cafe,South Indian,1,Premium,₹₹₹,3.78,1,0.195,15,False
+1063,RST-04f6962c-cfb4-5ce0-8402-465480c8666b,Raja Biryani Junction,Biryani,26,Budget,₹,4.31,2,0.219,28,True
+1064,RST-f05bf01f-087c-581d-aa36-b75b0a9f366a,Maharaj North Point,North Indian,15,Budget,₹,4.93,10,0.171,24,True
+1065,RST-dba2980a-5f3e-522f-a4ed-d74a114d673c,Saxena Street Biryani House,Street Food,4,Premium,₹₹₹,4.32,1,0.209,26,False
+1066,RST-f1309107-2e31-5afe-9e7f-572f45026647,Pillai North Corner,North Indian,3,Mid,₹₹,4.54,2,0.211,16,False
+1067,RST-6e16dbb6-b3b0-5587-a9a8-1808716f0309,Apte North House,North Indian,6,Mid,₹₹,4.52,1,0.234,6,False
+1068,RST-707a0f10-1a00-528c-965a-dd0f431ac29f,Dar Cafe Foods,Cafe,27,Mid,₹₹,3.9,2,0.191,6,False
+1069,RST-8f047370-914a-5589-a07b-8815abb337ac,Dada Chinese Restaurant,Chinese,31,Budget,₹,4.26,1,0.246,15,False
+1070,RST-421a4a40-209e-503b-a58a-e9111ddce31d,Butala Fast Dhaba,Fast Food,3,Mid,₹₹,4.39,1,0.211,18,False
+1071,RST-b5609fcf-8112-5c6c-9cf2-4557247987b4,Dara Chinese Corner,Chinese,6,Budget,₹,3.85,6,0.19,24,False
+1072,RST-93cdb0f4-3c82-53d2-b85c-e51f27b2b66c,Suresh Pizza Corner,Pizza,4,Budget,₹,3.46,1,0.169,23,False
+1073,RST-7f507477-302b-5243-80c1-68940a13e238,Upadhyay South Restaurant,South Indian,2,Mid,₹₹,3.58,6,0.215,28,False
+1074,RST-466a63be-c246-5103-8db2-bba4d45f0049,Kar Biryani House,Biryani,14,Budget,₹,4.69,2,0.234,13,False
+1075,RST-2c0bda7f-85ad-5836-be2d-b0c41d9c8ce1,Bajaj Fast Corner,Fast Food,5,Premium,₹₹₹,3.95,1,0.241,17,True
+1076,RST-b48fea39-5baf-538f-94fb-7d45eba9db21,Srinivasan Chinese Foods,Chinese,3,Premium,₹₹₹,3.93,2,0.155,19,True
+1077,RST-359dc305-63ae-5282-8487-37fbf3c08590,Mahal South Foods,South Indian,31,Mid,₹₹,3.98,3,0.253,22,False
+1078,RST-7a9044dc-4ee3-5ae4-a1a8-411e9c0966cd,Chandra North Biryani House,North Indian,20,Budget,₹,4.51,30,0.248,10,False
+1079,RST-1fb46982-2c80-5537-809d-050af209499c,Golla Rolls Kitchen,Rolls,22,Budget,₹,4.17,1919,0.212,16,False
+1080,RST-974f22d2-1d91-5ab3-994b-f41a16ba757e,Rajagopalan South Biryani House,South Indian,1,Premium,₹₹₹,4.66,1,0.19,25,False
+1081,RST-e73fd761-cc07-5105-b161-f7aef0d34757,Sule Chinese Junction,Chinese,38,Budget,₹,4.13,3,0.182,24,False
+1082,RST-5b0bdd75-07a1-57f2-bfa4-ff5f089f5983,Saraf Chinese Biryani House,Chinese,11,Mid,₹₹,4.03,1,0.18,11,False
+1083,RST-3c8a6e80-2f54-579f-bb30-cde398fb5378,Misra Biryani Biryani House,Biryani,9,Premium,₹₹₹,4.28,11,0.227,15,False
+1084,RST-47ce51eb-c557-5ae1-82cc-183d669301c1,Dass Rolls Restaurant,Rolls,1,Budget,₹,4.24,7,0.175,23,False
+1085,RST-29bce00b-3645-5e5c-bc9b-353dd9ed757d,Chaudhary Biryani House,Biryani,35,Budget,₹,4.12,6,0.216,25,False
+1086,RST-24965dd5-bb29-53db-ac57-c37c375f701c,Nanda Cafe House,Cafe,10,Mid,₹₹,4.29,1,0.208,7,False
+1087,RST-503288dd-6b03-5cea-ae63-cf217f1966e5,Bhatt Pizza Point,Pizza,27,Mid,₹₹,4.5,2,0.211,14,False
+1088,RST-194afe86-a650-5f37-b84a-518fbae589e7,Yogi Beverages Corner,Beverages,15,Budget,₹,3.86,5,0.207,21,True
+1089,RST-e69db844-ab76-5c9d-9928-109b263962e7,Goyal Rolls Kitchen,Rolls,24,Mid,₹₹,4.07,4,0.244,20,False
+1090,RST-d319c1b3-617f-54d7-a2b0-32381e261b32,Ravi North Cafe,North Indian,17,Mid,₹₹,4.18,1,0.239,23,False
+1091,RST-1576b356-746d-53dd-a438-f990d3529d1d,Bahri Street Cafe,Street Food,38,Budget,₹,4.86,4,0.216,9,True
+1092,RST-b6df3305-a456-581b-bf9a-ef262c6fa741,Ramesh Desserts Dhaba,Desserts,3,Budget,₹,4.5,5,0.261,8,False
+1093,RST-aba7912a-6a59-58aa-b9d3-7830c5f384e1,Yadav Fast Junction,Fast Food,3,Mid,₹₹,4.72,11,0.206,16,False
+1094,RST-c7c9066f-e978-5afd-9af5-b842035b8a02,Wagle South Junction,South Indian,18,Mid,₹₹,4.4,2,0.219,16,False
+1095,RST-87a8b163-24b1-596b-894b-059cd49e9844,Suresh South Foods,South Indian,9,Premium,₹₹₹,4.46,1,0.255,14,False
+1096,RST-046402a2-939d-50fd-8acc-c98db734acd2,Bhatt Fast Junction,Fast Food,12,Budget,₹,4.82,20,0.153,23,False
+1097,RST-e384904c-7043-5666-baef-9ef92582f8ce,Venkataraman Biryani Point,Biryani,18,Premium,₹₹₹,4.04,2,0.208,10,False
+1098,RST-bf0df277-47e3-5139-a4f0-c25f6c3c0842,Yohannan Pizza Express,Pizza,10,Premium,₹₹₹,4.25,1,0.223,24,True
+1099,RST-bc1b8f9e-8dbb-5447-82fc-2d5f644a98ba,Dash Chinese Kitchen,Chinese,23,Mid,₹₹,3.88,1,0.204,15,False
+1100,RST-7fc59310-ee5f-530d-b6e6-304f5fcc1065,Johal Biryani Kitchen,Biryani,5,Budget,₹,3.87,1,0.197,27,False
+1101,RST-1b0d12a2-0600-50f8-9139-365087f73e72,Dalal South Junction,South Indian,30,Budget,₹,3.93,8,0.186,14,False
+1102,RST-48abb70f-65ec-5920-85eb-7dab948bb88f,Golla North Restaurant,North Indian,2,Mid,₹₹,4.01,2,0.228,13,False
+1103,RST-ba0d7408-5389-55cf-aa87-55a1fa2d75d1,Gole North Junction,North Indian,14,Budget,₹,4.72,1,0.207,17,False
+1104,RST-125ca81c-6e5c-5e89-adc8-8330b47457e6,Ahluwalia Beverages Biryani House,Beverages,34,Budget,₹,4.21,1,0.233,25,False
+1105,RST-6bd6a610-81d5-50bc-928d-f63b4d90ec44,Sekhon Fast Point,Fast Food,4,Premium,₹₹₹,5.0,8,0.199,13,False
+1106,RST-dbfb5f53-9b00-5655-bdd7-9f16fe5c3416,Murthy Street Restaurant,Street Food,5,Budget,₹,4.63,5,0.18,6,True
+1107,RST-11fdc07b-89c0-5df2-9d83-c65891ad40ad,Das Rolls Point,Rolls,5,Premium,₹₹₹,4.26,4,0.241,27,False
+1108,RST-33fa07c1-de8c-5080-862a-379678fb8576,Baral Desserts Kitchen,Desserts,11,Mid,₹₹,4.53,58,0.229,13,False
+1109,RST-c1781b65-6220-5a8d-a516-a87a95bad60c,Dave Biryani Foods,Biryani,7,Premium,₹₹₹,3.69,1,0.181,19,True
+1110,RST-038e413e-bd82-5f60-afce-157dba3e4e7b,Jhaveri Beverages Corner,Beverages,2,Budget,₹,4.4,2,0.223,11,False
+1111,RST-0c212130-5a9e-513f-a78b-80598724d0ea,Edwin Street Dhaba,Street Food,34,Mid,₹₹,3.52,1,0.206,13,True
+1112,RST-17f43b0a-65f3-5c2f-b851-30fc3b66c66e,Chahal Rolls Cafe,Rolls,3,Mid,₹₹,4.17,5,0.167,17,False
+1113,RST-d91d00a0-8f38-5538-bcee-d54becdb379d,Kunda North Kitchen,North Indian,10,Premium,₹₹₹,4.32,2,0.28,16,True
+1114,RST-0d8f0e10-6559-541b-9da0-7095c85eff03,Banerjee Pizza Restaurant,Pizza,12,Budget,₹,4.2,2,0.204,13,False
+1115,RST-59719fe5-45aa-5428-9d5e-1b05963afd16,Chad North Foods,North Indian,1,Budget,₹,5.0,3,0.173,17,False
+1116,RST-53eb78ca-bb23-5300-8478-80c83f1fa6a7,Dash North House,North Indian,2,Premium,₹₹₹,4.74,11,0.203,11,False
+1117,RST-02a085d0-c79b-5c7b-98cb-705787291635,Toor Pizza Junction,Pizza,46,Budget,₹,4.07,5,0.238,24,False
+1118,RST-3a13f75f-0ad6-51d8-842e-dded8237a040,Misra Beverages Biryani House,Beverages,15,Mid,₹₹,4.69,2,0.216,24,False
+1119,RST-087b2cc7-f120-5676-8ba0-1bf45cd5bf62,Patla North Foods,North Indian,1,Budget,₹,4.25,4,0.202,8,True
+1120,RST-12a22aef-ea0e-507c-8d08-21ae2b194a43,Garg North Cafe,North Indian,24,Budget,₹,4.61,6,0.234,18,False
+1121,RST-73ed6620-0e0e-5c1c-9fff-5b21a6fe0a7d,Sampath Cafe Corner,Cafe,9,Mid,₹₹,4.2,1,0.207,14,False
+1122,RST-5f41a678-a1da-5eb6-a10f-555c775fa499,Acharya North Biryani House,North Indian,1,Mid,₹₹,4.61,3,0.231,12,False
+1123,RST-9480fbdb-8c9c-5573-896b-ca5f3746231a,Kothari North Point,North Indian,16,Mid,₹₹,3.52,1,0.218,9,False
+1124,RST-5dbd1be1-7ad4-5634-b4d8-5d4b93c26815,Mital Rolls Kitchen,Rolls,9,Mid,₹₹,4.39,6,0.221,32,False
+1125,RST-609ec923-2436-57ea-b5d5-f5099fbd96bb,Batra Beverages Cafe,Beverages,3,Mid,₹₹,4.93,9,0.202,33,False
+1126,RST-38aafdb6-2c21-5470-a9a7-493221d6b6f0,Venkataraman Biryani Junction,Biryani,33,Premium,₹₹₹,3.88,2,0.15,26,True
+1127,RST-d94dfa14-88bb-5b30-aa18-46b43ec0c54a,Memon Fast Restaurant,Fast Food,4,Budget,₹,4.11,7,0.226,16,False
+1128,RST-dd255de6-87e6-5a3f-a301-3003716913f0,Walla Chinese Biryani House,Chinese,4,Mid,₹₹,5.0,107,0.206,14,False
+1129,RST-43dd209e-0c48-52c5-86bf-b69f0b3c1a07,Saxena South Express,South Indian,4,Mid,₹₹,4.41,2,0.256,21,False
+1130,RST-125af731-a043-591d-b1ab-1aa1ad917c29,Dey Desserts Dhaba,Desserts,22,Mid,₹₹,4.08,1,0.17,19,False
+1131,RST-449e6dd3-5c0d-52a0-8669-d649d9b94b37,Swaminathan Beverages House,Beverages,18,Budget,₹,4.14,3,0.249,20,False
+1132,RST-d9f4d0e4-0bae-56cb-a440-43be7a0b48ec,Munshi Chinese House,Chinese,36,Mid,₹₹,4.54,3,0.224,15,False
+1133,RST-5ac524b2-4085-5b48-80ea-e43837ac5c5c,Virk Chinese Corner,Chinese,3,Mid,₹₹,3.77,1,0.241,24,False
+1134,RST-04609b79-836f-5cec-b37f-ad55d2dce8cc,Pandey South Express,South Indian,23,Mid,₹₹,3.75,1,0.191,15,False
+1135,RST-70732902-21de-580d-a70f-038fd75aca37,Yohannan North Corner,North Indian,11,Mid,₹₹,4.2,4,0.227,6,False
+1136,RST-d241bb35-be9e-5b19-b92f-90255fe42c90,Uppal Chinese House,Chinese,5,Mid,₹₹,4.04,2,0.188,15,False
+1137,RST-a7e279be-ac46-5744-9ca2-6cee2b637519,Kadakia North Corner,North Indian,1,Mid,₹₹,4.59,3,0.255,24,False
+1138,RST-a09b7ead-6a94-5ef1-8da9-fe3767d05456,Chaudhary Desserts Cafe,Desserts,26,Budget,₹,4.4,1,0.155,23,True
+1139,RST-e624d03d-f6c3-5be5-b34a-477cbf6b76e0,Basu South Express,South Indian,4,Mid,₹₹,4.03,1,0.208,20,False
+1140,RST-6ea23a81-7171-5dc1-af85-49745670fa78,Khalsa Pizza Kitchen,Pizza,14,Budget,₹,4.22,1,0.155,26,False
+1141,RST-4ac10c4a-b6dc-572c-9f79-77490dec1191,Bansal Fast Express,Fast Food,10,Premium,₹₹₹,4.22,1,0.208,7,False
+1142,RST-da16d7c4-aca5-5917-819a-ac8339f2abf2,Guha Beverages Restaurant,Beverages,1,Mid,₹₹,4.07,1,0.21,29,False
+1143,RST-43b8127e-6730-5a78-aaba-a14effea8df1,Dhar Street Point,Street Food,50,Budget,₹,3.94,1,0.15,21,False
+1144,RST-fb78486f-a9d7-5263-a8af-dbabea4671bd,Mistry Chinese Restaurant,Chinese,25,Budget,₹,4.27,1,0.198,6,False
+1145,RST-2afe93a5-0bf4-5e2c-9618-1dd73dfb0cab,Kale North Point,North Indian,8,Mid,₹₹,3.0,1,0.186,23,False
+1146,RST-7ca21683-5604-5504-b628-ffb7074e3a65,Desai Rolls Point,Rolls,16,Premium,₹₹₹,5.0,2,0.201,15,False
+1147,RST-71c35a23-3d75-545c-9987-d879d2588d99,Kalita North Kitchen,North Indian,8,Budget,₹,4.33,1,0.229,23,True
+1148,RST-add153de-dbcf-5f51-a4c9-1cffaecf5030,Parmer South Express,South Indian,20,Budget,₹,3.44,1,0.23,17,False
+1149,RST-892e93e9-873d-556b-af76-4252c8dba953,Mall North Foods,North Indian,2,Mid,₹₹,3.66,1,0.236,17,True
+1150,RST-1ee00be2-138c-5179-8a3a-2dc3f7752c27,Dave Cafe Point,Cafe,7,Premium,₹₹₹,3.94,1,0.162,13,False
+1151,RST-14f71e2d-4814-5915-bdfd-e5788ef274d1,Sami North Kitchen,North Indian,5,Premium,₹₹₹,4.01,1,0.195,12,False
+1152,RST-be851240-5a97-5709-ad5e-51bf9e0467b6,Borde Biryani Point,Biryani,8,Budget,₹,3.83,3,0.226,11,False
+1153,RST-2588bd46-673f-5a6d-9db7-3df8df3fba5f,Kumer Biryani Dhaba,Biryani,8,Mid,₹₹,4.72,2,0.199,22,False
+1154,RST-a1d3d997-d595-525d-b6f9-9873af6c71d5,Lad Pizza Corner,Pizza,2,Premium,₹₹₹,4.55,2,0.231,11,False
+1155,RST-d43d1ff5-e398-5fb4-a71d-f33a1c2caea1,Raj Chinese Kitchen,Chinese,46,Mid,₹₹,4.12,1,0.195,12,True
+1156,RST-46d5a454-ef4a-5111-a614-94e836b84733,Gade Cafe Dhaba,Cafe,1,Mid,₹₹,4.3,2,0.183,24,True
+1157,RST-d7000d16-b956-5c83-ba45-fe9f85057619,Ratta Rolls Biryani House,Rolls,1,Mid,₹₹,3.74,2,0.213,13,False
+1158,RST-466a763e-af76-5dcf-9684-7c26a017ca76,Shan Biryani Foods,Biryani,6,Mid,₹₹,3.49,2,0.204,19,False
+1159,RST-df0b1411-8778-5bc3-8ff6-5887c6895e20,Chacko Chinese Restaurant,Chinese,13,Budget,₹,3.91,1,0.185,14,False
+1160,RST-b1995e97-62fc-5ec1-a636-962bdc0bdd0a,Kumar Beverages Junction,Beverages,3,Budget,₹,4.31,8,0.183,17,False
+1161,RST-c05a8b6f-5e7e-5de0-a4bd-f8f060254543,Sandal Desserts Express,Desserts,10,Mid,₹₹,5.0,2,0.191,20,False
+1162,RST-695e607d-bf38-5602-9e57-dcbe0c2fd036,Dhar Biryani Kitchen,Biryani,19,Budget,₹,4.33,4,0.208,25,False
+1163,RST-81756bca-d59b-59c6-aeae-890e94918b50,Wason Chinese Biryani House,Chinese,2,Mid,₹₹,3.92,1,0.172,22,False
+1164,RST-eb9da159-9a42-54ef-8490-233d5d161b39,Jani North House,North Indian,48,Mid,₹₹,3.9,1,0.174,25,False
+1165,RST-5acf9dec-c293-50ef-84a8-408024fb6891,Bobal North Restaurant,North Indian,5,Premium,₹₹₹,4.35,14,0.155,17,False
+1166,RST-d1353f8b-be29-5343-acb9-d0ecb80b9435,Luthra North Kitchen,North Indian,14,Budget,₹,3.7,1,0.225,15,False
+1167,RST-b1d8af70-6a10-511b-b822-44a1a17cd26c,Hans North Restaurant,North Indian,2,Budget,₹,3.59,1,0.22,15,False
+1168,RST-7dbd7f8e-e958-5c98-a573-edebcf8bc217,Pradhan North Cafe,North Indian,18,Mid,₹₹,3.88,4,0.216,6,False
+1169,RST-636dbb8c-7892-57f1-af4c-536c1c3f19e7,Vaidya Cafe Cafe,Cafe,28,Budget,₹,3.95,2,0.15,29,False
+1170,RST-3e6318fc-ab75-531b-93cb-04bf0e91954a,Gade Desserts Dhaba,Desserts,2,Budget,₹,4.09,3,0.167,16,False
+1171,RST-6b662834-2629-5666-b5b3-22cd6461fb3a,Saini Beverages Dhaba,Beverages,2,Premium,₹₹₹,3.87,1,0.173,20,False
+1172,RST-9a2056e7-cf2b-5f2d-a14a-eec84694a820,Dube Pizza Cafe,Pizza,4,Budget,₹,4.54,8,0.204,23,False
+1173,RST-47e3617f-0f7d-5783-95a6-ad13f043c79e,Mutti Pizza House,Pizza,1,Budget,₹,4.39,4,0.248,14,True
+1174,RST-c4668522-c2a6-5f61-a54b-ee081a520fce,Saraf North Corner,North Indian,48,Mid,₹₹,4.99,3,0.195,12,False
+1175,RST-347ee16f-ab4d-57ab-ac5b-84ace9d86447,Raghavan Pizza Foods,Pizza,12,Mid,₹₹,3.18,1,0.195,25,False
+1176,RST-199feefe-3958-5c4f-a14f-16cfc1332b39,Bal Chinese Corner,Chinese,12,Budget,₹,4.32,6,0.187,15,False
+1177,RST-82fa7d8a-6e28-5317-9e94-16d15c244641,Kota Biryani Corner,Biryani,44,Mid,₹₹,4.03,7,0.18,22,False
+1178,RST-d47de908-9f14-5f05-b7ec-e7a4d95538bf,Brahmbhatt Street Corner,Street Food,27,Mid,₹₹,4.39,3,0.179,7,True
+1179,RST-2a106c38-e537-5651-a234-806492c78822,Madan Cafe Dhaba,Cafe,25,Budget,₹,5.0,2,0.255,16,False
+1180,RST-4a347a18-1cad-5ab8-a1ab-5adff82c0371,Dash South Restaurant,South Indian,5,Mid,₹₹,3.5,0,0.228,24,False
+1181,RST-57555a2b-6c20-5a31-9c3f-d0d4da56f71c,Wali Rolls House,Rolls,5,Budget,₹,4.82,10,0.236,10,False
+1182,RST-8d9bf681-9be7-5c3e-808b-5dd340079aa4,Choudhary North Kitchen,North Indian,4,Mid,₹₹,4.66,1,0.184,18,False
+1183,RST-2e2ae3b1-cff3-5755-b8bf-dc5fb8af5b9a,Ray North Biryani House,North Indian,5,Mid,₹₹,5.0,9,0.201,22,True
+1184,RST-47a07b6c-948b-5407-bf64-8e32ff261822,Bhatti North Corner,North Indian,6,Mid,₹₹,4.64,2,0.224,19,False
+1185,RST-e7157691-b537-5f37-ad86-620481394cee,Narayan South Restaurant,South Indian,2,Budget,₹,3.82,1,0.217,20,True
+1186,RST-7948874a-c1d6-55b4-9b9e-cd2d42cdf95f,Chakraborty Pizza Biryani House,Pizza,6,Premium,₹₹₹,4.21,31,0.17,11,False
+1187,RST-2962939f-cf09-5325-a75a-0cc1da620499,Patil Chinese Corner,Chinese,7,Mid,₹₹,3.64,2,0.219,30,False
+1188,RST-818e11e1-f171-5979-8b41-8ec971244d55,Nath North Corner,North Indian,5,Premium,₹₹₹,4.41,4,0.184,25,True
+1189,RST-8b0f13d1-e320-534c-be74-ae860ff3745b,Mahajan Healthy Corner,Healthy,3,Mid,₹₹,3.7,1,0.23,10,False
+1190,RST-fc4ec692-36b8-5e3f-a356-554fc6aed066,Dhingra Fast Corner,Fast Food,6,Premium,₹₹₹,3.92,1,0.204,21,False
+1191,RST-0ee55a24-06b0-56fd-b95d-813d06324eae,Kara Biryani Junction,Biryani,8,Mid,₹₹,4.08,1,0.255,23,False
+1192,RST-2166d686-b356-5a13-8fae-80df316305ee,Mahal Biryani Cafe,Biryani,18,Budget,₹,3.78,1,0.2,18,True
+1193,RST-52b47ef7-ae12-5cac-ad43-4c62226c555e,Anne Biryani Junction,Biryani,18,Mid,₹₹,4.34,2,0.263,10,True
+1194,RST-8b362540-0faf-5230-9ed3-cc862bcefe2d,Chaudhari Biryani Dhaba,Biryani,3,Premium,₹₹₹,4.94,5,0.226,20,False
+1195,RST-51a78062-88e5-50fc-9f03-823aeaf75a6b,Purohit Fast Kitchen,Fast Food,1,Mid,₹₹,4.3,1,0.198,23,False
+1196,RST-cb76cbeb-43ae-581d-8193-872ae7fc4515,Kapadia Cafe Biryani House,Cafe,5,Mid,₹₹,4.1,1,0.226,20,False
+1197,RST-6d8ee4e7-866d-5d4b-bd85-03b89046c989,Radhakrishnan Chinese House,Chinese,2,Mid,₹₹,4.11,1,0.238,6,False
+1198,RST-42191c14-db1d-56e1-a1ad-b2f50c0bdd64,Cheema Biryani Kitchen,Biryani,6,Mid,₹₹,3.55,1,0.224,15,False
+1199,RST-80041172-61f5-541c-a41d-08c2c62385d2,Dasgupta North Biryani House,North Indian,47,Budget,₹,4.42,49,0.209,24,True
+1200,RST-c95094fe-4975-5f54-bead-a7b6bc4fab9a,Gill Cafe Kitchen,Cafe,3,Mid,₹₹,4.15,4,0.228,21,False
+1201,RST-44bb0694-857b-5945-886d-1491f22f0a11,Vyas Chinese Kitchen,Chinese,5,Mid,₹₹,3.94,1,0.254,17,False
+1202,RST-59c53c1d-7a56-57bb-9e18-de0cc205966f,Mohan Chinese Corner,Chinese,19,Mid,₹₹,3.13,1,0.159,27,False
+1203,RST-8397276e-4800-55ca-90eb-33d2c50c72de,Suri Healthy Cafe,Healthy,9,Mid,₹₹,3.89,1,0.236,6,False
+1204,RST-9c8e6355-433c-51e1-89b3-8cc0afff75a4,Chandran Fast Foods,Fast Food,1,Premium,₹₹₹,4.57,1,0.166,26,False
+1205,RST-e82c09f5-b1aa-5059-8eb3-4e84ecdd3028,Wadhwa North Cafe,North Indian,2,Budget,₹,3.98,1,0.224,8,False
+1206,RST-250903db-4f6a-5018-a06f-13361cd07c71,Palla South Express,South Indian,40,Budget,₹,3.95,2,0.207,9,False
+1207,RST-95012c48-0a18-5795-b1fc-6df7a6c090a0,Manda Chinese Corner,Chinese,2,Budget,₹,4.93,7,0.196,20,True
+1208,RST-16243f21-79c2-5753-a76c-b68faa2bf8a2,Madan Healthy House,Healthy,14,Mid,₹₹,4.7,1,0.195,13,False
+1209,RST-9e6aea82-d097-57fc-abd2-f9f254c337eb,Chaudhary Biryani Dhaba,Biryani,24,Mid,₹₹,4.6,2,0.214,16,False
+1210,RST-5e0ebaa8-8735-568c-abb8-c1b4f43c56c9,Bava South Biryani House,South Indian,4,Mid,₹₹,3.6,1,0.179,21,False
+1211,RST-d04ae77e-3229-5925-9c07-c796b24f5c5f,Garde Fast Biryani House,Fast Food,19,Budget,₹,4.64,5,0.185,22,True
+1212,RST-e83d0eb6-1183-54c5-a71a-04b576690559,Nadkarni Biryani Restaurant,Biryani,3,Premium,₹₹₹,3.98,1,0.198,16,False
+1213,RST-3e5d035a-0283-52b8-b0d1-7eb07b140cde,Ramachandran North Kitchen,North Indian,4,Mid,₹₹,4.05,1,0.237,17,False
+1214,RST-8d2124da-3316-50e9-a364-aeda64d5cfdc,Golla Cafe Express,Cafe,5,Mid,₹₹,4.26,4,0.187,11,False
+1215,RST-180d0232-dc1a-562b-8768-6a5aadbf7499,Pai North Cafe,North Indian,50,Budget,₹,3.71,1,0.191,12,False
+1216,RST-dcd313a1-2558-5e97-8541-702c6264094b,Wali Cafe Foods,Cafe,3,Budget,₹,3.71,1,0.216,11,False
+1217,RST-6a4bbe24-273b-5854-8682-5407c0a3324d,Rau Desserts Point,Desserts,2,Budget,₹,3.37,1,0.2,16,True
+1218,RST-1a6eb52d-afc1-51ae-b491-ddf7b0270d2b,Sood North House,North Indian,39,Budget,₹,5.0,6,0.185,20,False
+1219,RST-2f64e6e1-17c3-5fb3-94ee-c8ac6cc49e6b,Datta Rolls Junction,Rolls,3,Mid,₹₹,4.85,3,0.187,6,False
+1220,RST-6e6ed67e-5747-5afe-b02b-2669f79b8386,Lad Desserts Cafe,Desserts,33,Budget,₹,4.33,2,0.235,28,False
+1221,RST-f259749f-4018-5499-9fbf-b60037d66dae,Andra Fast House,Fast Food,14,Budget,₹,4.28,12,0.205,17,False
+1222,RST-e0a2f776-f706-5a8f-b381-4ddf3792cad5,Varghese Fast Restaurant,Fast Food,11,Budget,₹,4.96,6,0.219,26,True
+1223,RST-e24b91ce-6663-5af4-b863-4c9cefb2bdd1,Dugal North Restaurant,North Indian,21,Budget,₹,4.08,42,0.237,25,False
+1224,RST-a4772fed-1af8-5b6f-a701-c98a488ff9d7,Date North Express,North Indian,19,Budget,₹,5.0,10,0.218,11,False
+1225,RST-59a67350-af08-533d-b492-5656f977e92b,Dhar Rolls Biryani House,Rolls,2,Budget,₹,4.48,3,0.208,17,False
+1226,RST-d0e1db20-de0a-5404-a653-c603e41cba03,Radhakrishnan North Cafe,North Indian,50,Budget,₹,4.42,2,0.201,8,True
+1227,RST-7d1cc3dd-1039-52b7-ac38-ac17549481b9,Loke South House,South Indian,41,Mid,₹₹,5.0,7,0.184,20,False
+1228,RST-e67bd838-81f3-5ad4-8458-17ffbc5eeee9,Bera Biryani Junction,Biryani,35,Premium,₹₹₹,4.17,1,0.157,16,False
+1229,RST-b05eb1b5-972e-534e-a305-c4520a35e594,Prabhakar South Point,South Indian,13,Mid,₹₹,3.92,5,0.241,15,True
+1230,RST-22aa0aaa-2611-529f-983d-ff70be0554d8,Krish Desserts Kitchen,Desserts,9,Budget,₹,3.89,1,0.249,14,True
+1231,RST-305e7abc-d96b-5c2c-a565-15a0a5cfc4f0,Sahota Desserts Restaurant,Desserts,10,Premium,₹₹₹,4.17,16,0.235,12,False
+1232,RST-5bec878c-ebce-5182-a9ff-d747a0a395c4,Shankar Beverages Point,Beverages,1,Premium,₹₹₹,4.15,2,0.239,15,False
+1233,RST-f5484f09-84aa-57f2-9620-6d207936f0e7,Goswami North Dhaba,North Indian,9,Mid,₹₹,5.0,20,0.191,14,True
+1234,RST-b48cd0f4-9be9-555e-9871-2d812d79ac7a,Sarna Biryani House,Biryani,13,Budget,₹,4.25,3,0.247,19,False
+1235,RST-21b2ea1d-b7d6-5dad-b7e6-234ed683767b,Pandya Beverages House,Beverages,15,Mid,₹₹,4.58,3,0.213,12,False
+1236,RST-5428d43d-a4a2-53aa-8235-e0958cab50df,Sidhu Chinese Dhaba,Chinese,5,Premium,₹₹₹,3.89,1,0.202,18,False
+1237,RST-dbabf2c5-8299-5261-9b8e-8d408e4886c1,Thakkar Pizza Junction,Pizza,8,Premium,₹₹₹,3.98,2,0.165,14,False
+1238,RST-739af19e-8ad3-5f3b-a747-07bbe9384620,Mangat Fast Corner,Fast Food,14,Mid,₹₹,4.39,3,0.254,14,True
+1239,RST-4d2c1d0f-2f8c-5c6a-9ac2-40e844a1a234,Majumdar Chinese Cafe,Chinese,7,Mid,₹₹,4.21,1,0.223,22,False
+1240,RST-d68688f1-63f7-5596-8c65-9aa3274828e7,Sangha Chinese Express,Chinese,44,Premium,₹₹₹,4.0,2,0.225,20,False
+1241,RST-dad43634-d5f7-51ed-bdb8-c353cb1a7f6c,Verma Pizza Foods,Pizza,18,Budget,₹,4.95,5,0.236,21,True
+1242,RST-41dd8a36-b8b2-5e1f-ae14-6fa1b53efb61,Karnik North Biryani House,North Indian,1,Budget,₹,4.32,1,0.234,17,False
+1243,RST-b0cdb76e-acc9-514d-ac3f-dcfbeed65c2c,Mody Cafe Biryani House,Cafe,1,Premium,₹₹₹,4.29,2,0.227,12,False
+1244,RST-c4a413cf-7a2c-5941-b520-9e1560395caf,Chahal Fast Point,Fast Food,17,Budget,₹,3.0,1,0.219,20,False
+1245,RST-1fe816b7-c9cb-5747-8b01-b51328e88365,Mody North Biryani House,North Indian,7,Mid,₹₹,3.94,1,0.221,27,False
+1246,RST-dc0cf830-cb8e-5e82-a9b3-0fcd440673bb,Ray Rolls Point,Rolls,28,Budget,₹,4.49,3,0.254,25,False
+1247,RST-15aa7ac7-9d88-5e18-a795-e48555c13d57,Munshi Biryani Foods,Biryani,3,Budget,₹,3.51,2,0.188,15,False
+1248,RST-c59211e7-19ce-52d2-9b1f-96db5ddd2ad2,Chana South Point,South Indian,1,Budget,₹,3.5,1,0.174,15,False
+1249,RST-2e526792-deb0-571e-94ca-f46065c020b6,Buch Street Cafe,Street Food,6,Mid,₹₹,3.94,1,0.213,26,False
+1250,RST-d23a17cf-7250-5290-854f-52fbed74d724,Bose Rolls Junction,Rolls,19,Mid,₹₹,4.47,3,0.272,8,False
+1251,RST-cdf457fc-bdc8-5415-8a7e-cb5b4a6f2372,Khatri Fast Restaurant,Fast Food,46,Mid,₹₹,3.31,1,0.235,22,False
+1252,RST-7b7e6823-83e3-57e1-a0f5-59a9b630e3c6,Chander Beverages Foods,Beverages,33,Budget,₹,3.89,1,0.229,22,True
+1253,RST-e9c2c831-9eb2-5f9c-ac47-97558cf44471,Gandhi Fast Foods,Fast Food,8,Premium,₹₹₹,4.39,16,0.215,16,False
+1254,RST-4efd1f50-d465-5441-a3b4-69f5f6b371b8,Bhandari Biryani Biryani House,Biryani,25,Mid,₹₹,3.64,1,0.227,7,False
+1255,RST-6425b71d-fbe8-5aeb-8d90-4a63a3ac6544,Chad South Cafe,South Indian,1,Premium,₹₹₹,5.0,7,0.19,6,False
+1256,RST-62902bcd-3b3c-528a-b641-193c62586489,Mangal North Dhaba,North Indian,11,Budget,₹,4.32,10,0.21,6,True
+1257,RST-77b28dbd-ee7e-5ac7-a8c1-944deb7b8044,Tailor Biryani House,Biryani,39,Budget,₹,4.56,14,0.195,22,False
+1258,RST-62922f84-663b-5e25-926c-adcd14679539,Anne Biryani Point,Biryani,6,Premium,₹₹₹,4.26,2,0.185,20,True
+1259,RST-d7ddefa0-49e6-54ea-861e-d24e86010cb8,Samra Rolls Kitchen,Rolls,44,Mid,₹₹,4.6,4,0.28,22,True
+1260,RST-8526fb87-7df1-55dd-9d68-3b9299d2a074,Trivedi Biryani Express,Biryani,3,Budget,₹,4.26,35,0.175,22,False
+1261,RST-4889fabc-28ca-5672-85c2-487857d2045a,Deshpande Fast Restaurant,Fast Food,2,Mid,₹₹,4.01,1,0.17,15,False
+1262,RST-ffc6c04a-69e8-5632-a9e6-b48804a177cd,Srinivasan Beverages Kitchen,Beverages,9,Mid,₹₹,4.23,3,0.195,18,False
+1263,RST-d627f91a-ed85-5f69-9c35-fb3c8cdf4c5c,Tank Healthy Junction,Healthy,37,Budget,₹,3.81,1,0.227,19,False
+1264,RST-707c5f45-e2de-57e8-a670-819a1728f2ca,Varma Chinese Cafe,Chinese,5,Mid,₹₹,4.48,2,0.207,16,True
+1265,RST-fa48491e-4170-5f0e-8c59-35d4783b3949,Walia Mughlai Dhaba,Mughlai,24,Budget,₹,4.14,1,0.194,14,False
+1266,RST-f2522f2e-3497-5819-8187-aab330e12480,Dash Desserts Corner,Desserts,3,Budget,₹,4.17,1,0.258,31,True
+1267,RST-aa1a7960-bc7c-509b-82ec-ef75fb6642a0,Ravi North Foods,North Indian,20,Premium,₹₹₹,4.5,11,0.205,25,False
+1268,RST-b8d6f904-fa9a-5ee8-82f2-3b7f26458342,Atwal Chinese Corner,Chinese,10,Mid,₹₹,4.1,1,0.195,20,False
+1269,RST-81f7edb5-994f-5850-8058-1c9c20eb346f,Gupta South Dhaba,South Indian,3,Premium,₹₹₹,2.87,1,0.24,23,False
+1270,RST-404f4a28-2261-520a-9b61-6ee26aa836a1,Amble Pizza Restaurant,Pizza,18,Mid,₹₹,4.17,1,0.229,11,False
+1271,RST-8970b574-6aea-5718-b904-28dd8200eac2,Sandal Fast Corner,Fast Food,18,Premium,₹₹₹,4.66,13,0.208,17,False
+1272,RST-78b72bb9-c2a6-5986-b955-1638c0015531,Warrior Biryani Cafe,Biryani,9,Mid,₹₹,4.59,27,0.175,22,True
+1273,RST-18fc9cb1-947d-57a5-a48c-325ee9d59075,Pai Desserts Dhaba,Desserts,3,Mid,₹₹,4.19,2,0.252,19,False
+1274,RST-b0745f2d-c7bc-5c29-8ef4-d0ef1214f8e0,Konda Chinese Point,Chinese,2,Budget,₹,4.26,2,0.218,17,False
+1275,RST-de6c8127-d4ba-5a13-b087-b0e7c2b8c920,Wable Chinese Corner,Chinese,44,Mid,₹₹,4.42,1,0.199,20,False
+1276,RST-1cbf1a4b-9ced-5cab-9b23-744570051697,Basak Cafe Restaurant,Cafe,15,Mid,₹₹,3.89,1,0.221,16,False
+1277,RST-751f5e7a-8eb7-536f-8141-45d91e9b7313,Sen Street Kitchen,Street Food,25,Mid,₹₹,3.77,3,0.186,20,True
+1278,RST-8f3a33fd-c7b7-56f4-b5eb-adcf69f0e318,Ganguly Desserts Express,Desserts,17,Budget,₹,4.29,0,0.256,10,False
+1279,RST-6dc6bf0f-01a1-59ca-bdfd-3d301389b581,Viswanathan South House,South Indian,27,Budget,₹,4.36,2,0.15,26,True
+1280,RST-2bda8848-6b64-5825-89b2-e94195027e2c,Kar North Corner,North Indian,3,Premium,₹₹₹,4.14,1,0.213,21,False
+1281,RST-cf3776e8-527b-512c-b859-c07a8d977595,Gill South Kitchen,South Indian,9,Premium,₹₹₹,4.53,5,0.223,18,False
+1282,RST-6d71730d-5352-564d-b637-cc9aa34a4211,Borde Biryani Foods,Biryani,15,Budget,₹,4.47,1,0.159,16,False
+1283,RST-15a493d9-932b-5822-b7a0-25538d035aa6,Peri South Biryani House,South Indian,2,Mid,₹₹,4.13,1,0.211,26,False
+1284,RST-04b9b021-f01d-5174-a0bc-3f5d0fdcac23,Deol Mughlai Junction,Mughlai,2,Mid,₹₹,3.55,1,0.248,20,False
+1285,RST-ff3915d0-9868-55c1-af66-769027b971f3,Varkey Pizza Express,Pizza,14,Mid,₹₹,4.24,5,0.27,17,True
+1286,RST-9789d17d-3505-51e8-9935-51a97e10fc98,Pandit Biryani Corner,Biryani,32,Budget,₹,4.05,2,0.274,21,False
+1287,RST-566d7969-15cd-5dfe-b4ac-9a6286033b26,Behl Chinese Kitchen,Chinese,15,Mid,₹₹,3.75,2,0.222,18,False
+1288,RST-f6775f93-d864-5dab-b158-a76b21fae009,Sami Chinese House,Chinese,1,Budget,₹,4.44,3,0.249,10,False
+1289,RST-5a7bfcd8-fc35-505f-aeb9-321a545a7443,Tandon Biryani Kitchen,Biryani,46,Budget,₹,4.03,4,0.185,26,False
+1290,RST-fd7ae332-7fcd-57e4-b727-d22e3a96d1e5,Raghavan Rolls Restaurant,Rolls,2,Premium,₹₹₹,3.87,2,0.188,19,False
+1291,RST-13be9c8c-1d61-59b3-adf8-2116d5fd7b3e,Garde North Foods,North Indian,3,Mid,₹₹,5.0,51,0.219,24,False
+1292,RST-2bc71deb-8ad8-5335-9c89-eae7d329175e,Prakash Beverages Foods,Beverages,46,Budget,₹,4.62,35,0.231,16,True
+1293,RST-6b4d9af5-f48a-51eb-94fd-b77e70ffbfd9,Chowdhury North Restaurant,North Indian,22,Budget,₹,4.43,1,0.202,10,True
+1294,RST-eef7d2b7-d0b8-5e88-bde9-6fbf923797fc,Nigam South House,South Indian,41,Budget,₹,4.4,7,0.15,18,False
+1295,RST-8f1e0986-eb7a-5827-89f7-bcb1a6851809,Krish Healthy House,Healthy,25,Mid,₹₹,4.75,37,0.162,6,False
+1296,RST-d5ae6999-2ce6-5ba8-b58a-49ab9d908a6c,Zacharia South Biryani House,South Indian,15,Budget,₹,4.07,2,0.211,23,False
+1297,RST-e06c8d01-b4e5-5e30-8626-3b2fbcbd53cc,Dalal North Cafe,North Indian,4,Mid,₹₹,4.37,9,0.25,14,False
+1298,RST-81f13887-3396-5ca4-b07f-97aa5c0bd287,Mannan Pizza Biryani House,Pizza,5,Premium,₹₹₹,4.55,5,0.195,28,False
+1299,RST-d764d4b0-559e-5230-8601-ef8a634ee852,Mistry Biryani Cafe,Biryani,42,Budget,₹,3.75,0,0.194,23,False
+1300,RST-841d10e8-7762-5b62-b62e-b1d2e05774a0,Subramanian North Corner,North Indian,31,Mid,₹₹,4.39,19,0.248,16,False
+1301,RST-68000580-4c3f-5ba0-8fd5-9b4ef5dfaabc,Memon North Restaurant,North Indian,6,Budget,₹,3.99,2,0.238,16,False
+1302,RST-38f4525f-39fd-5c2e-9df5-7162e85a6cdd,Lanka North Dhaba,North Indian,6,Mid,₹₹,4.42,2,0.17,6,True
+1303,RST-7a3286e9-bf0e-5cad-8006-ef150a5ae9ea,Kala Fast Biryani House,Fast Food,4,Budget,₹,3.79,1,0.193,14,False
+1304,RST-919f1d76-0f90-593c-b7ed-f367a66efcf5,Agate South Biryani House,South Indian,5,Budget,₹,4.08,6,0.176,20,False
+1305,RST-3bdfbccb-5c83-5454-84a7-77f4c9c58180,Ramesh Desserts Corner,Desserts,31,Budget,₹,4.61,2,0.236,20,False
+1306,RST-81550987-8376-5d7e-84b4-9a4851946c33,Kalla Cafe Junction,Cafe,1,Budget,₹,4.95,2,0.172,19,True
+1307,RST-bf8cf3e3-1e91-503c-a0eb-9338f52fb170,Mody North Point,North Indian,7,Premium,₹₹₹,3.2,1,0.234,10,False
+1308,RST-ec4a6c60-e459-52b2-9646-9ad160fa50f9,Varma Chinese Junction,Chinese,42,Mid,₹₹,4.04,1,0.242,18,False
+1309,RST-224c6170-7334-5ab9-8003-d0e5d7fe5004,Banik North Junction,North Indian,10,Premium,₹₹₹,4.44,1,0.211,21,True
+1310,RST-afbed69a-1110-5d43-86da-9171aea10e78,Sheth Chinese Restaurant,Chinese,8,Mid,₹₹,4.38,2,0.192,23,False
+1311,RST-be11b40b-774b-567c-a9e7-7b9ff10d9a44,Sura South Restaurant,South Indian,5,Mid,₹₹,3.81,1,0.19,14,True
+1312,RST-533d7554-c2dd-57e2-9215-b52574ed0b54,Bhandari Desserts Corner,Desserts,1,Budget,₹,3.95,3,0.194,13,True
+1313,RST-9c3ac208-0cea-5ea0-99c3-d80808cc7f3c,Parekh Chinese Restaurant,Chinese,3,Mid,₹₹,4.69,4,0.232,19,True
+1314,RST-8a7406d6-346d-5629-8301-cacf6797d3b7,Ahuja Biryani Foods,Biryani,2,Mid,₹₹,5.0,6,0.15,13,False
+1315,RST-874b525e-1df3-5779-8561-1a1c016bee63,Sharma Pizza Dhaba,Pizza,2,Premium,₹₹₹,3.91,5,0.184,17,False
+1316,RST-ca5e13c2-5d38-5c61-8730-0be1eeb2810b,Narasimhan Beverages Junction,Beverages,3,Premium,₹₹₹,4.54,2,0.22,25,False
+1317,RST-b1991f74-4454-5e18-84a8-f2a1a75200a1,Misra Chinese Kitchen,Chinese,5,Budget,₹,4.5,2,0.208,6,False
+1318,RST-cdf14300-ef8d-5038-9905-3acbd1aed896,Pandya South Dhaba,South Indian,1,Mid,₹₹,4.28,1,0.252,9,False
+1319,RST-e1a00b3c-1487-5444-a1bc-372dd172c332,Chhabra Street Cafe,Street Food,43,Mid,₹₹,4.51,2,0.235,8,False
+1320,RST-273754e1-a709-57bc-8279-e605c0f959fb,Ahluwalia Chinese Foods,Chinese,2,Mid,₹₹,3.8,15,0.26,16,True
+1321,RST-ee2461c7-cd87-5e57-8669-a0e9b64124f4,Palla Pizza Express,Pizza,6,Budget,₹,4.73,2,0.159,21,False
+1322,RST-29eae6c1-2536-537a-9260-95b18ddaa7b9,Grewal Pizza Cafe,Pizza,33,Mid,₹₹,3.89,3,0.188,24,True
+1323,RST-b6a4b72f-e637-5c31-b62d-db4232e3cf07,Ratti Biryani Kitchen,Biryani,2,Premium,₹₹₹,3.91,1,0.226,22,False
+1324,RST-6ca59c93-7174-5941-911d-6a0a43e0af43,Pant South House,South Indian,8,Mid,₹₹,4.64,22,0.228,13,False
+1325,RST-77546c45-c3cc-5af3-a6cb-10b6a79e0cda,Andra North Foods,North Indian,29,Mid,₹₹,3.85,2,0.212,18,False
+1326,RST-9a325c83-58b8-5bba-865f-50d841d2c8bb,Chaudhuri Biryani Express,Biryani,10,Budget,₹,4.33,1,0.15,19,True
+1327,RST-d23e2602-0ef3-5060-ae12-a3e34f5ebcfe,Sankar Biryani Foods,Biryani,3,Premium,₹₹₹,4.59,3,0.232,10,True
+1328,RST-0641e169-98fc-5d2a-b1c2-04b96266217f,Swamy Desserts Cafe,Desserts,19,Budget,₹,4.13,6,0.192,16,False
+1329,RST-67565023-c8d4-519e-b05f-adf961b8c4a3,Hora Rolls Restaurant,Rolls,16,Budget,₹,4.41,2,0.242,22,False
+1330,RST-737da37f-cf70-5d41-892e-36701ec9003e,Chad Mughlai House,Mughlai,6,Budget,₹,4.7,6,0.257,24,False
+1331,RST-514f46bc-4f6c-5f08-9df7-ea48ddd2c931,Wadhwa Street Point,Street Food,1,Premium,₹₹₹,4.54,14,0.246,6,False
+1332,RST-d160f411-8740-58c7-b223-ec4037db00cf,Varkey Rolls House,Rolls,1,Mid,₹₹,4.43,3,0.231,30,False
+1333,RST-059fdd36-709f-5c79-9875-976a68ca122f,Dube North Cafe,North Indian,27,Budget,₹,4.01,1,0.218,17,False
+1334,RST-460bc17d-839b-5434-b1a4-e560c04e78f8,Roy Biryani Kitchen,Biryani,5,Budget,₹,4.29,12,0.189,12,False
+1335,RST-651155a6-d67a-5e3d-bbb5-94f5c53e3e66,Dasgupta Fast Point,Fast Food,2,Mid,₹₹,3.85,0,0.211,7,False
+1336,RST-94e59eed-70ed-56ab-936d-8ffcf28a10c1,Sura Fast Point,Fast Food,9,Mid,₹₹,4.62,21,0.187,15,False
+1337,RST-d64762f5-7fd9-5230-a6d1-5e0f9f6d44b8,Amble South Point,South Indian,38,Budget,₹,4.44,1,0.191,24,False
+1338,RST-09fbc731-f857-5650-a6d4-e5ce2fc57987,Dugal Fast House,Fast Food,1,Premium,₹₹₹,5.0,18,0.19,17,True
+1339,RST-cb71485f-e77b-52d3-bb5f-3db6710d86b4,Krishna Chinese Express,Chinese,1,Budget,₹,4.23,3,0.171,16,False
+1340,RST-0e94ec52-6095-58ed-a11b-678381b6c9db,Kara Chinese Dhaba,Chinese,7,Mid,₹₹,3.94,2,0.194,22,False
+1341,RST-4490c041-86fe-52ee-b879-a55e5f163132,Singhal Beverages Restaurant,Beverages,16,Budget,₹,3.44,1,0.178,25,False
+1342,RST-3ad70803-4cf6-537b-9154-a86b383e893b,Rana Biryani Restaurant,Biryani,8,Mid,₹₹,3.49,2,0.155,13,True
+1343,RST-4ec276f8-01ce-5f71-a094-5973e06e2683,Prasad Fast Point,Fast Food,35,Mid,₹₹,3.77,2,0.196,18,True
+1344,RST-9de9b730-ef2a-58a9-93d0-67036b51f653,Mistry Fast Junction,Fast Food,1,Mid,₹₹,4.47,2,0.236,17,False
+1345,RST-0cf18ffc-a9e9-5f2e-9a38-fdba040a1691,Patla Fast Express,Fast Food,5,Mid,₹₹,4.77,2,0.202,21,False
+1346,RST-390889d2-cce2-562f-8670-b417222487a7,Sangha South Point,South Indian,5,Premium,₹₹₹,4.22,1,0.188,8,False
+1347,RST-fc0864ea-9f68-525c-a791-4399efe87abb,Gopal Fast Junction,Fast Food,5,Premium,₹₹₹,4.27,8,0.222,15,False
+1348,RST-5004bd11-19b2-533c-9484-1b50361ba5d3,Yadav Chinese Dhaba,Chinese,8,Mid,₹₹,4.22,1,0.206,10,True
+1349,RST-cd627e8e-887a-53c7-a889-2582b808f354,Luthra Pizza Foods,Pizza,24,Mid,₹₹,4.06,2,0.244,25,False
+1350,RST-166cadfa-0b85-550f-9df5-0d8653674b1e,Chopra North Kitchen,North Indian,5,Premium,₹₹₹,3.87,3,0.2,22,False
+1351,RST-a325f6d0-e55f-52fb-a8f5-9ca8d4e590ef,Sarna Healthy Biryani House,Healthy,20,Budget,₹,4.27,2,0.251,14,False
+1352,RST-1bb84622-5f6b-589e-8bf7-2991a0483b04,Sarna Desserts Corner,Desserts,2,Budget,₹,3.19,2,0.222,19,True
+1353,RST-ecbf4281-bc78-5d97-a721-926d2f735ed6,Edwin Biryani Restaurant,Biryani,11,Budget,₹,3.78,1,0.213,18,False
+1354,RST-74d9c161-a277-57b7-8135-79b65fe7d5ca,Dey Chinese Dhaba,Chinese,6,Premium,₹₹₹,3.72,1,0.253,18,False
+1355,RST-cc9ca801-da8b-58aa-a376-92c997ce2785,Pandya Chinese House,Chinese,10,Budget,₹,4.01,1,0.257,15,False
+1356,RST-018a026f-5681-5b2c-bdc7-4ce3cfdd4b51,Saraf Rolls Dhaba,Rolls,2,Budget,₹,4.55,1,0.211,23,False
+1357,RST-c9fd9f26-844c-5dd3-b058-0683f36a0bba,Ahluwalia Pizza Cafe,Pizza,43,Mid,₹₹,4.21,2,0.207,16,False
+1358,RST-a74c2437-f31d-53f6-bdc0-a87bdc7df634,Parmer Rolls Restaurant,Rolls,36,Budget,₹,3.99,3,0.229,14,False
+1359,RST-eb2ee2f7-a11f-593d-9ebd-3e61a8c3dce9,Issac Cafe Corner,Cafe,27,Budget,₹,4.78,2,0.186,15,False
+1360,RST-777babc0-033e-5614-b071-18e958dc888c,Choudhry Biryani Point,Biryani,35,Budget,₹,3.97,4,0.204,21,True
+1361,RST-a4cb0f96-d211-5f05-8a40-78a9486de7b3,Gupta Pizza Point,Pizza,2,Budget,₹,3.79,2,0.242,9,False
+1362,RST-63c9741d-5f6c-50cf-a62f-a3a2c873e023,Mane Biryani Biryani House,Biryani,9,Premium,₹₹₹,4.28,19,0.178,17,True
+1363,RST-cd7dd369-2aad-5220-8512-539f52285f49,Baria Pizza Restaurant,Pizza,5,Budget,₹,4.5,10,0.21,17,True
+1364,RST-191455b3-6299-5c5a-9916-69905e54a2fc,Deol Biryani Kitchen,Biryani,34,Mid,₹₹,3.94,1,0.28,12,False
+1365,RST-488b3d35-87f2-52bf-bcbf-e60383edf7b0,Rana Desserts Kitchen,Desserts,3,Mid,₹₹,4.13,2,0.223,26,False
+1366,RST-94c940d2-103b-5b4a-a8e9-2a55585a8c64,Sama North Cafe,North Indian,3,Budget,₹,4.34,2,0.166,14,False
+1367,RST-7db85023-0745-5dd0-9739-561929a4f252,Narula South Dhaba,South Indian,16,Budget,₹,4.5,1,0.253,29,False
+1368,RST-39b46d69-736c-5439-95db-715a7216b0b0,Balay Chinese Point,Chinese,2,Mid,₹₹,4.44,3,0.16,18,True
+1369,RST-8c206fe2-c61b-5f6f-a57a-be6ceef1c894,Dyal Street Cafe,Street Food,19,Budget,₹,4.21,9,0.238,15,False
+1370,RST-45ea9249-8ee6-5191-9428-3591c384034e,Issac Biryani Kitchen,Biryani,4,Budget,₹,4.32,4,0.201,10,False
+1371,RST-7676799b-42bc-5f72-99b7-ccbc053079f2,Srinivas Chinese Biryani House,Chinese,15,Premium,₹₹₹,3.48,1,0.235,8,False
+1372,RST-98d47a29-4632-5bee-b64d-4a05f11768e8,Lata Biryani Cafe,Biryani,32,Budget,₹,4.65,5,0.207,23,False
+1373,RST-4c70698e-cf24-5259-a029-7a6e9a0f296a,Dani Biryani Corner,Biryani,13,Premium,₹₹₹,3.96,2,0.268,17,False
+1374,RST-fba3c418-cf22-537d-98a0-076390760d3e,Sama Cafe Express,Cafe,3,Budget,₹,3.98,3,0.205,23,False
+1375,RST-bb485391-d22c-5221-b4e4-5e9a046e6eb9,Suresh Street Point,Street Food,1,Budget,₹,4.47,10,0.203,14,False
+1376,RST-544028a9-c79e-5c07-bc88-a9980f19b427,Tandon Beverages Cafe,Beverages,1,Mid,₹₹,5.0,286,0.239,24,False
+1377,RST-229c3632-0834-5853-9c47-1e81347a027a,Datta Beverages Restaurant,Beverages,2,Budget,₹,3.0,1,0.214,12,False
+1378,RST-70550577-7ca5-5e65-b520-0be284af1bbe,Nair South Point,South Indian,11,Budget,₹,4.03,2,0.212,8,False
+1379,RST-1e0b97ec-4195-5954-baca-968f37dddbb1,Ratta South Foods,South Indian,5,Budget,₹,4.33,5,0.17,11,False
+1380,RST-46c68589-0fbe-50fa-90e3-7cc60ded53cd,Thaker Fast Express,Fast Food,4,Budget,₹,4.43,2,0.232,12,True
+1381,RST-e3445af3-dbe0-5096-9256-446356ed5f45,Ramachandran Pizza Junction,Pizza,3,Mid,₹₹,3.21,2,0.175,13,False
+1382,RST-259aff7c-a88d-5065-b437-ea2b1cc41b2a,Deep South Restaurant,South Indian,42,Budget,₹,3.86,10,0.155,10,False
+1383,RST-ff1ddb03-0129-5562-a300-adcf8c70d013,Choudhary Rolls Point,Rolls,2,Premium,₹₹₹,4.17,1,0.203,34,False
+1384,RST-fea3ceb3-04eb-51e3-a6a5-080408a66021,Chokshi South Express,South Indian,5,Budget,₹,4.06,1,0.205,19,True
+1385,RST-b0d33ada-5a05-55bb-87c2-2fbf902a8b15,Bail South Restaurant,South Indian,8,Mid,₹₹,4.89,51,0.232,19,False
+1386,RST-ffd73539-0cc6-574d-bffa-65c7c701f3c5,Date Chinese Point,Chinese,1,Mid,₹₹,3.84,2,0.25,18,True
+1387,RST-099eac45-dc60-585f-9b1e-57fa70828bc4,Dugal Beverages Express,Beverages,38,Budget,₹,4.54,4,0.192,22,True
+1388,RST-aa8ad20f-c62a-5999-8c8a-aebbaa7fbee0,Padmanabhan Rolls Point,Rolls,2,Premium,₹₹₹,3.35,1,0.191,6,False
+1389,RST-d6bd8614-7a51-5eff-99bb-82f1b5061bf8,Tella Fast Biryani House,Fast Food,16,Mid,₹₹,3.56,1,0.218,6,False
+1390,RST-71ef7425-2dbe-5dc3-8c38-a7eadcb4b6ea,Arya Beverages Dhaba,Beverages,13,Budget,₹,4.2,1,0.184,23,False
+1391,RST-cc1ddd5c-aeea-5e5e-b116-6b80922ac282,Khalsa Beverages Cafe,Beverages,25,Mid,₹₹,4.71,3,0.233,13,True
+1392,RST-e230f441-27cd-599a-93ea-2c7624531ae0,Ben Chinese Biryani House,Chinese,15,Mid,₹₹,5.0,17,0.173,7,False
+1393,RST-572d9827-36fe-58fc-b660-7111963e8a54,Oommen Desserts Dhaba,Desserts,22,Budget,₹,4.55,2,0.22,25,False
+1394,RST-aec3a018-6ca5-51ac-8208-5a0c95051bd2,Sanghvi South Express,South Indian,7,Mid,₹₹,4.26,3,0.255,15,False
+1395,RST-5ec6e57c-5a62-584d-9337-cbcf0beca909,Anand Biryani Corner,Biryani,8,Budget,₹,4.59,8,0.225,18,True
+1396,RST-66d5d743-725e-5734-89cf-fc5070a4d83f,Saraf North Cafe,North Indian,17,Mid,₹₹,4.07,1,0.207,17,False
+1397,RST-111e9f91-0ed2-5b8b-a797-a187e801ea48,Srinivasan Biryani Foods,Biryani,11,Mid,₹₹,4.93,108,0.244,16,False
+1398,RST-cf9c6df8-730b-5bbb-b252-cfc9350e04b8,Mann Fast Cafe,Fast Food,9,Mid,₹₹,3.98,5,0.194,7,True
+1399,RST-ca4d75a8-e894-5031-9ebd-08e82d57f33f,Manda North Express,North Indian,3,Premium,₹₹₹,3.48,1,0.215,20,True
+1400,RST-af391274-c69c-5325-85f5-1e63dce8f0ef,Sunder Biryani Corner,Biryani,4,Mid,₹₹,4.22,1,0.181,11,False
+1401,RST-3f59bd65-82ad-57cc-942c-65cba123b0ba,Butala Pizza Dhaba,Pizza,6,Premium,₹₹₹,3.97,1,0.242,22,False
+1402,RST-55e25317-f912-5eae-a97d-ed77dd7bff58,Sanghvi Fast Dhaba,Fast Food,1,Mid,₹₹,4.71,6,0.175,12,False
+1403,RST-ec2b6af6-98fb-5db2-b742-7805b45eed9b,Kota North Point,North Indian,7,Mid,₹₹,4.47,3,0.189,18,False
+1404,RST-a1044898-60ad-5f04-821c-784f85baf7ac,Dua North Biryani House,North Indian,1,Mid,₹₹,5.0,13,0.214,23,True
+1405,RST-632fdaef-3fb3-513f-ae70-dfa4f186a771,Vaidya Chinese Kitchen,Chinese,11,Budget,₹,4.18,4,0.191,7,False
+1406,RST-629fc5e7-349b-54df-b2a1-25aef15df172,Grover Beverages Cafe,Beverages,17,Mid,₹₹,3.38,2,0.161,27,False
+1407,RST-1ba52a20-dbda-5505-be64-6a09d656ede5,Krish Cafe Corner,Cafe,11,Budget,₹,3.84,1,0.153,26,True
+1408,RST-cbc3b2ef-d8c5-5483-a8da-52d62b346f4d,Mand Chinese Biryani House,Chinese,17,Premium,₹₹₹,4.26,1,0.192,25,False
+1409,RST-cdbe1e21-dfe1-5f50-a637-ab9aa075a243,Contractor Rolls Express,Rolls,1,Mid,₹₹,4.1,2,0.248,15,False
+1410,RST-bc130f61-11c0-5826-8f3d-6a2da1b2b23c,Lall Fast Junction,Fast Food,1,Mid,₹₹,4.66,24,0.183,6,False
+1411,RST-03080c80-3250-53d5-8e77-92ce7630be2f,Kota Healthy Express,Healthy,17,Mid,₹₹,3.69,1,0.229,27,False
+1412,RST-47c2038a-5083-5618-8beb-f243f6ce18a8,Sanghvi North Point,North Indian,25,Mid,₹₹,4.65,43,0.248,21,True
+1413,RST-bd7833ee-6f1e-5b51-a62b-04c92f133550,Issac Fast Express,Fast Food,18,Mid,₹₹,4.55,5,0.15,15,False
+1414,RST-ca490ab6-3651-5355-8cb2-6114672efdc0,Som Fast Junction,Fast Food,15,Mid,₹₹,4.19,1,0.173,25,False
+1415,RST-5aa4dc8f-789d-59d2-9830-3eae07afa919,Chauhan Chinese Cafe,Chinese,18,Budget,₹,4.97,4,0.173,22,False
+1416,RST-012427b1-4961-5ef0-b812-7085565cd7d3,Thakkar North Kitchen,North Indian,20,Mid,₹₹,4.51,2,0.228,17,False
+1417,RST-03cb1d19-0791-5d9a-bcfc-86939991db27,Golla North Dhaba,North Indian,19,Budget,₹,4.57,3,0.204,27,False
+1418,RST-c8af72a5-14cd-5498-b9c2-0af0e249d00d,Gulati Biryani Point,Biryani,20,Mid,₹₹,3.88,1,0.253,15,True
+1419,RST-6acc3e43-e2eb-5850-8496-1c2c1007607d,Dixit Pizza Dhaba,Pizza,1,Mid,₹₹,3.98,1,0.277,14,False
+1420,RST-c9a6f960-4703-5ac4-af1e-e0fa82ef73b5,Karnik Rolls Dhaba,Rolls,1,Budget,₹,4.61,325,0.214,12,False
+1421,RST-714c6ab7-95af-5210-b6f1-9a5f4ee7e271,Dara South House,South Indian,6,Mid,₹₹,3.75,1,0.222,14,False
+1422,RST-442747d8-b07f-561e-b1ea-aa09438520ea,Deo Cafe Kitchen,Cafe,10,Mid,₹₹,3.88,1,0.173,26,True
+1423,RST-0064d73e-7272-5746-be46-9c45c3b2886d,Rattan Chinese Cafe,Chinese,21,Mid,₹₹,3.83,2,0.227,15,True
+1424,RST-347ce5a4-72fe-5151-ad11-95f73ad50561,Barad Street Corner,Street Food,5,Mid,₹₹,4.13,1,0.18,15,True
+1425,RST-d36fcf1b-1be2-595f-a25f-3a1727f013ea,Mahal North Junction,North Indian,4,Mid,₹₹,4.09,1,0.195,22,True
+1426,RST-4f6d9c15-1004-52e3-9e96-ef5989a5c4e9,Handa Beverages Dhaba,Beverages,23,Mid,₹₹,4.13,0,0.231,21,True
+1427,RST-a1327450-9d1d-52c6-84bc-07640b31a71e,Dhingra Mughlai Kitchen,Mughlai,4,Budget,₹,4.06,0,0.2,19,False
+1428,RST-a214ac90-b3e9-5b8e-bf2c-d84183824877,Sandhu Beverages Foods,Beverages,26,Budget,₹,4.76,3,0.272,23,False
+1429,RST-679c8916-f683-5b08-aa84-a26cb4e9dbe4,Badami Desserts Foods,Desserts,3,Mid,₹₹,3.97,1,0.194,14,False
+1430,RST-9790cf90-7698-5587-81e8-21959957ca9f,Iyengar Chinese Junction,Chinese,6,Budget,₹,4.69,1,0.234,13,False
+1431,RST-5642cdd6-d451-5b17-8632-931029f8c562,Chand Rolls Point,Rolls,6,Budget,₹,5.0,3,0.179,11,False
+1432,RST-fe7ee785-4d3a-5523-a693-5c951b1e5238,Behl Fast Junction,Fast Food,5,Budget,₹,3.57,0,0.255,17,False
+1433,RST-221e6514-615e-579f-8dac-6354214e3392,Rai Biryani House,Biryani,1,Budget,₹,5.0,9,0.189,12,True
+1434,RST-c3a27843-49f6-52e6-978a-4ced19aea3f6,Reddy Healthy Foods,Healthy,3,Premium,₹₹₹,4.07,2,0.246,21,False
+1435,RST-47246c5e-a137-5b09-a1c8-c4e73bdbf15a,Vohra Chinese Kitchen,Chinese,5,Budget,₹,3.48,1,0.264,7,False
+1436,RST-15c4a724-fd18-58c5-a9ad-94b8ffcad5a3,Mohan Biryani Express,Biryani,5,Budget,₹,3.83,47,0.197,12,False
+1437,RST-30536091-883c-535f-82cc-5fb7d82375dd,Kashyap Mughlai Dhaba,Mughlai,23,Premium,₹₹₹,3.83,5,0.226,20,False
+1438,RST-348c8ddc-4a7d-54eb-9210-7c25b2d9f5e1,Kapadia Chinese House,Chinese,1,Premium,₹₹₹,3.84,1,0.203,18,False
+1439,RST-49d1a655-4f92-50e7-bd94-f6f3213912d1,Nayar North Dhaba,North Indian,6,Budget,₹,4.06,0,0.202,20,False
+1440,RST-7f90a6eb-ebef-55d4-bd0a-e0d03747292d,Sandhu Chinese Cafe,Chinese,1,Premium,₹₹₹,3.89,1,0.225,27,False
+1441,RST-efc5e5a5-0cd4-54bc-a51f-ac480711a751,Srinivas Desserts Dhaba,Desserts,40,Budget,₹,4.88,13,0.203,18,False
+1442,RST-e1dad5da-c8e6-5277-8508-284980a4b406,Bhat Cafe Corner,Cafe,23,Mid,₹₹,4.35,2,0.2,31,False
+1443,RST-5a822f94-e2a0-5507-85ad-ef1a52d75735,Uppal North Cafe,North Indian,47,Budget,₹,3.69,1,0.204,19,False
+1444,RST-60f0efbe-f430-5359-b980-4a6b980792aa,Sane Pizza Foods,Pizza,37,Budget,₹,4.07,1,0.28,16,False
+1445,RST-81771c4c-250d-5548-8e5c-bb90f26ccebe,Behl Fast Junction,Fast Food,5,Budget,₹,4.4,12,0.225,26,False
+1446,RST-50636da6-a4f8-5f29-9e6c-a10b02990b2d,Modi Pizza Dhaba,Pizza,17,Mid,₹₹,3.54,1,0.209,15,True
+1447,RST-629f6ce3-f9f2-5ab7-9467-58e8573bfc6b,Choudhary Pizza Kitchen,Pizza,5,Budget,₹,4.72,6,0.278,15,False
+1448,RST-f212e458-1339-5e54-bcbc-7268dbc78c8a,Luthra Street Kitchen,Street Food,34,Budget,₹,3.39,1,0.254,16,True
+1449,RST-e93824fb-f8c9-5e54-87a2-6fb5bada61d0,Patla Chinese Cafe,Chinese,7,Mid,₹₹,4.29,4,0.198,25,True
+1450,RST-255fa01a-af09-5a51-8130-a90b3d7d6d78,Mand Chinese Express,Chinese,6,Budget,₹,4.1,1,0.15,15,False
+1451,RST-a86dfdf9-4498-54a5-af61-9c2c8acc06c7,Panchal Fast Point,Fast Food,37,Mid,₹₹,5.0,4,0.234,6,False
+1452,RST-f81a5f1f-4fd6-5d63-b461-8c96ca317294,Sahota Biryani Cafe,Biryani,28,Budget,₹,4.42,9,0.188,10,True
+1453,RST-f86375c6-9f3f-51b9-b9e2-3b9805001db7,Koshy Biryani Point,Biryani,45,Budget,₹,3.37,1,0.199,24,False
+1454,RST-77851b7a-a236-5767-950d-ce694ea21d58,Nagarajan North Cafe,North Indian,1,Budget,₹,4.57,2,0.219,20,False
+1455,RST-b5a19615-a640-5bd2-a6ef-f9f137617e18,Batta North Point,North Indian,4,Mid,₹₹,4.5,1,0.214,22,False
+1456,RST-4735d394-0c05-54ce-bd4e-1e1532026833,Gopal Street Cafe,Street Food,5,Budget,₹,3.93,2,0.204,6,False
+1457,RST-b8819ca4-009f-51f0-aba7-c06ee5ce9f6f,Baria North Biryani House,North Indian,7,Mid,₹₹,4.48,10,0.197,14,False
+1458,RST-803ee1b2-0f0d-5dc2-93c1-8241d435922e,Acharya Fast Cafe,Fast Food,8,Mid,₹₹,3.76,1,0.246,10,True
+1459,RST-6e5d0966-6d4a-54ce-a04c-67123f82beff,Ben Desserts House,Desserts,4,Mid,₹₹,4.63,2,0.232,17,True
+1460,RST-b1eb8e53-5beb-53dd-b982-5267635bd5b9,Nagy North Express,North Indian,24,Mid,₹₹,3.61,1,0.205,20,False
+1461,RST-b6450d3f-53b2-5e1f-b92b-63ad8f3f87ad,Kala South Dhaba,South Indian,3,Premium,₹₹₹,4.14,1,0.208,16,False
+1462,RST-a29481ab-a6cd-542c-96ac-65ecec4be92f,Mangal Chinese Corner,Chinese,17,Budget,₹,4.21,1,0.212,24,False
+1463,RST-72541851-644d-52a7-8968-e25ad3775942,Sodhi Biryani Express,Biryani,30,Mid,₹₹,4.02,2,0.231,20,True
+1464,RST-3e7b1a5f-8c7d-5f6f-8b2a-b11966659c8c,Mammen Chinese Express,Chinese,12,Premium,₹₹₹,3.99,1,0.209,16,False
+1465,RST-f774a8f1-8731-5620-8a6a-01b67b769b23,Chaudhuri Pizza Express,Pizza,6,Budget,₹,4.63,3,0.253,18,False
+1466,RST-14360765-6e9d-53d2-8a2a-c80515e416a7,Sankar South Dhaba,South Indian,3,Mid,₹₹,3.48,1,0.186,22,False
+1467,RST-12c273de-3327-5c0f-b202-d00531859cc6,Goyal North Point,North Indian,2,Premium,₹₹₹,4.13,2,0.272,12,True
+1468,RST-05e82d00-a957-5c95-b99e-c98263aeaf6d,Krishnan North Biryani House,North Indian,20,Mid,₹₹,3.73,1,0.155,22,True
+1469,RST-8835cdfa-b583-5726-8904-9a84c1b25a27,Swamy Chinese House,Chinese,8,Premium,₹₹₹,3.68,1,0.194,23,False
+1470,RST-2ef05c14-755b-5b64-ad81-b103d18da9dd,Patla Chinese Restaurant,Chinese,1,Budget,₹,4.05,1,0.244,29,False
+1471,RST-59d3dfdd-8e7b-5d04-9ac0-569b76ae4f3b,Natt Street Cafe,Street Food,48,Mid,₹₹,4.46,2,0.2,9,False
+1472,RST-2762f126-5212-53b7-981b-5d28e6a483d5,Modi North Dhaba,North Indian,16,Budget,₹,4.56,4,0.23,10,False
+1473,RST-72b61767-bf45-53d4-97db-fd07507e227b,Choudhury Fast Foods,Fast Food,29,Budget,₹,4.57,6,0.248,26,True
+1474,RST-3c43d63c-01b4-5dd8-ab9b-b5c2c9eed214,Chatterjee Fast Foods,Fast Food,7,Premium,₹₹₹,3.7,1,0.246,27,False
+1475,RST-c8d63c96-9c3e-5281-bad3-ac9c1f2dcbfe,Arya Pizza Biryani House,Pizza,43,Budget,₹,3.58,1,0.218,9,False
+1476,RST-acb99e8d-2d76-5698-bb05-550fee64565c,De Pizza Corner,Pizza,3,Premium,₹₹₹,4.1,1,0.213,16,False
+1477,RST-9296ee77-8aa1-5f46-9ef3-1a08114f0aeb,Narula North Foods,North Indian,3,Mid,₹₹,3.94,1,0.254,20,True
+1478,RST-3b2c1bb6-e34c-5702-99a7-ea3b266586e5,Patel Pizza Point,Pizza,34,Mid,₹₹,4.17,2,0.15,19,False
+1479,RST-6ce44639-d3d3-58f4-867d-f6ced2b3e7d0,Pathak Chinese Junction,Chinese,34,Premium,₹₹₹,3.16,2,0.211,31,False
+1480,RST-633c90b9-ab38-5674-9c95-65872b0fc93d,Wadhwa Desserts House,Desserts,9,Mid,₹₹,3.12,1,0.217,8,False
+1481,RST-fbff1c4a-e66a-5343-ae2e-459681460b78,Prabhu South House,South Indian,2,Premium,₹₹₹,4.3,16,0.237,15,False
+1482,RST-39c6d6ef-8f2f-5276-bdd3-fb94c6b4abbd,Khanna Rolls Corner,Rolls,5,Premium,₹₹₹,4.57,2,0.203,26,True
+1483,RST-dc1cdb24-8096-572a-84a0-d357c04c25c5,Majumdar Pizza Dhaba,Pizza,21,Mid,₹₹,3.55,1,0.221,17,False
+1484,RST-35906d87-a291-5015-ac2e-28ed6f9228a3,Kade Pizza Express,Pizza,29,Mid,₹₹,4.48,4,0.15,31,False
+1485,RST-abd3a2ce-77b5-544b-8218-0862a0be57b5,Rajagopalan South Junction,South Indian,5,Budget,₹,4.49,3,0.191,12,True
+1486,RST-0202ad1e-2cf9-5c8b-ac81-7a51e673f57a,Chahal Pizza Point,Pizza,1,Budget,₹,4.53,4,0.193,30,False
+1487,RST-a184e16d-f36b-59da-80e1-c9e7372cea97,Cherian Rolls Cafe,Rolls,15,Budget,₹,3.74,1,0.209,10,True
+1488,RST-0cea269a-ca9a-508a-9cd0-d6e4aa8c6569,De Biryani Dhaba,Biryani,20,Mid,₹₹,5.0,5,0.171,23,True
+1489,RST-3f31ff9d-c616-5266-bb0f-58194d784d2f,Dara Chinese Junction,Chinese,7,Budget,₹,4.0,5,0.235,21,False
+1490,RST-9aa2b02b-6f64-59f2-bc04-a8784cf89549,Barman South Express,South Indian,11,Mid,₹₹,4.57,7,0.259,17,False
+1491,RST-a7af15b2-e873-5344-ac3f-272478b5bfe8,Halder Chinese Express,Chinese,48,Mid,₹₹,4.63,6,0.172,18,True
+1492,RST-97f139ff-f2a6-51c2-b63b-412ad39fc0f4,Hans Desserts Biryani House,Desserts,4,Mid,₹₹,3.59,1,0.194,8,False
+1493,RST-d72f7d1c-e1c6-5236-b39d-fdb89c557176,Sehgal Biryani Dhaba,Biryani,11,Premium,₹₹₹,3.45,1,0.18,18,True
+1494,RST-ff0cfad3-e571-52c5-954f-0dff75b6db23,Chaudhary Rolls House,Rolls,13,Premium,₹₹₹,4.77,9,0.244,11,False
+1495,RST-55a03be3-b8f0-5073-acc3-2a2be493368f,Borde Rolls Kitchen,Rolls,10,Premium,₹₹₹,4.4,1,0.215,25,False
+1496,RST-8718004b-475c-5a81-92e0-4ccb7ed51c72,Oza Pizza Restaurant,Pizza,32,Mid,₹₹,3.67,1,0.241,13,False
+1497,RST-bfecafd0-1744-5a9a-9d3e-2b763f7be779,Mitra Pizza Express,Pizza,12,Budget,₹,4.49,3,0.237,9,False
+1498,RST-d2f6aba5-1536-5aaa-a765-9f111775b47c,Som Fast Junction,Fast Food,9,Premium,₹₹₹,4.01,2,0.163,19,False
+1499,RST-221b0117-519c-5bf0-9012-42090da4f47f,Jaggi Biryani Cafe,Biryani,2,Budget,₹,3.64,8,0.218,19,False
+1500,RST-18248ce8-37d5-5773-bad3-5853e9c6bf80,Walla South Kitchen,South Indian,17,Budget,₹,4.67,7,0.167,28,False

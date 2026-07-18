@@ -1,0 +1,51 @@
+city_key,city,state,tier,region,timezone,is_metro
+1,Bengaluru,Karnataka,Metro,South,Asia/Kolkata,True
+2,Delhi,Delhi,Metro,North,Asia/Kolkata,True
+3,Mumbai,Maharashtra,Metro,West,Asia/Kolkata,True
+4,Hyderabad,Telangana,Metro,South,Asia/Kolkata,True
+5,Pune,Maharashtra,Metro,West,Asia/Kolkata,True
+6,Chennai,Tamil Nadu,Metro,South,Asia/Kolkata,True
+7,Kolkata,West Bengal,Metro,East,Asia/Kolkata,True
+8,Gurugram,Haryana,Metro,North,Asia/Kolkata,True
+9,Noida,Uttar Pradesh,Metro,North,Asia/Kolkata,True
+10,Ahmedabad,Gujarat,Metro,West,Asia/Kolkata,True
+11,Jaipur,Rajasthan,Tier 1,North,Asia/Kolkata,False
+12,Lucknow,Uttar Pradesh,Tier 1,North,Asia/Kolkata,False
+13,Chandigarh,Chandigarh,Tier 1,North,Asia/Kolkata,False
+14,Kochi,Kerala,Tier 1,South,Asia/Kolkata,False
+15,Indore,Madhya Pradesh,Tier 1,Central,Asia/Kolkata,False
+16,Coimbatore,Tamil Nadu,Tier 1,South,Asia/Kolkata,False
+17,Nagpur,Maharashtra,Tier 1,Central,Asia/Kolkata,False
+18,Surat,Gujarat,Tier 1,West,Asia/Kolkata,False
+19,Bhubaneswar,Odisha,Tier 1,East,Asia/Kolkata,False
+20,Vadodara,Gujarat,Tier 1,West,Asia/Kolkata,False
+21,Visakhapatnam,Andhra Pradesh,Tier 1,South,Asia/Kolkata,False
+22,Bhopal,Madhya Pradesh,Tier 1,Central,Asia/Kolkata,False
+23,Nashik,Maharashtra,Tier 1,West,Asia/Kolkata,False
+24,Kanpur,Uttar Pradesh,Tier 1,North,Asia/Kolkata,False
+25,Thiruvananthapuram,Kerala,Tier 1,South,Asia/Kolkata,False
+26,Mysuru,Karnataka,Tier 2,South,Asia/Kolkata,False
+27,Mangaluru,Karnataka,Tier 2,South,Asia/Kolkata,False
+28,Guwahati,Assam,Tier 2,East,Asia/Kolkata,False
+29,Ranchi,Jharkhand,Tier 2,East,Asia/Kolkata,False
+30,Raipur,Chhattisgarh,Tier 2,Central,Asia/Kolkata,False
+31,Dehradun,Uttarakhand,Tier 2,North,Asia/Kolkata,False
+32,Amritsar,Punjab,Tier 2,North,Asia/Kolkata,False
+33,Ludhiana,Punjab,Tier 2,North,Asia/Kolkata,False
+34,Jodhpur,Rajasthan,Tier 2,North,Asia/Kolkata,False
+35,Udaipur,Rajasthan,Tier 2,North,Asia/Kolkata,False
+36,Varanasi,Uttar Pradesh,Tier 2,North,Asia/Kolkata,False
+37,Agra,Uttar Pradesh,Tier 2,North,Asia/Kolkata,False
+38,Madurai,Tamil Nadu,Tier 2,South,Asia/Kolkata,False
+39,Vijayawada,Andhra Pradesh,Tier 2,South,Asia/Kolkata,False
+40,Guntur,Andhra Pradesh,Tier 2,South,Asia/Kolkata,False
+41,Rajkot,Gujarat,Tier 2,West,Asia/Kolkata,False
+42,Siliguri,West Bengal,Tier 2,East,Asia/Kolkata,False
+43,Warangal,Telangana,Tier 2,South,Asia/Kolkata,False
+44,Jalandhar,Punjab,Tier 2,North,Asia/Kolkata,False
+45,Aurangabad,Maharashtra,Tier 2,West,Asia/Kolkata,False
+46,Patna,Bihar,Tier 2,East,Asia/Kolkata,False
+47,Kota,Rajasthan,Tier 2,North,Asia/Kolkata,False
+48,Gwalior,Madhya Pradesh,Tier 2,Central,Asia/Kolkata,False
+49,Jamshedpur,Jharkhand,Tier 2,East,Asia/Kolkata,False
+50,Meerut,Uttar Pradesh,Tier 2,North,Asia/Kolkata,False
