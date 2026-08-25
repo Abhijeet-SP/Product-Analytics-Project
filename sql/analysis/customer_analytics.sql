@@ -90,7 +90,7 @@ SELECT
     ROUND(AVG(total_discount), 2) AS avg_discount,
     ROUND(AVG(commission_rate), 2) AS avg_comission,
     ROUND(AVG(contribution_margin), 2) AS avg_margin,
-    ROUND((100.0 *COUNT(*) FILTER(WHERE contribution_margin < 0)) / COUNT(*),2)
+    ROUND((100.0 *COUNT(*) FILTER(WHERE contribution_margin < 0)) / COUNT(*),2) As pct_negative_comission
 FROM fact_orders
 WHERE order_status = 'Delivered'
 GROUP BY is_gold_order;
