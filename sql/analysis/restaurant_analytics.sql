@@ -1,12 +1,41 @@
 SET search_path to 'analytics';
 
 -- pareto concentration 
+WITH restaurant_gov AS (
+    SELECT 
+        restaurant_key, 
+        SUM(gov) AS gov
+    FROM fact_orders 
+    WHERE order_status = 'Delivered'
+    GROUP BY 1),
 
-SELECT * FROM fact_orders WHERE order_status != 'Delivered' LIMIT 5;
-SELECT * FROM fact_order_items LIMIT 5;
-SELECT * FROM dim_restaurant LIMIT 5;
-SELECT * FROM dim_city LIMIT 5;
+restaurant_rnking AS (
+    SELECT 
+        restaurant_key,
+        gov,
+        ROUND(100.0 * SUM(gov) OVER(ORDER BY gov DESC) / SUM(gov) OVER(), 2) AS cum_gov_pct,  
+        ROUND(100.0 * ROW_NUMBER() OVER(ORDER BY gov DESC) / COUNT(*) OVER(), 2) AS restaurant_pct
+    FROM restaurant_gov
+    ORDER BY 2 DESC)
 
+SELECT 
+    MIN(restaurant_pct) FILTER(WHERE cum_gov_pct >= 50) AS pct_restaurant_bring_50_pct_gov,
+    MIN(restaurant_pct) FILTER(WHERE cum_gov_pct >= 80) AS pct_restaurant_bring_80_pct_gov
+FROM restaurant_rnking;
+
+-- prep time vs sla (service legal agreement for delivery time)
+SELECT 
+    width_bucket(r.avg_prep_time_mins, 10, 40, 6) AS prep_bucket,
+    MIN(r.avg_prep_time_mins) AS bucket_min,
+    MAX(r.avg_prep_time_mins) AS bucket_max,
+    COUNT(*) AS orders,
+    ROUND(AVG(o.delivery_time_mins), 2) AS avg_delivery_time,
+    ROUND(100.0* COUNT(*) FILTER(WHERE o.on_time) / COUNT(*), 2) AS on_time_pct
+FROM fact_orders AS o 
+JOIN dim_restaurant AS r 
+    ON o.restaurant_key = r.restaurant_key
+WHERE o.order_status = 'Delivered'
+GROUP BY 1 ORDER BY 1;
 
 -- city_wise cuisine performance 
 
@@ -95,4 +124,3 @@ SELECT
     ROUND((order_cancelled *100.0) / total_orders, 2)
 FROM cancellation
 WHERE order_cancelled > 10;
-
