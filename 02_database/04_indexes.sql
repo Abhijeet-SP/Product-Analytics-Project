@@ -1,23 +1,5 @@
 SET search_path TO analytics;
 
--- ============================================================
--- Indexes for the analytics star schema.
---
--- PostgreSQL automatically creates a unique index for every
--- PRIMARY KEY and UNIQUE constraint (defined in 01/02), so those
--- columns are NOT re-indexed here.
---
--- PostgreSQL does NOT automatically index FOREIGN KEY columns.
--- The fact tables are the largest and are constantly joined to
--- dimensions and filtered by date / status, so their FK and
--- common filter columns are the primary index targets. A handful
--- of high-selectivity dimension columns are indexed for the
--- typical slice-and-dice filters used by the dashboard.
---
--- Idempotent: CREATE INDEX IF NOT EXISTS lets this script re-run.
--- ============================================================
-
-
 -- ------------------------------------------------------------
 -- Dimension foreign keys + common filter columns
 -- ------------------------------------------------------------
