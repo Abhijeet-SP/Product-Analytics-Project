@@ -35,7 +35,6 @@ GROUP BY daypart
 ORDER BY daypart;
 
 -- weekend VS weekday analysis
-SELECT * FROM fact_orders LIMIT 5;
 
 WITH weekend_division AS (
     SELECT 
@@ -49,7 +48,7 @@ WITH weekend_division AS (
     GROUP BY 1
 )
 
-SELECT * FROM weekend_division LIMIT 5;
+SELECT * FROM weekend_division ORDER BY is_weekend;
 
 -- Distance based analysis
 SELECT 
@@ -63,8 +62,6 @@ SELECT
 FROM analytics.fact_orders o
 WHERE o.order_status = 'Delivered'
 GROUP BY 1 ORDER BY 1;
-
-SELECT * FROM analytics.fact_orders LIMIT 5;
 
 -- Partner Leaderboard
 

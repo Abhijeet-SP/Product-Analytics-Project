@@ -1,6 +1,6 @@
 SET search_path TO 'analytics';
 
--- rfm Segementation for 10675 distinct customers 
+-- RFM segmentation over the 10,610 customers with at least one delivered order
 /*
 Customer Segemenataion: Dividing the customer as based on scores (given rating by ntile() function)
 
@@ -59,7 +59,6 @@ SELECT
 FROM seg 
 GROUP BY segment
 ORDER BY customer_count DESC;
-
 
 -- Repeat Rate
 
@@ -143,6 +142,3 @@ FROM fact_orders
 WHERE order_status = 'Delivered'
 GROUP BY 1 ORDER BY 1;
 
-
-SELECT * FROM fact_orders LIMIT 5;
-SELECT * FROM dim_customer LIMIT 5;

@@ -58,11 +58,12 @@ WITH cuisine_city_tier AS (
 SELECT 
     cuisine, 
     city, 
-    avg_gov, 
+    aov, 
     total_gov, 
     total_orders
 FROM cuisine_city_tier
-WHERE rnk >=5;
+WHERE rnk <= 5
+ORDER BY city, rnk;
 
 -- resturant leaderboard (TOP 50)
 
